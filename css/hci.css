@@ -28,6 +28,7 @@ body {
      z-index: -1;        
 }
 
+
 /*
  * Navbar color customizations from http://smarchal.com/twbscolor/
  * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
@@ -46,6 +47,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a {
     color: #ecf0f1;
+    font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
