@@ -111,6 +111,7 @@ body {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #ffbbbc;
     }   
+}
 
 .lab-slide {
   margin-bottom: 2em;
