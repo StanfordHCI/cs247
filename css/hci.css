@@ -1,47 +1,3 @@
-body {
-  min-height: 2000px;
-  padding-top: 70px;
-  background-color: #f7f7f7;
-}
-
-.anchor {
-	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
-  margin-top: -40px;
-  display: inline-block; /* required for webkit browsers */
-}
-
-
-.jumbotron {
-  position: relative;
-  background: none;
-}
-
-.jumbotron:after {
-     content:"";
-     background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
-     opacity: 0.15;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;        
-}
-
-.navbar-default {
-    text-transform:uppercase;
-    font-family: "Gill Sans", Calibri, AvenirNext, Avenir, HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
-    font-size: 12pt;
-}
-
-.navbar-default .navbar-brand {
-    font-size: 24pt;
-}
-
-.navbar-nav {
-    font-weight: 300;
-}
-
 /*
  * Navbar color customizations from http://smarchal.com/twbscolor/
  * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
@@ -111,6 +67,94 @@ body {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #ffbbbc;
     }   
+}
+
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  background-color: #f7f7f7;
+}
+
+.anchor {
+	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
+  margin-top: -40px;
+  display: inline-block; /* required for webkit browsers */
+}
+
+
+.jumbotron {
+  position: relative;
+  background: none;
+}
+
+.jumbotron:after {
+     content:"";
+     background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+     opacity: 0.15;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;        
+}
+
+.navbar-default {
+    text-transform:uppercase;
+    font-family: "Gill Sans", Calibri, AvenirNext, Avenir, HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12pt;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 24pt;
+}
+
+.navbar-nav {
+    font-weight: 300;
+}
+
+/* Adapted from the Bootstrap docs for sidebar navigation + scrollspy */
+.sidenav .nav > li > a {
+  display: block;
+  padding: 5px 20px 5px 0px;
+}
+.sidenav .nav > li > a:hover,
+.sidenav .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+  border-right: 1px solid #990615;
+}
+.sidenav .nav > .active > a,
+.sidenav .nav > .active:hover > a,
+.sidenav .nav > .active:focus > a {
+  font-weight: bold;
+  background-color: transparent;
+  border-right: 1px solid #990615;
+}
+
+/* Nav: second level */
+.sidenav .nav .nav {
+    margin-bottom: 8px;
+}
+
+.sidenav .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+  background-color: #7D0612;
+}
+
+@media(max-width:1000px){
+  .sidenav.affix {
+    position: static;
+    width: auto;
+    top: 0;
+  }
 }
 
 .lab-slide {
