@@ -27,6 +27,7 @@
 .navbar-default .navbar-nav > .active > a:focus {
     color: #ffbbbc;
     background-color: #943943;
+    background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);
 }
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
