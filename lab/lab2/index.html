@@ -511,6 +511,12 @@ Warning: Permanently added 'heroku.com (xxx.xxx.xxx.xxx)' (RSA) to the list of k
           <span class="lead"><p>Wait, what did I agree to?</p></span>
           <p>shhhhhhh, the NSA is listening!  <a href='http://superuser.com/questions/421074/ssh-the-authenticity-of-host-host-cant-be-established'>a detailed explanation</a></p>
         </div>
+        <div class="well well-sm">
+          <span class="lead"><p>I got the error<pre><code>fatal: could not read Username for 'https://github.com' : No such file or directory</code></pre></p></span>
+          <p>The Vagrant virtual machine (VM) is a "different machine".  You'll need to set up your email and username again.  To do this...<pre><code>git config --global user.name "Your Name"
+git config --global user.email "youremail@university.edu"
+git config --global push.default simple</code></pre></p>
+        </div>
       </div>
       
     </div>
