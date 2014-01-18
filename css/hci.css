@@ -1,3 +1,79 @@
+a, a:hover {
+  color: #990615;
+}
+
+/*
+ * Navbar color customizations from http://smarchal.com/twbscolor/
+ * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
+ */
+.navbar-default {
+    background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);
+    background-color: #7d0512;
+    border-color: #943943;
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+    font-weight: 300;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffbbbc;
+    background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);
+    background-color: #7d0512;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffbbbc;
+    background-color: #943943;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ecf0f1;
+    border-bottom-color: #ecf0f1;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffbbbc;
+    border-bottom-color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffbbbc;
+    border-bottom-color: #ffbbbc;
+}
+.navbar-default .navbar-toggle {
+    border-color: #943943;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #943943;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffbbbc;
+    }   
+}
+
 body {
   min-height: 2000px;
   padding-top: 70px;
@@ -10,37 +86,37 @@ body {
   display: inline-block; /* required for webkit browsers */
 }
 
+
 .jumbotron {
   position: relative;
   background: none;
 }
 
 .jumbotron:after {
-  content:"";
-  background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
-  opacity: 0.15;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;       
+     content:"";
+     background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+     opacity: 0.15;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     position: absolute;
+     z-index: -1;        
 }
 
 .navbar-default {
-  text-transform:uppercase;
-  font-family: "Gill Sans", Calibri, AvenirNext, Avenir, HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
-  font-size: 12pt;
+    text-transform:uppercase;
+    font-family: "Gill Sans", Calibri, AvenirNext, Avenir, HelveticaNeue, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12pt;
 }
 
 .navbar-default .navbar-brand {
-  font-size: 20pt;
+    font-size: 24pt;
 }
 
 .navbar-nav {
     font-weight: 300;
 }
-
 
 /* Adapted from the Bootstrap docs for sidebar navigation + scrollspy */
 .sidenav .nav > li > a {
@@ -85,7 +161,6 @@ body {
     top: 0;
   }
 }
-
 
 .lab-slide {
   margin-bottom: 2em;
