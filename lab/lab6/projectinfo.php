@@ -1,4 +1,6 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header('Content-Type: application/json');
 
 $project_id = $_GET['id'];
 
@@ -65,8 +67,6 @@ else {
 
 $data['id'] = $project_id;
 
-header("Access-Control-Allow-Origin: *");
-header('Content-Type: application/json');
 print(json_encode($data));
 
 
