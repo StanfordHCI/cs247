@@ -5,6 +5,8 @@ header('Content-Type: application/json');
 $project_id = $_GET['id'];
 
 $alldata = array();
+$alldata['projects'] = array();
+
 $data = array();
 $project_id = 1;
 
@@ -21,7 +23,7 @@ if ($project_id == '1') {
 SUMMARY;
 	$data['image'] = 'http://upload.wikimedia.org/wikipedia/commons/3/3b/Bowery_men_waiting_for_bread_in_bread_line,_New_York_City,_Bain_Collection.jpg';
 }
-$alldata[] = data;
+$alldata['projects'][] = data;
 $project_id++;
 
 if ($project_id == '2') {
@@ -32,7 +34,7 @@ if ($project_id == '2') {
 SUMMARY;
 	$data['image'] = 'http://developertodesigner.files.wordpress.com/2012/11/observing.jpg';	
 }
-$alldata[] = data;
+$alldata['projects'][] = data;
 $project_id++;
 
 if ($project_id == '3') {
@@ -44,7 +46,7 @@ SUMMARY;
 	$data['image'] = 'http://www.google.com/think/images/prototyping-for-success_articles_lg.jpg';	
 }
 
-$alldata[] = data;
+$alldata['projects'][] = data;
 $project_id++;
 if ($project_id == '4') {
 	$data['title'] = 'Heuristic Evaluation';
@@ -55,7 +57,7 @@ SUMMARY;
 	$data['image'] = 'http://searchwide.com/wp-content/uploads/2013/11/evaluation.jpg';	
 }
 
-$alldata[] = data;
+$alldata['projects'][] = data;
 $project_id++;
 if ($project_id == '5') {
 	$data['title'] = 'Skeleton and a Plan';
@@ -65,6 +67,7 @@ if ($project_id == '5') {
 SUMMARY;
 	$data['image'] = 'http://www.sccc.premiumdw.com/wp-content/uploads/2009/04/tutorial-wireframe-01.png';	
 }
+$alldata['projects'][] = data;
 
 else {
 	header_status(400);
