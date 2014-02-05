@@ -4,11 +4,9 @@ header('Content-Type: application/json');
 
 $project_id = $_GET['id'];
 
+$alldata = array();
 $data = array();
-
-if ($project_id == 'random') {
-	$project_id = strval(rand(1,2));
-}
+$project_id = 1;
 
 if ($project_id == '1') {
 	$data['title'] = 'Waiting in Line';
@@ -23,8 +21,10 @@ if ($project_id == '1') {
 SUMMARY;
 	$data['image'] = 'http://upload.wikimedia.org/wikipedia/commons/3/3b/Bowery_men_waiting_for_bread_in_bread_line,_New_York_City,_Bain_Collection.jpg';
 }
+$alldata[] = data;
+$project_id++;
 
-else if ($project_id == '2') {
+if ($project_id == '2') {
 	$data['title'] = 'Needfinding';
 	$data['date'] = 'January 16';
 	$data['summary'] = <<<SUMMARY
@@ -32,8 +32,10 @@ else if ($project_id == '2') {
 SUMMARY;
 	$data['image'] = 'http://developertodesigner.files.wordpress.com/2012/11/observing.jpg';	
 }
+$alldata[] = data;
+$project_id++;
 
-else if ($project_id == '3') {
+if ($project_id == '3') {
 	$data['title'] = 'Prototyping';
 	$data['date'] = 'January 23';
 	$data['summary'] = <<<SUMMARY
@@ -42,7 +44,9 @@ SUMMARY;
 	$data['image'] = 'http://www.google.com/think/images/prototyping-for-success_articles_lg.jpg';	
 }
 
-else if ($project_id == '4') {
+$alldata[] = data;
+$project_id++;
+if ($project_id == '4') {
 	$data['title'] = 'Heuristic Evaluation';
 	$data['date'] = 'January 30';
 	$data['summary'] = <<<SUMMARY
@@ -51,7 +55,9 @@ SUMMARY;
 	$data['image'] = 'http://searchwide.com/wp-content/uploads/2013/11/evaluation.jpg';	
 }
 
-else if ($project_id == '5') {
+$alldata[] = data;
+$project_id++;
+if ($project_id == '5') {
 	$data['title'] = 'Skeleton and a Plan';
 	$data['date'] = 'February 6';
 	$data['summary'] = <<<SUMMARY
@@ -65,9 +71,9 @@ else {
 	die('Project id ' . $project_id . ' not known');
 }
 
-$data['id'] = $project_id;
+//$data['id'] = $project_id;
 
-print(json_encode($data));
+print(json_encode($alldata));
 
 
 
