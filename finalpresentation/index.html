@@ -86,14 +86,12 @@
 </div>
 </div>
 
-<!-- this is a comment in HTML -->
 <div class="container">
   <div class="jumbotron">
    <h3>CS147 Introduction to HCI Design</h3>
    <h1>Final Presentation</h1>
    <p>Friday, March 14, 4pm - 6pm</p>
-   <p>@Stanford d.school (550 Panama Mall, Stanford)</p>
-   <!-- <p><a class="btn btn-primary btn-lg" role="button">Contact me</a></p> -->
+   <p>Stanford d.school (550 Panama Mall, Stanford)</p>
  </div>
 
  <div id="syllabus">
@@ -147,8 +145,7 @@
 
 <!-- Three columns of text below the carousel -->
 <h2 class="featurette-heading">Judges</h2>
-<div class="row" id="judgeWrapper">
-</div>
+<div id="judgeWrapper"></div>
 
 
 <!-- START THE FEATURETTES -->
@@ -162,11 +159,10 @@
   </div>
 
   <div class="col-md-7">
-    <h2 class="featurette-heading">Where is <span class="text-muted">D.school</span></h2>
+    <h2 class="featurette-heading">Where is the <span class="text-muted">d.school</span>?</h2>
     <p class="lead">The d.school (Hasso Platner Institute of Design) lives in <span><a href="https://www.google.com/maps/place/550+Panama+Mall/@37.4262451,-122.1719006,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbad571970303:0xe54e90a1fed21300" target="_blank">Building 550</a></span>, in the center of campus. </p>
 
 
-    <p><br/>D.school address (and the best address for online mapping tools, including google maps):</p>
     <p class="lead">  Thomas F. Peterson Engineering Laboratory/Building 550<br/>
       550 Panama Mall<br/>
       Stanford, CA 94305</p>
@@ -211,11 +207,11 @@ $(document).ready(function(){
     // $.getJSON('./judge/info.json', function(data){
 
 
-     var $data=[
+     var data=[
      {
       "name":"Ann Grimes",
       "photo":"./judge/ann_grimes.jpg",
-      "title":"Professor, Stanford Dept. of Communications",
+      "title":"Professor, Stanford Dept. of Communication",
     },
     {
       "name":"Bill Verplank",
@@ -270,12 +266,18 @@ $(document).ready(function(){
     },
     ];
 
-    for (var i=0;i<$data.length;++i){
-     var $judge=$("<div>", {id: "judge"+i, class: "col-lg-3 judge"});
-     var $photo=$("<img>",{class:"img-circle", alt:$data[i].name, src:$data[i].photo});
-     $("#judgeWrapper").append($judge);
-     $("#judge"+i).append($photo);
-     $("#judge"+i).append("<h3>"+$data[i].name+"</h3><p>"+$data[i].title+"</p>");
+    var curRow = null;
+    for (var i=0;i<data.length;i++){
+      var width = 3;
+      if (i%(12/width) == 0) {
+        curRow = $("<div>", { class: "row" });
+        $("#judgeWrapper").append(curRow);
+      }
+     var judge=$("<div>", {id: "judge"+i, class: "col-md-" + width + " judge"});
+     var photo=$("<img>",{class:"img-circle", alt:data[i].name, src:data[i].photo});
+     curRow.append(judge);
+     $("#judge"+i).append(photo);
+     $("#judge"+i).append("<h3>"+data[i].name+"</h3><p>"+data[i].title+"</p>");
    }
 
     // });
