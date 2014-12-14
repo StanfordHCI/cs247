@@ -2,6 +2,10 @@ a, a:hover {
   color: #990615;
 }
 
+#calendar small {
+  color: #AAAAAA;
+}
+
 /*
  * Navbar color customizations from http://smarchal.com/twbscolor/
  * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
