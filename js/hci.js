@@ -8,6 +8,10 @@ $(document).ready(function() {
         scrollBy(0, -offset);
     });
 
+    $('[data-spy="scroll"]').each(function () {
+        var $spy = $(this).scrollspy('refresh')
+    });
+
 });
 
 function initializeSideNav() {
@@ -34,7 +38,6 @@ function initializeSideNav() {
         var header = $(this).children(':header').first();
         var hrefTarget = $(this).prop('id');
         var levelsDeep = $.inArray(parseInt(header.prop('nodeName').substring(1)), uniqueHeaderIndices);
-        console.log(levelsDeep);
 
         var elem = "";
         for (var i=0; i<levelsDeep; i++) {
@@ -44,7 +47,6 @@ function initializeSideNav() {
         for (var i=0; i<levelsDeep; i++) {
             elem += "</li></ul>";
         }
-        console.log(elem);
 
         $('#sidenav-content').append('<li>' + elem + '</li>');
     });

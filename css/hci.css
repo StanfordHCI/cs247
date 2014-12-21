@@ -11,9 +11,10 @@ a, a:hover {
  * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
  */
 .navbar-default {
-    background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);
+    /*background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);*/
+    background-image: none;
     background-color: #7d0512;
-    border-color: #943943;
+    /*border-color: #943943;*/
 }
 .navbar-default .navbar-brand {
     color: #ecf0f1;
@@ -33,7 +34,7 @@ a, a:hover {
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #ffbbbc;
+    color: #ecf0f1;
     background-image: none;
     background-color: transparent;
 }
@@ -46,10 +47,14 @@ a, a:hover {
 
 .navbar-default .navbar-nav > .open > a, 
 .navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #ffbbbc;
-    background-color: #943943;
+    /*color: #ffbbbc;*/
+    /*background-color: #943943;*/
+    background-image: none;
+    background-color: transparent;
 }
+
 .navbar-default .navbar-nav > .dropdown > a .caret {
     border-top-color: #ecf0f1;
     border-bottom-color: #ecf0f1;
@@ -82,12 +87,13 @@ a, a:hover {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #ffbbbc;
-    }   
+    }
 }
 
 body {
   padding-top: 70px;
   background-color: #f7f7f7;
+  position: relative;
 }
 
 .anchor {
@@ -100,6 +106,7 @@ body {
 .jumbotron {
   position: relative;
   background: none;
+  
 }
 
 .jumbotron:after {
