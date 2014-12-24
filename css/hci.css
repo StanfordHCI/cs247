@@ -106,7 +106,10 @@ body {
 .jumbotron {
   position: relative;
   background: none;
-  
+}
+
+.jumbotron h1 {
+  font-weight: bold;
 }
 
 .jumbotron:after {
