@@ -1,3 +1,10 @@
+/*
+ * notes for msb
+ */
+small.notes {
+  display: none;
+}
+
 a, a:hover {
   color: #990615;
 }
