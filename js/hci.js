@@ -12,7 +12,7 @@ $(document).ready(function() {
         var $spy = $(this).scrollspy('refresh')
     });
 
-    if (urlParams['debug'] != "") {
+    if (urlParams['debug'] != null) {
         $('small.notes').css("display", "block");
     }
 
@@ -21,7 +21,7 @@ $(document).ready(function() {
 function initializeSideNav() {
     var selector = '.sidenav #sidenav-content'
     if ($(selector).length == 0) {
-        console.log("No element matching selector " + selector + ". Nowhere to put the sidenav content! Returning.");
+        console.log("No element matching selector " + selector + ". No sidenav present.");
         return;
     }
 
