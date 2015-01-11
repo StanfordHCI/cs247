@@ -85,10 +85,10 @@
 
 					<p>Studios will provide you an opportunity to meet in smaller groups in order to discuss and reflect on weekly assignments and project progress. They will focus on interactive critique sessions, as well as specific activities intended to supplement and expand on ideas from lectures.</p>
 
-					<p>Students must sign up for their studio by 11:59pm on the Wednesday of the first week of class.</p>
+					<p>Students must <a href="http://hci.st/247studio">sign up</a> for their studio by 11:59pm on the Wednesday of the first week of class.</p>
 
 					<h4>Studio Themes</h4>
-					TBA
+                    <div id="video-embed"></div>
 					<!--
 					<h5>Collaboration (Sanjay)</h5>
 					<p>This quarter, you will be designing applications designed for mobile phones - communication devices that we carry around with us everywhere we go. In this studio, we'll focus primarily on projects designed to influence and transform the ways that people interact with each other or their larger community. Your application might focus on connecting individuals or facilitating interaction across larger communities or even cities. How might your application address issues of privacy and relevance? Will your application target casual, social activities, or serious, professional use cases? Will your users communicate synchronously or over long time intervals?</p>
@@ -322,5 +322,36 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
     <script src="js/hci.js"></script>
+
+    <script src="http://jwpsrv.com/library/KRvBypajEeSmwgp+lcGdIw.js"></script>
+    <script type="text/javascript" charset="utf-8">
+        jwplayer("video-embed").setup({
+            playlist: [{
+                sources: [{file: "https://www.youtube.com/watch?v=vL4ZQ9WXWOs"}],
+                title: "Julie Stanford | Mapping and Navigation"
+                },{
+                sources: [{file: "http://hcicourses.stanford.edu/cs247/2015/videos/katrina.mov"}],
+                title: "Katrina Alcorn | Health"
+                },{
+                sources: [{file: "http://hcicourses.stanford.edu/cs247/2015/videos/helena.m4v"}],
+                title: "Helena Roeber | Leveling the Playing Field"
+                },{
+                sources: [{file: "http://hcicourses.stanford.edu/cs247/2015/videos/jeremy.mp4"}],
+                title: "Jeremy Lyon | Serendipity"
+                },{
+                sources: [{file: "http://hcicourses.stanford.edu/cs247/2015/videos/jofish.mov"}],
+                title: "Jofish Kaye | Data Narratives"
+                },{
+                sources: [{file: "http://hcicourses.stanford.edu/cs247/2015/videos/john.mp4"}],
+                title: "John Tang | Deepening Social Ties"
+                }], 
+            width: 720,
+            height: 270,
+            listbar: {
+            position: "right",
+            size: 240
+            }
+        }); 
+    </script>
   </body>
 </html>
