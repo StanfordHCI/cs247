@@ -1,6 +1,6 @@
 AuthType WebAuth
 require valid-user
-order deny,allow
-deny from all
-allow from stanford.edu
-satisfy any
+#order deny,allow
+#deny from all
+#allow from stanford.edu
+#satisfy any
