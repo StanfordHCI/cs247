@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 3">
+    <title>Project 3</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 3: Rápido</h1>
+                        <p class="lead">P3 is our deep dive into user-driven design. With a partner, you'll be doing needfinding around your studio theme and translating those needs into design ideas. You'll then be challenged to create rapid prototypes of these ideas.</p>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The goal of P3 is to help abandon two common errors that new designers make. Error 1: focusing on raw description in needfinding, and then designing to patch surface-level problems. Error 2: going too deep when prototyping.</p>
+
+                    <p>Project 3 also initializes our experiences with the studio theme. We will use these ideas as a launchpad for P4, the final project.</p>
+                </div>
+                    
+                <div id="brief" class="sidenav-anchor">
+                    <h2>Brief</h2>
+
+                    <p>Find a partner: P3 will be completed in groups of two.</p>
+
+                    <p>Your goal is to perform needfinding within the domain of your studio, use those insights to generate a number of design ideas, and then rapidly prototype and evaluate those ideas.</p>
+
+                    <p>We are doing a focused pass through the user-centered design process in two weeks. This brisk pace is intentional: it forces us to make tradeoffs in our prototypes and focus on the most important elements, rather than trying to implement everything.</p>
+                </div>
+
+                <div id="assignment" class="sidenav-anchor">
+                    <h2>Part I deliverable</h2>
+                    <h4>due monday february 2 @ 11:59am</h4>
+                    <p>Your assignment for Part I is to perform needfinding within your studio theme and use the insights to generate design ideas.</p>
+                </div>
+
+                <div id="needfinding" class="sidenav-anchor">
+                    <h4>Needfinding</h4>
+                    <p>Your teaching team has introduced you to the studio's theme and given you ideas for possible needfinding opportunities. Now, think about locations and people that could lend you insight into the theme. Your first goal is to perform needfinding and synthesize your observations into a set of needs and insights.</p>
+
+                    <p>First, identify relevant stakeholders — people directly involved or implicated in the activity. For example, if you are interested in elder care, potential stakeholders include the elderly being cared for, family members, and health care professionals (attending nurses or doctors). Pay attention to the distinct stakeholders and the settings, people and things that engage them. What works and what does not? Observe and talk with everyone you can! What are the practices and goals of the various participants? How are they different? How are they similar? How do they succeed or fail? Can you find and observe any "extreme participants" who can provide deeper design insight?</p>
+
+                    <p>Each studio instructor has offered some suggested needfinding venues:</p>
+                    <ul>
+                        <li>Mapping and Navigation: TBA</li>
+                        <li>Health: TBA</li>
+                        <li>Data Narratives: TBA</li>
+                        <li>Deepening Social Ties: TBA</li>
+                        <li>Serendipity: TBA</li>
+                        <li>Leveling the Playing Field: TBA</li>
+                    </ul>
+
+                    <p>Capture the conversations, behaviors, and the environment in your sketchbook. These are your <i>observations</i>. Next, synthesize these raw materials into <i>interpretations</i>. Make sure you call out <i>needs</i>. If you need a reminder of these terms, check this week's lecture and reading. Both should contain a combination of text, images, sketches, and potentially other media. Do not submit a raw "dump" of materials; rather, organize a subset of your most salient, insightful or inspiring observations and interpretations.</p>
+
+                    <p>As we move forward with our advanced design coursework, a requirement from here on will be that your needfinding and resulting designs not represent simple <i>Stanford-world problems.</i> Stanford-world problems are issues that are overly focused on a student worldview, or even too focused on Silicon Valley stereotype behavior. If you're studying play, for example, don't go do your needfinding at a campus party, or design apps that help you and your friends get together in the evenings. Our goal here is to together  explore subtle, inspiring and insightful new needs and designs.</p>
+                </div>
+
+                <div id="brainstorm" class="sidenav-anchor">
+                    <h4>Brainstorming</h4>
+                    <p>Now it's time to synthesize your needfinding results into design concepts. Work with your partner to brainstorm together on whiteboards, sketchbooks, artisinal cheese scraps &mdash; whatever it takes.</p>
+
+                    <p>Sketch out enough ideas until you find a set that you’re inspired to explore further. It should be at least 15 ideas. Use the brainstorming techniques from class. Again, focus not on usability patches, but deeper design insights. Sketch out those ideas clearly for the staff the read and understand. You can use a combination of media if it's helpful.</p>
+
+                    <p>Once you've selected ideas that you would like to pursue — we suggest two — expand on them a bit further. Sketch out the broader interaction context of how you imagine these ideas being used. Include who the users are, the major needs those users bring to the situation, and how your design solution addresses the needs.</p>
+                </div>
+
+                <div id="darkhorse" class="sidenav-anchor">
+                    <h4>Dark horse</h4>
+                    <p>Now that you've identified some design directions you like, it's time to switch tacks and brainstorm some <i>dark horse</i> ideas. A dark horse, in horse racing, is a contender who most people don't think will win, but may turn in an unexpectedly strong performance and produce a huge payoff. Dark horse ideas are intended to be something far out there or nearly impossible. In the best case, your dark horse ideas might end up winning the race. However, even in the worst case, they can give us tremendous design insight and prevent design fixation, where the design space shrinks too rapidly.</p>
+
+                    <p>There are three requirements for dark horse ideas. First, they must be "dark": they must explore a space that is risky, radical, infeasible, and/or in a direction orthogonal to previously explored solutions. They should feel slightly uncomfortable. Second, they must be brainstormed after the more traditional ideas — you can't have a dark path without a traditional path to contrast it against. Third, it must be refined enough that it could be prototyped and objectively tested. That is, it cannot be infeasible: it needs to be something that we could put in front of real people to see whether it would work.</p>
+
+                    <p>After you brainstorm and sketch out dark horse ideas, choose one that you'd like to include among your set of top candidates from before. Expand on it like the previous top ideas.</p>
+                </div>
+
+                <div id="wk4-studio" class="sidenav-anchor">
+                    <h4>Prepare for studio</h4>
+                    <p>Be prepared to present your three ideas in one minute each while in studio. No slides necessary, but you should be ready to talk succinctly about your results.</p>
+                </div>
+
+                <div id="wk4-submit" class="sidenav-anchor">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your P3 submission folder. That includes:</p>
+                    <ul>
+                        <li>One PDF that contains your needfinding report, including your observations and interpretations.</li>
+                        <li>One PDF that contains your brainstormed idea sketches, and your further explorations of top ideas.</li>
+                        <li>One PDF that contains your brainstormed dark horse ideas, and your further exploration of one of them.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples" class="sidenav-anchor">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="wk2-evaluation" class="sidenav-anchor">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Needfinding insight</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Observations and interpretations are off-target or inappropriate.</td>
+                                    <td headers="adequate">3: Observations and interpretations largely report surface-level results or basic description.</td>
+                                    <td headers="good">5: Observations and interpretations present some novel insights and synthesis, but may be uneven in quality.</td>
+                                    <td headers="excellent">7: Observations and interpretations present a consistently novel and insightful synthesis of the domain.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design insight</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Designs are not appropriate to the domain, or do not address the given needs.</td>
+                                    <td headers="adequate">3: The designs address user needs in ways that are surface-level interpretations of the problem space.</td>
+                                    <td headers="good">5: Designs address user needs in generally appropriate ways, but are uneven in their depth. Some may be incremental or surface-level interpretations of the problem space.</td>
+                                    <td headers="excellent">7: Designs present nontrivial and insightful interpretations of the design space.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design communication</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Sketches and report are incomplete or very difficult to interpret.</td>
+                                    <td headers="adequate">3: Sketches and report tend to obscure the main idea.</td>
+                                    <td headers="good">5: Sketches and report are interpretable, but not always clear.</td>
+                                    <td headers="excellent">7: Sketches and report clearly communicate the intended ideas and designs.</td>
+                                </tr>                                                                
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing (e.g., no dark horse), we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>                
+                
+                <div id="assignment-wk3" class="sidenav-anchor">
+                    <h2>Part II deliverable</h2>
+                    <h4>due monday february 9 @ 11:59am</h4>
+                    <p>Your assignment for Part II is to iterate your designs based on the critique you received in studio, and then create rapid prototypes of the ideas for user feedback.</p>
+                </div>
+
+                <div id="crit-reaction" class="sidenav-anchor">
+                    <h4>Revisions and brainstorms</h4>
+                    <p>Based on your feedback in studio and in writing, refresh and update your design ideas. Based on the feedback, you may want to toss out your previous designs and brainstorm new ones, or refine your original proposals.</p>
+
+                    <p>The in-person and written critique is intended to help you reflect on your needfinding and your designs. Trampoline off of it to refine or pivot. Remember, critiques aren't intended to just give you usability feedback; they aim to question deeper aspects of your design. If you think you can address the feedback with a different solution than the one the instructor or your peers suggested, go for it. However, it is your responsibility to address the critique with your revision.</p>
+
+                    <p>Your end goal will be to choose three designs, one of which is a dark horse, to prototype in the next step. Capture the current designs in sketches, and include a short writeup to detail the changes you made and explain your thinking behind those changes. The writeup should be at least a paragraph per design to fully explain the reflections and iteration you've done.</p>
+                </div>
+
+                <div id="prototype" class="sidenav-anchor">
+                    <h4>Three prototypes</h4>
+                    <p>Much like Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs.</p>
+
+                    <p>Your goal now is to prototype all three of your design ideas. Too often, designers and engineers get deeply invested in taking a week or a month or multiple months to produce a single prototype, only to find that it doesn't address the user needs. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes.</p>
+
+                    <p>Prototypes are, by nature, incomplete and low-res. As <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">the d.school bootleg says</a>, your goal is not to create a mockup or scale model, but to create experiences to which your users can react.</p>
+
+                    <p>The crux of this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. If you spend too much time creating prototypes, you won't have time to do rapid user testing at the end of the assignment. Forcing ourselves to make tradeoffs is the entire reason that the time limit on this deliverable is one week. Do not attempt to flesh out the entire design to uniform depth. Instead, identify the core interaction hypothesis behind each idea and flesh it out, removing the user's focus from everything else. For example, when IDEO and Kodak were prototyping the first digital camera, they made quick facsimile hardware that was much too large, just so they could test the back-of-screen interaction:</p>
+
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <a href="http://www.ideo.com/work/camera-interface-architecture" class="thumbnail">
+                                <img class="img img-responsive" src="../images/p3-ideo-kodak.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <p>A prototype asks a question. Which question do you need to ask to get the most information about each of your designs?</p>
+
+                    <p>Based on the nature of each design, decide upon the best method of prototyping it. By now, you have a wide range of prototyping approaches in your arsenal. They include Wizard of Oz prototypes, paper prototypes, video prototypes, and mocks. Which toolkit will best represent each idea? The choice is yours here, though the staff is happy to help hear your ideas and give you feedback. We encourage you to try different prototyping approaches with each of your ideas.</p>
+
+                    <p>Capture your prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
+                </div>
+
+                <div id="implement" class="sidenav-anchor">
+                    <h4>Rapid feedback</h4>
+                    <p>It's about time that we actually engaged with users, isn't it? Take your prototypes to real people. Work with as many as you need to cover the feedback you need, typically somewhere around four people. If you have easy access to representative users for your designs, work with them. Otherwise, get as close as you can using the social capital you have at hand. Ask your studio staff if you need help.</p>
+
+                    <p>Set the stage — the user's problem or goal — and remind the user that you are trying to test the prototypes, not the users. Take notes as they use each of your prototypes. When they are done, talk with them more holistically about the three prototypes. Find out what resonanted with each prototype relative to the others, and what missed the mark. While you will gather usability feedback, your primary goal is instead to gain insight into the broader design space and your general design ideas.</p>
+
+                    <p>Write up a summary of your findings. First, describe your method and who you tested with. Second, tell us what you saw. Third, tell us your interpretation and reflections. What would you do moving forward? Has this inspired any thinking or designs for the final project P4? You will have the opportunity to reset with a larger group starting next week.</p>
+                </div>
+
+                <div id="wk5-studio" class="sidenav-anchor">
+                    <h4>Prepare for studio</h4>
+                    <p>Be prepared to present your three prototypes and your user feedback in a total of four minutes in studio. No slides necessary, but you should be ready to talk succinctly about your results.</p>
+                </div>
+
+                <div id="wk5-submit" class="sidenav-anchor">
+                    <h4>Submit</h4>
+                    <p>Make a separate subfolder in your P3 submission folder for the Part II deliverable. Put in there:</p>
+                    <ul>
+                        <li>A PDF with your reflections and changes following your Part I crit.</li>
+                        <li>A folder with the materials for your three prototypes.</li>
+                        <li>A PDF with your user feedback.</li>
+                    </ul>
+                </div>
+
+                <div id="wk5-evaluation" class="sidenav-anchor">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Revision</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Revision does not account for the critique, or actively works to avoid changing the critiqued elements without firm grounding and approval.</td>
+                                    <td headers="adequate">3: There is some attempt to incoporate the critique, but the revision did not address the core elements of the critique.</td>
+                                    <td headers="good">5: The revision incorporates and responds to the critique, but either the revision caused more problems in response or it missed part of the point of the critique.</td>
+                                    <td headers="excellent">7: The revision thoughtfully responds to the critique and improves the design.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Prototypes</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototypes are incomplete or at a wholly inappropriate level of fidelity (too low or too high).</td>
+                                    <td headers="adequate">3: Prototypes have significant issues with level of fidelity, or target the wrong aspect of the experience.</td>
+                                    <td headers="good">5: Prototypes have minor issues with being at too high or too low a level of fidelity, or are slightly off-target in the aspect of the experience they are prototyping.</td>
+                                    <td headers="excellent">7: Prototypes are instantiated at the right level of fidelity and target exactly the experience and question implicit in the design idea.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Feedback</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: User feedback is incomplete or does not provide insight into the design space.</td>
+                                    <td headers="adequate">3: User feedback was attempted but was executed or reported in such a way that it provides little insight into the designs.</td>
+                                    <td headers="good">5: User feedback was executed with minor issues or provides surface-level feedback on the designs.</td>
+                                    <td headers="excellent">7: User feedback was executed appropriately and provides useful insight into the designs.</td>
+                                </tr>                                                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing (e.g., a missing prototype), we will reduce your score by 25% per deliverable.</p>
+                    </div>                            
+                </div>
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
