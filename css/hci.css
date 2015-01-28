@@ -217,8 +217,7 @@ body {
 .project h1,
 .project h2,
 .project h3,
-.project h4,
-.project h5,
-.project h6 {
+.project h4
+{
   font-family: 'Rock Salt';
 }
