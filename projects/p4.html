@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 4">
+    <title>Project 4</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 4: final project</h1>
+                        <p class="lead">P4 pulls it all together. You will combine your skills in design thinking, interaction design, and visual communication to solve a deep user need. You will iterate with the studio staff to refine your project's needs, ideas, studies, and prototypes. The project will culminate with an implemented prototype shown off to your adoring fans at the final project faire.</p>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>In P1, you practiced how to capture ideas and share them with others. In P2, you demonstrated your visual and interaction design skills. In P3, you worked to deepen your needfinding insight and to prototype rapidly. Now, with P4, you will synthesize these skills toward a concrete design outcome.</p>
+
+                    <p>This should be the most ambitious design project you've undertaken thus far. We aim to prove to you how much you've learned.</p>
+                </div>
+                    
+                <div id="brief" class="sidenav-anchor">
+                    <h2>Brief</h2>
+
+                    <p>P4 will be completed in groups of three from your studio. We encourage you to mix up your teams a bit from P3.</p>
+
+                    <p>Project 4 is a multi-week, iterative design process to produce an implemented prototype in reaction to user needs on your studio's theme. The first two weeks mirror P3 to give us a chance to iterate, flare and explore. The final three weeks are focused on successively narrowing toward an implemented design.</p>
+                </div>
+
+                <div id="wk6-pt0-assignment" class="sidenav-anchor">
+                    <h2>Part 0</h2>
+                    <h4>due wednesday february 11 @ 4:05pm</h4>
+                    <p>Form a team of three within your studio and stake out a rough needfinding plan.</p>
+
+                    <div id="team">
+                        <h4>Form a team</h4>
+                        <p>Your user group may or may not be accessible over Presidents' Day weekend, so we want you to be able to get a rapid start. Form a team of three from your studio. We suggest that you seek out teammates who bring together complementary skills and who have compatible schedules and priorities.</p>
+                    </div>
+
+                   <div id="team">
+                        <h4>Write a brief needfinding plan</h4>
+                        <p>Was there an idea in P3, even one that you didn't pursue, that you'd love to explore deeper? Did your P3 experience orient you toward a user group or a need that you didn't originally see? Reflect on your experiences so far with the studio theme and with your prototype feedback from P3.</p>
+
+                        <p>You are welcome to choose any direction that fits within your studio theme. You may extend ideas from P3, or pivot and start with a new user group or need. The expectation will be that this second round of needfinding will carry you deeper, so we'd like to be able to give you feedback and connect you with relevant user groups when we can.</p>
+
+                        <p>Decide on a rough needfinding plan, surrounding with whom and where you want to do your needfinding. If you are extending an idea from P3, we recommend finding a needfinding angle that can deepen your understanding of the needs and the stakeholders.</p>
+
+                        <p>You will not be held to this needfinding plan, but it is our chance to give you feedback as early as possible.</p>
+                    </div>                    
+
+                    <div id="wk0-submit">
+                        <h4>Submit</h4>
+                        <p>Fill out <a href="https://docs.google.com/a/cs.stanford.edu/forms/d/1xN0btR0zjxjXTS8-56glcVNWFut8hjH35WKW9de6y5w/viewform">this Google Form</a> to tell us your team members and your needfinding plan. We'll email a response by Thursday night with any pointers we have.</p>
+                    </div>                    
+                </div>
+
+                <div id="wk6-assignment" class="sidenav-anchor">
+                    <h2>Part I</h2>
+                    <h4>due tuesday february 17 @ 11:59am</h4>
+                    <p>Your assignment for Part I is to iterate on a second round of needfinding based on your experiences with P3.</p>
+                </div>
+
+                <div id="needfinding">
+                    <h4>Needfinding</h4>
+                    <p>Design is an iterated process of flare and focus. In P3, you went through an expansion period, flaring out to new ideas through your needfinding and brainstorming, then a narrowing period, focusing in on specific ideas. Here, we will begin P4 by taking your insights from P3 and using them to flare again, this time armed with the knowledge and clearer purpose that comes from your experiences with P3.</p>
+
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <img class="img img-responsive" src="../images/p4-focus-flare.jpg">
+                        </div>
+                    </div>
+
+                    <p>Based on your reflections in Part 0, go perform a second round of needfinding. Follow the same general form as in P3: prepare a discussion guide, capture raw observations, then grab a whiteboard and post-its and synthesize them into interpretations and needs. Unless you have completely pivoted, connect your results back to the needfinding and user feedback from P3.</p>
+
+                    <p>Your needfinding report should take the same format as in P3. In particular, make sure to back up each interpretation and need with: 1) an observation, a quote or a picture; and 2) a "How Might We...?" question that you can use while brainstorming.</p>
+                </div>
+
+                <div id="brainstorm">
+                    <h4>Brainstorming</h4>
+                    <p>As before, start with your "How Might We..." questions to flare and brainstorm a new set of design ideas. When brainstorming, remember to go for volume. You'll want at least 15 ideas, and probably many more. We encourage you to brainstorm dark horse candidates as well. However, you are in charge of your project's destiny, so it is not required.</p>
+
+                    <p>As in P3, capture your ideas to share them with us. Sketch out ideas clearly for the staff the read and understand. You can use a combination of media if it's helpful.</p>
+                </div>
+
+                <div id="selection">
+                    <h4>Selection</h4>
+                    <p>Once more, focus your brainstorm down to three ideas you would seriously consider pursuing and expand upon them. We encourage you to make one of them a dark horse candidate. As in P3, detail your design goals, sketch out the broader interaction context or storyboards for these ideas, the users, their needs, and how your design addresses those needs.</p>
+                </div>
+
+                <div id="wk6-submit">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your P4 submission folder. That includes:</p>
+                    <ul>
+                        <li>One PDF that contains your needfinding report, including your discussion guide, your observations, your interpretations and needs, and your "How Might We...?" questions.</li>
+                        <li>One PDF that contains your brainstormed idea sketches, and your further explorations of three top ideas.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="wk6-evaluation">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Needfinding insight</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Observations and interpretations are off-target or inappropriate.</td>
+                                    <td headers="adequate">3: Observations and interpretations largely report surface-level results or basic description.</td>
+                                    <td headers="good">5: Observations and interpretations present some novel insights and synthesis, but may be uneven in quality.</td>
+                                    <td headers="excellent">7: Observations and interpretations present a consistently novel and insightful synthesis of the domain.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design insight</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Ideas are not appropriate to the domain, do not articulate design goals, or do not address the given needs.</td>
+                                    <td headers="adequate">3: The designs address user needs in ways that are surface-level interpretations of the problem space. Design goals are trivial or not well-connected to the idea.</td>
+                                    <td headers="good">5: Ideas address user needs in generally appropriate ways, but are uneven in their depth. Some may be incremental, have questionable design goals, or are surface-level interpretations of the problem space.</td>
+                                    <td headers="excellent">7: Ideas present nontrivial and insightful interpretations of the design space, grounded in well-articulated design goals.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design communication</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Needfinding report and idea  sketches are incomplete or very difficult to interpret.</td>
+                                    <td headers="adequate">3: Needfinding report and idea sketches tend to obscure the main idea.</td>
+                                    <td headers="good">5: Needfinding report and idea sketches are interpretable, but not always clear or grounded in evidence.</td>
+                                    <td headers="excellent">7: Needfinding report and idea sketches clearly communicate the intended ideas and designs.</td>
+                                </tr>                                                                                   
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>                
+                
+                <div id="wk7-assignment" class="sidenav-anchor">
+                    <h2>Part II</h2>
+                    <h4>due monday february 23 @ 11:59am</h4>
+                    <p>In Part II, we again iterate on our designs based on critique and then create rapid prototypes.</p>
+                </div>
+
+                <div id="crit-reaction">
+                    <h4>Revisions and brainstorms</h4>
+                    <p>This week will mirror the second week of P3. First, reflect on the feedback you got in studio, and refresh your ideas. You are welcome to pivot, but make sure you are addressing the feedback you received.</p>
+
+                    <p>Based on your iteration, choose three designs to prototype. Include a short writeup to detail the changes you made and explain your thinking behind those changes. The writeup should be at least a paragraph per design to fully explain the reflections and iteration you've done.</p>
+                </div>
+
+                <div id="prototype">
+                    <h4>Three prototypes</h4>
+                    <p>Once again, we'll prototype in parallel. Consider what question is the most important one to ask of each design, and how your prototype can answer just that question. Construct a rapid prototype for each idea.</p>
+
+                    <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
+                </div>
+
+                <div id="implement">
+                    <h4>Rapid feedback</h4>
+                    <p>And now we engage with users once more. As in P3, bring your three prototypes to enough users to get sufficient feedback, likely around four different people. If you have easy access to representative users for your designs, work with them. Otherwise, get as close as you can using the social capital you have at hand. Ask your studio staff if you need help.</p>
+
+                    <p>Remember to use all your skills to make users not feel like they are being evaluated, and to capture observations. Write up a summary of your findings. First, describe your method and who you tested with. Second, tell us what you saw.</p>
+
+                    <p>Third, tell us your interpretation and reflections. What did this second round of feedback imply about your original design questions that led to the prototypes? Has this activity uncovered any deeper insight into the design space?</p>
+                </div>
+
+                <div id="wk7-studio">
+                    <h4>Prepare for studio</h4>
+                    <p>Be prepared to present your three prototypes and your user feedback in a total of four minutes in studio. No slides necessary, but you should be ready to talk succinctly about your results.</p>
+
+                    <p>Now that we've learned in class how to present design work, we will begin including points in the rubric for the quality of your in-studio presentation.</p>
+                </div>
+
+                <div id="wk7-submit">
+                    <h4>Submit</h4>
+                    <p>Make a separate subfolder in your P4 submission folder for the Part II deliverable. Put in there:</p>
+                    <ul>
+                        <li>A PDF with your reflections and changes following your Part I crit.</li>
+                        <li>A folder for each prototype: the question each was trying to ask, and a description (including images) of each prototype.</li>
+                        <li>A PDF with your user feedback.</li>
+                    </ul>
+                </div>
+
+                <div id="wk7-evaluation">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Revision</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Revision does not account for the critique, or actively works to avoid changing the critiqued elements without firm grounding and approval.</td>
+                                    <td headers="adequate">3: There is some attempt to incoporate the critique, but the revision did not address the core elements of the critique.</td>
+                                    <td headers="good">5: The revision incorporates and responds to the critique, but either the revision caused more problems in response or it missed part of the point of the critique.</td>
+                                    <td headers="excellent">7: The revision thoughtfully responds to the critique and improves the design.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Prototypes</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototypes are incomplete or at a wholly inappropriate level of fidelity (too low or too high).</td>
+                                    <td headers="adequate">3: Prototypes have significant issues with level of fidelity, or target the wrong aspect of the experience.</td>
+                                    <td headers="good">5: Prototypes have minor issues with being at too high or too low a level of fidelity, or are slightly off-target in the aspect of the experience they are prototyping.</td>
+                                    <td headers="excellent">7: Prototypes are instantiated at the right level of fidelity and target exactly the experience and question implicit in the design idea.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Feedback</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: User feedback is incomplete or does not provide insight into the design space.</td>
+                                    <td headers="adequate">3: User feedback was attempted but was executed or reported in such a way that it provides little insight into the designs. Reflections are weak.</td>
+                                    <td headers="good">5: User feedback was executed with minor issues or provides surface-level feedback on the designs. Reflections are generally pushing the ideas ahead, but some may reflect more usability patches.</td>
+                                    <td headers="excellent">7: User feedback was executed appropriately and provides useful reflection and insight into the designs.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design presentation</div></div><div><small class="text-muted">3pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Presentation in studio was incomplete or extremely difficult to understand.</td>
+                                    <td headers="adequate">2: Presentation in studio did not focus well on the core message or its delivery was moderately unclear.</td>
+                                    <td headers="excellent">3: Presentation in studio  focused on the core message effectively and explained the content clearly.</td>
+                                </tr>                                                                                              
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>                            
+                </div>
+
+                <div id="wk8-assignment" class="sidenav-anchor">
+                    <h2>Part III</h2>
+                    <h4>due monday march 2 @ 11:59am</h4>
+                    <p>In Part III, we will iterate our idea toward a rough functional prototype.</p>
+                </div>
+
+                <div id="wk8-reflection">
+                    <h4>Reflection</h4>
+                    <p>Reflect again on the feedback you got in studio. This week, we need to select a direction to puruse. Meet with your team and discuss or brainstorm. You are welcome to refine one of your previous ideas, or pivot and pursue a new design. If you pivot, we encourage you to let your studio staff know about your new idea as soon as possible.</p>
+
+                    <p>When you're choosing a direction, ask yourself: would others consider this design to be novel? Does it represent a usability patch or a deeper design insight?</p>
+
+                    <p>Write up one paragraph summarizing your reflections and the changes you've made in reaction to the feedback.</p>
+                </div>
+
+                <div id="functional">
+                    <h4>Skeleton functional prototype</h4>
+                    <p>Recall our guide to creating a prototype: focus on the most important unanswered question about your design. What do you need to create in order to answer that question?</p>
+
+                    <p>The goal this week is to create a skeleton functional prototype. Don't get overambitious and implement your entire design — that's a demo, not a prototype. Focus on just the most critical element and prototype it. If you've focused your question correctly, your prototype will convey the most important aspect of the experience that you are envisioning.</p>
+
+                    <p>You may want to consider Wizard of Oz-ing some pieces so that you can appropriately focus your prototype. In addition, you will likely want to fake some of your application's data or input.</p>
+
+                    <p>You are welcome to use any platform you'd like. The TAs can provide technical support for web and mobile web.</p>
+                </div>
+
+                <div id="wk8-studio">
+                    <h4>Prepare for studio</h4>
+                    <p>Be prepared to present your prototype in four minutes in studio. No slides necessary, but you should be ready to talk succinctly about your design and tradeoffs. Consider how you will demonstrate your work using a projector. Will you take a video and show it? Or can you launch a live browser to demo?</p>
+                </div>                
+
+                <div id="wk8-submit">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your P4 submission folder. That includes:</p>
+                    <ul>
+                        <li>One PDF that contains your reflections.</li>
+                        <li>One PDF or short movie of your current prototype. Add descriptive text or voiceover so that we can tell what's going on. If your prototype is implemented for the web, we would strongly encourage you to include a link.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="wk8-evaluation">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Design focus</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Chosen design concept is ill-conceived or does not address user needs.</td>
+                                    <td headers="adequate">3: Chosen design concept is derivative or a surface level patch.</td>
+                                    <td headers="good">5: Chosen design concept is relatively well-attuned to the design context, but may be slightly derivative or edging on a surface-level patch.</td>
+                                    <td headers="excellent">7: Chosen design concept creatively synthesizes the observed needs into a novel solution.</td>
+                                </tr>             
+
+                                <tr>
+                                    <td headers="category"><div>Prototype focus</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype was much too broadly or too narrowly scoped, or its implicit question was ill stated.</td>
+                                    <td headers="adequate">3: Prototype did not focus on the right question, or did not succesfully answer that question.</td>
+                                    <td headers="good">5: Prototype's focus is slightly diffuse, or its implicit question is not entirely appropriate.</td>
+                                    <td headers="excellent">7: Prototype focuses effectively on an appropriate design question.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Prototype fidelity</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype is non-functional.</td>
+                                    <td headers="adequate">3: Prototype is missing key functionality to answer its design question.</td>
+                                    <td headers="good">5: Prototype is generally well-executed, but is missing some relatively important elements.</td>
+                                    <td headers="excellent">7: Prototype succesfully executes on its goals.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design presentation</div></div><div><small class="text-muted">3pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Presentation in studio was incomplete or extremely difficult to understand.</td>
+                                    <td headers="adequate">2: Presentation in studio did not focus well on the core message or its delivery was moderately unclear.</td>
+                                    <td headers="excellent">3: Presentation in studio  focused on the core message effectively and explained the content clearly.</td>
+                                </tr>                                 
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>
+
+                <div id="wk9-assignment" class="sidenav-anchor">
+                    <h2>Part IV</h2>
+                    <h4>due march 9 @ 11:59am</h4>
+                    <p>In Part IV, we will flesh out our prototypes and return to users for additional feedback.</p>
+                </div>
+
+                <div id="wk9-reflect">
+                    <h4>Reflect</h4>
+                    <p>Once more, reflect on the critique from your studio staff. Are there ideas that you can integrate or use to adjust your approach? Write up a short paragraph synthesizing how your design or prototype is changing based on the critique.</p>
+                </div>
+
+                <div id="wk9-iterate">
+                    <h4>Iterate</h4>
+                    <p>Flesh out your prototype. Again, it's a prototype and not a demo: it doesn't need to be complete. If you ever start talking about options or preferences, stop — you're not focusing on the right parts of the prototype. You can probably even fake most of the data in your application. We don't expect a live database. However, the prototype should be sufficiently mature now so that you can get user feedback on the main interaction flow and needs.</p>
+
+                    <p>If going from mature sketches to a user test on a functional prototype in two weeks doesn't faze you, consider how far you've come in this class!</p>
+                </div>
+
+                <div id="feedback">
+                    <h4>User feedback</h4>
+                    <p>This will be our final user feedback session in this class, so make an effort to find representative users. Keep working with users until you start noting the same observations over and over. This should involve at least five different users. (If the nature of your design means that your user group is extremely difficult to connect with, coordinate with your studio staff to decide on a realistic goal.)</p>
+
+                    <p>For each user, set the stage and make sure they understand that you are testing the prototype, not them. Lay out tasks or goals that they are trying to achieve, and let them interact with your prototype. Make sure one of your team members is taking notes and recording any relevant media (e.g., photos, video). Another team member should guide the process. Encourage the user to follow a think-aloud protocol — you likely learned this in CS 147. Try your absolute hardest not to intervene. Watching helplessly as someone struggles to use your interface is one of the hardest, but most valuable, things you can do.</p>
+
+                    <p>Afterwards, as with P3, it's time to synthesize. Convert your observations into sticky notes and start clustering them on a whiteboard. Identify themes, re-cluster, and discuss until your main reflections have settled.</p>
+
+                    <p>Write up a report detailing your method, results, and reflections. Make sure to include: how will these reflections influence your final design efforts?</p>
+                </div>
+
+                <div id="wk9-studio">
+                    <h4>Prepare for studio</h4>
+                    <p>Be prepared to present your prototype's changes, your user study, and your reflections in four minutes in studio. Make sure to mention your current plans for iteration between studio and the final presentation.</p>
+                </div>                  
+
+                <div id="wk9-submit">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your P4 submission folder. That includes:</p>
+                    <ul>
+                        <li>One PDF that contains your reflections.</li>
+                        <li>One PDF or short movie of your current prototype. Add descriptive text or voiceover so that we can tell what's going on. If your prototype is implemented for the web, we would strongly encourage you to include a link.</li>
+                        <li>A PDF with your user feedback and iteration plan.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="wk9-evaluation">
+                    <h4>Grading rubric</h4>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                <tr>
+                                    <td headers="category"><div>Revision</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Revision does not account for the critique, or actively works to avoid changing the critiqued elements without firm grounding and approval.</td>
+                                    <td headers="adequate">3: There is some attempt to incoporate the critique, but the revision did not address the core elements of the critique.</td>
+                                    <td headers="good">5: The revision incorporates and responds to the critique, but either the revision caused more problems in response or it missed part of the point of the critique.</td>
+                                    <td headers="excellent">7: The revision thoughtfully responds to the critique and improves the design.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Prototype fidelity (relative to prior week)</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype is non-functional.</td>
+                                    <td headers="adequate">3: Prototype is missing key functionality to answer its design question.</td>
+                                    <td headers="good">5: Prototype is generally well-executed, but is missing some relatively important elements.</td>
+                                    <td headers="excellent">7: Prototype succesfully executes on its goals.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Feedback</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: User feedback is incomplete or does not provide insight into the design space.</td>
+                                    <td headers="adequate">3: User feedback was attempted but was executed or reported in such a way that it provides little insight into the designs. Reflections are weak.</td>
+                                    <td headers="good">5: User feedback was executed with minor issues or provides surface-level feedback on the designs. Reflections are generally pushing the ideas ahead, but some may reflect more usability patches.</td>
+                                    <td headers="excellent">7: User feedback was executed appropriately and provides useful reflection and insight into the designs.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Design presentation</div></div><div><small class="text-muted">3pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Presentation in studio was incomplete or extremely difficult to understand.</td>
+                                    <td headers="adequate">2: Presentation in studio did not focus well on the core message or its delivery was moderately unclear.</td>
+                                    <td headers="excellent">3: Presentation in studio  focused on the core message effectively and explained the content clearly.</td>
+                                </tr>                                                                 
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>
+
+                <div id="wk10-assignment" class="sidenav-anchor">
+                    <h2>Final presentation</h2>
+                    <h4>due friday march 13 @ 6pm</h4>
+                    <p>This is it! Let's show everyone what you've been working on!</p>
+                </div>
+
+                <div id="wk10-iterate">
+                    <h4>Iterate</h4>
+                    <p>Based on your feedback from users and studio, iterate on your prototype so that it's ready for the final presentations. This is your last chance to pull out the stops!</p>
+                </div>
+
+                <div id="wk10-present">
+                    <h4>Presentation</h4>
+                    <p>There will be three components to your final presentation.</p>
+
+                    <p>First, a sixty-second pitch to the audience. You are welcome to design your pitch however any way that you feel will be compelling. We will present your slide(s) behind you as you present, and will automatically go on to the next group after sixty seconds. Keep in mind that your audience are likely design experts.</p>
+
+                    <p>Second, a poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main concept. We will provide easels; you will need to print out and bring your poster.</p>
+
+                    <p>Third, your prototype. Bring it so you can show it off during the demo and poster session! The staff and judges will interact with it there.</p>
+                </div>
+
+                <div id="final-reflections">
+                    <h4>Class and team reflection</h4>
+                    <p>It's important that we as the staff have a sense of how your team dynamics played out. All members of the team need to separately fill out this Google Form (link TBA) to share reflections on CS 247 and their team's work balance.</p>
+                </div>
+
+                <div id="wk10-submit">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your P4 submission folder. That includes:</p>
+                    <ul>
+                        <li>A PDF with your final poster.</li>
+                        <li>If you can share it with us, a link to your final prototype. If you can't share it, we'd appreciate a short movie showing it off.</li>
+                        <li>Don't forget to fill out the class and team reflection form.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="wk10-evaluation">
+                    <h4>Grading rubric</h4>
+                    <p>All scores are doubled here to reinforce the importance of the final projects.</p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Design insight</div><div><small class="text-muted">14pt</small></div></td>
+                                    <td headers="unsatisfactory">2: Ideas are not appropriate to the domain, do not articulate design goals, or do not address the given needs.</td>
+                                    <td headers="adequate">6: The designs address user needs in ways that are surface-level interpretations of the problem space. Design goals are trivial or not well-connected to the idea.</td>
+                                    <td headers="good">10: Ideas address user needs in generally appropriate ways, but are uneven in their depth. Some may be incremental, have questionable design goals, or are surface-level interpretations of the problem space.</td>
+                                    <td headers="excellent">14: Ideas present nontrivial and insightful interpretations of the design space, grounded in well-articulated design goals.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Presentation</div></div><div><small class="text-muted">14pt</small></div></td>
+                                    <td headers="unsatisfactory">2: Presentation, poster and demo are incomplete or insufficient.</td>
+                                    <td headers="adequate">6: Presentation, poster and demo tend to obscure the main idea.</td>
+                                    <td headers="good">10: Presentation, poster and demo are generally clear, but uninspired or slightly muddy in their execution.</td>
+                                    <td headers="excellent">14: Presentation, poster and demo communicate the design idea clearly and effectively.</td>
+                                </tr>                                                                
+                                <tr>
+                                    <td headers="category"><div>Prototype</div><div><small class="text-muted">14pt</small></div></td>
+                                    <td headers="unsatisfactory">2: Prototype is non-functional.</td>
+                                    <td headers="adequate">6: Prototype is missing key functionality to answer its design question.</td>
+                                    <td headers="good">10: Prototype is generally well-executed, but is missing some relatively important elements.</td>
+                                    <td headers="excellent">14: Prototype succesfully executes on its goals.</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
