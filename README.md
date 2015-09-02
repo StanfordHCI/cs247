@@ -1,6 +1,4 @@
-website
+CS 247
 =======
 
-Web site for Intro to HCI. Forked from github.com/IntroHCI/website.
-
-If you want to pull in changes from the IntroHCI repo, do "git pull upstream master".
+Web site for CS 247.
