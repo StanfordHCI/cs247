@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 1">
+    <title>Project 1</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="../submit.html">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 1: Trainspotting</h1>
+                        <h4 style="color: #888888">Part II: Interpretation</h4>
+                    </div>
+                </div>
+
+                <!--
+                  Assignment goals (4-5 hours): 4 units * 3 hrs = 12 hrs
+                  - be able to communicate observations visually
+                  - capture visually in volume
+                  - communicate visually an idea
+                -->
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The goal of Part II is to abandon a common error that new designers make: focusing on raw, surface-level description in needfinding. When students graduate from CS 147, typically their needfinding output is still extremely surface-level (e.g., "It was loud, so we should find ways to make it quieter.") This time, the expectations are higher. We'll aim to turn those observations into focused needs.ding.</p>
+                </div>
+                    
+                <div id="brief" class="sidenav-anchor">
+                    <h2>Brief</h2>
+                    <p>In Part II, turn your observations into interpretations, Your mission is to <b>capture social experiences on the town</b>. Pop the Stanford bubble and go off campus to any busy area and time where people often come into social contact — San Francisco's Dolores Park, Mountain View's Castro Street, public transportation hubs such as the Palo Alto Caltrain stop, checkin areas at local airports, movie theater lobbies, downtown Palo Alto, or even a hospital ER waiting room. Marguerite, Caltrain and BART open up a wide variety of interesting environments. Pick any venue you are interested in observing. Choose a time when the location is likely to be busy (e.g., dinner for downtown, rush hour for transportation areas). You will visually capture the environment, social successes in that environment, and social breakdowns in that environment.</p>
+                </div>
+
+                    <p>After you're done, synthesize these raw materials into <i>interpretations</i>. Make sure you call out <i>needs</i>. If you need a reminder of these terms and methods, check this week's lecture and reading, or look at the <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">d.school Bootcamp Bootleg</a>.
+
+                    <p>The method we recommend: put your observations on stickies and organize, reorganize, and reorganize them. Keep discussing what you've found, what patterns are in the data, contradictions, things that people say are fine but are clearly too cumbersome, and so on. Set aside a large block of time to do this. It cannot be rushed. It often takes longer than the interviews themselves because you are working to pull out all the nuggets.</p>
+
+                    <p>Your report should contain a combination of text, images, sketches, and potentially other media. Work to produce a number of <a href="http://dschool.stanford.edu/wp-content/uploads/2012/05/HMW-METHODCARD.pdf">How Might We...?" questions</a> (see also this week's lecture) that can inspire specific brainstorms. Do not submit a raw dump of materials; rather, organize a subset of your most salient, insightful or inspiring observations and interpretations. In practice, having good observations and insights is just half the bill. Being able to communicate them effectively in an emotionally appealing and data-driven manner is another very important aspect of being a designer or a UX researcher.</p>
+
+                    <p>In particular, back up each interpretation and need with: 1) an observation, a quote or a picture; and 2) a "How Might We...?" question that you can use while brainstorming.</p>                
+                
+                <div id="example" class="sidenav-anchor">
+                    <h2>Project Example</h2>
+                    <p>An example of a good project 1 from this year can be found <a href="examples/project1_example.pdf">HERE</a>. </p>
+                    <p>Note: while this project has great insights, it does rely too much on text instead of primarily using visuals to tell stories. </p>
+                </div>
+
+                <div id="assignment" class="sidenav-anchor">
+                    <h2>Assignment</h2>
+                    <p>Your assignment is to observe and then sketch an environment of your choosing. You'll use your observations to inspire a redesign. Break down your steps as below.</p>
+                </div>
+
+                <div id="prep" class="sidenav-anchor">
+                    <h4>Equip yourself</h4>
+                    <p>A good sketchbook is a critical part of the designer's toolkit. Make sure you've purchased a sketchbook and pen you can take with you. Act quickly, because we are not the only class on campus that's asking you to buy a sketchbook and they do sell out. Important features: no lines, no flimsy pages, no tiny sketchbooks (we recommend at least 5"x8"), no thin-lined pens (go for something with a reasonably thick ink stream), and no pencils. The Stanford Bookstore sells sketchbooks, as does <a href="https://www.google.com/maps/place/University+Art/@37.473066,-122.217582,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb3a2902b9fb:0x40d44f8e06f1dc56">University Art</a> and <a href="https://www.google.com/maps/place/Accent+Arts/@37.426745,-122.144873,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbae5939d8a8d:0x51810dd03fc0d3d1">Accent Arts</a>. Moleskine makes some great ones (<a href="http://www.amazon.com/Moleskine-Classic-Notebook-Large-Notebooks/dp/8883701143/ref=sr_1_2?ie=UTF8&qid=1420064738&sr=8-2&keywords=moleskine">example</a>), and Amazon Prime Student can get them to you very quickly.</p>
+
+                    <p>Then, make sure you've finished this week's reading linked on the syllabus. In your sketchbook, practice your star people, blob people, boxes, and other techniques from this week's class.</p>
+                </div>
+
+                <div id="observe" class="sidenav-anchor">
+                    <h4>Observe at your location</h4>
+                    <p>Once you're at your location, walk around and observe. Take down some sketches to yourself of what you see. Aim to capture at volume, don't worry about filtering to just great observations. Just capture what you see and ideas as they come to you. Feel free to take pictures or audio recordings on your phone to complement for your own memory. For this section, you are not graded on your communication skills, mainly on your use of visual expression techniques from class and on observation.</p>
+
+                    <p>Dev Patnaik's rule of thumb is to observe until it gets boring, then observe until it gets interesting again. Give yourself 30 minutes. The only requirement is that you watch, but you should feel free to introduce yourself and interview people in the environment as well.</p>
+
+                    <p>Your goal will be to capture the milieu and activities of this location so that others who have never been there can understand its dynamics. Pay attention to the people, the environment, and how the design of the environment is influencing how, when and where the people interact. What are the focal points of the space, where people meet up and hang out? Why? What areas do they avoid, and why? Is there an ebb and flow to the space, or is it static?</p>
+
+                    <p>Think about the how the environment was intended to be used, and how it's being appropriated by current users. How do people interact with the architecture, with their technology (e.g., phones/music), and with the designed objects in the space? Are there any discrepancies or interesting insights that arise? If there are environments being mixed together (e.g. digital environment of a phone, the physical environment of the space), how do they interact?</p>
+
+                    <p>The deliverable here is a selection of no more than six pages of your observations captured in a primarily visual form. While you likely have more sketches, pick the most interesting six pages to turn in. Feel free to include other material as supplements at the end of the assignment submission — we will glance through them too.</p> 
+                </div>
+
+                <div id="successes" class="sidenav-anchor">
+                    <h4>Social performances</h4>
+                    <p>Now that you've spent some time observing and capturing ideas and events, it's time to start communicating this environment to others. We'll focus on the people. Focus on successful social interactions: what are social engagements people are participating in? Look for situations where everything really seems to be clicking. Is the environment supporting that success, or is it simply a backdrop? Capture specific instances, as well as broader patterns.</p>
+
+                    <p>Now, in your sketchbook, work to communicate the nature of these social successes to others. Don't be afraid to go big and spend an entire page or more capturing a pattern in a visually compelling manner. Again, don't be descriptive or schematic --- aim to communicate an implicit story using your static images. Your goal is for a viewer to understand what the social success is, and why it might be particularly well-suited to that environment.</p>
+
+                    <p>With this and the rest of the components of the assignment, use any visual tools at your disposal. You can produce single sketches or short storyboards. Use shapes, words and short phrases, titles, people, abstractions, whatever would help someone understand. It's expected that you'll want to use some text, but don't write essays. Treat text as a visual tool.</p>
+
+                    <p>Turn in scans of no more than three pages for this deliverable. Feel free to include other material and self-study sketches as you want as supplements as well.</p>
+                </div>
+
+                <div id="failures" class="sidenav-anchor">
+                    <h4>Social breakdowns</h4>
+                    <p>The fourth deliverable is the same as the third, but this time, focus on social <i>breakdowns</i>. Watch for slips, mistakes, missed connections, or social interactions that don't go as well as they should. Sketch to yourself what's going on.</p>
+
+                    <p>Now, as before, communicate visually a few of the most salient breakdowns, and ways in which the environment might be contributing to them. Are people tripping over each other on the sidewalk? Friends not able to hear each other? No safety from the weather?</p>
+
+                    <p>This deliverable is identical to the successes: three pages, plus any supplemental material you want.</p>
+                </div>
+
+                <div id="redesign" class="sidenav-anchor">
+                    <h4>Redesign the environment</h4>
+                    <p>For the final deliverable, focus on one of most interesting observations you made, and sketch a proposed redesign of the environment. Don't fix a small social "usability problem": think holistically about what the social goals of the environment are, and how a redesign could empower those goals and downplay the social breakdowns you saw. Focus your redesign on one core element of the environment: don't try to fix everything through a lot of tiny changes. It's fine to be ambitious in your redesign, and to assume technology that's within five years of practical deployment.</p>
+
+                    <p>Sketch the redesign. No more than two pages. Add any supplemental sketches you want.</p>
+                </div>
+
+                <div id="explain" class="sidenav-anchor">
+                    <h4>Explain: unseal the envelope</h4>
+                    <p>We will look at your sketches without knowing where you visited or what you were trying to communicate. Now, add a very short writeup to tell us what you were trying to communicate. In particular, we'd like to see:</p>
+                    <ul>
+                        <li>One paragraph (3-4 sentences) to describe the location and why you chose it,
+                        <li>One paragraph to describe what you hope the viewer will see in your observational sketches of the environment,</li>
+                        <li>One paragraph to decribe the social performances you captured,</li>
+                        <li>One paragraph to decribe the social breakdowns you captured, and</li>
+                        <li>One paragraph to describe your proposed redesign.</li>
+                    </ul>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples" class="sidenav-anchor">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit</h2>
+                    <p>Scan or take photos of your sketchbook. <a href='../submit.html'>Submit</a> one combined PDF with each deliverable section clearly labeled as below. Now, start bringing your sketchbook to class and studio!</p>
+                    <p>In one PDF file:</p>
+                    <ul>
+                      <li>Observe at your location: no more than six pages.</li>
+                      <li>Social performances: no more than three pages.</li>
+                      <li>Social breakdowns: no more than three pages.</li>
+                      <li>Redesign the environment: no more than two pages.</li>
+                      <li>Your brief explanation writeup.</li>
+                      <li>Supplemental sketches: anything you'd like to include, no length limit.</li>
+                    </ul>
+
+                    <p>If accessibility constraints would make it difficult for you to execute this assignment, please post (anonymously if you wish) to the class forum. In particular, please envision an alternate means of observing and communicating your observations to others, and share it in your post. If it sounds good to us, we'll OK it!</p>
+
+                    <p>Please post any questions about this project or others to the class forum.</p>
+                </div>
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Idea clarity and organization</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Muddled or difficult to comprehend the ideas being described; or, not enough content to convey ideas richly.</td>
+                                    <td headers="adequate">3: Communication is thin, incomplete or unclear.</td>
+                                    <td headers="good">5: The core ideas come across clearly.</td>
+                                    <td headers="excellent">7: Excellently communicated ideas using a rich combination of techniques.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Visual tools</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Little use of sketching techniques, visual organization, or emphasis.</td>
+                                    <td headers="adequate">3: Some use of visual tools such as sketching techniques to communicate ideas, but they are used ineffectively or sparsely.</td>
+                                    <td headers="good">5: Effective use of visual communication techniques to convey ideas.</td>
+                                    <td headers="excellent">7: Mastery of visual communication tools to convey the ideas.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Observation insights</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Observations seem generic, few in volume, or missing important perspectives.</td>
+                                    <td headers="adequate">3: Observations report what happens, but do not provide a deeper synthesis of the environment.</td>
+                                    <td headers="good">5: Some observations provide interesting perspectives and synthesis, but many do not.</td>
+                                    <td headers="excellent">7: Observations produce many syntheses and perspectives that would not be obvious to a casual observer of the environment.</td>
+                                </tr>                                                                
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing (e.g., no breakdowns), we will reduce your score by 25% per deliverable.
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
