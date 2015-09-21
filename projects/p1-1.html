@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 1">
+    <title>Project 1</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="../submit.html">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 1: Trainspotting</h1>
+                        <h4 style="color: #888888">Part I: Observation</h4>
+                        <p class="lead">CS 247 takes many of the concepts you learned in introductory design coursework and deepens them. You are no longer an amateur, so we won't be treating you like one. We look forward to seeing you leap over our already-high expectations.</p>
+                    </div>
+                </div>
+
+                <!--
+                  Assignment goals (4-5 hours): 4 units * 3 hrs = 12 hrs
+                  - be able to communicate observations visually
+                  - capture visually in volume
+                  - communicate visually an idea
+                -->
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The goal of this assignment: synthesizing needfinding observations into insights, and communicating ideas visually.</p>
+
+                    <p><b>Needfinding is "deep hanging out".</b> CS 147 focused on contextual inquiry-style user research. Needfinding is a much broader activity that involves more open-ended observation and interviewing. We'll begin getting comfortable with that here.</p>
+
+                    <!-- The first goal of P1 is to abandon a common error that new designers make: focusing on raw, surface-level description in needfinding. When students graduate from CS 147, typically their needfinding observations are still extremely surface-level (e.g., "It was loud, so we should find ways to make it quieter.") This time, the expectations are higher. We'll aim to turn those observations into focused needs.</p> -->
+
+                    <p><b>Design requires communication.</b> The better your communication cuts to the core of the idea, the more effective you are as a designer. It's your responsibility to ensure that others see the same thing in your ideas that you do. If they see something else, you need to accept a <i>mea culpa</i>: there's something you're not communicating clearly. Visual communication is a kind of interface design: if the recipient doesn't rapidly get it, then the interface (communication) needs to be tweaked.</p>
+                </div>
+                    
+                <div id="brief" class="sidenav-anchor">
+                    <h2>Brief</h2>
+                    <p>Your mission with Part I is to <b>observe the Caltrain rider experience</b>. This quarter's theme is urban computing, so it's time that we pop the Stanford bubble, go off campus, and spend some time observing people waiting for the Caltrain and riding the Caltrain. Be a participant observer: ride the Caltrain yourself somewhere. Interview people to better understand how Caltrain fits into their commute and their lives. Choose a time when the location is likely to be busy (e.g., rush hour). Visually capture the environment in sketches. Focus on observations for now, don't worry about deeper interpretations.</p>
+                </div>
+                
+                <div id="example" class="sidenav-anchor">
+                    <h2>Project Example</h2>
+                    <p><a href="examples/project1_example.pdf">Here is an example of a good project 1 from last year</a>. Three notes: First, last year's project was not focused on the Caltrain, and it was not framed around observations vs. interpretation. Second, while this project has great insights, it does rely too much on text instead of primarily using visuals to tell stories. Third, the formal requirements (in terms of what to capture, number of pages, and so on) were different --- pay attention mainly to how they did it rather than what they did.</p>
+                </div>
+
+                <div id="assignment" class="sidenav-anchor">
+                    <h2>Assignment</h2>
+                    <p>Your assignment is to observe and then sketch the Caltrain rider experience. You'll use your observations in Part II to generate deeper interpretations. Break down your steps as below.</p>
+                </div>
+
+                <div id="prep" class="sidenav-anchor">
+                    <h4>Equip yourself</h4>
+                    <p>A good drawing pad or sketchbook is a critical part of the designer's toolkit. Make sure you've purchased a pad and pen you can take with you. Act quickly, because we are not the only class on campus that's asking you to buy a sketchbook and they do sell out.Important features: <b>you must be able to easily tear out the pages</b> (so we can tape them on the walls), no lines, no flimsy pages, no tiny pages (we recommend at least 5"x8"), no thin-lined pens (go for something with a reasonably thick ink stream), and no pencils. The Stanford Bookstore sells drawing pads, as does <a href="https://www.google.com/maps/place/University+Art/@37.473066,-122.217582,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb3a2902b9fb:0x40d44f8e06f1dc56">University Art</a> and <a href="https://www.google.com/maps/place/Accent+Arts/@37.426745,-122.144873,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbae5939d8a8d:0x51810dd03fc0d3d1">Accent Arts</a>. If you get ahead of the game, use Amazon Prime Student to overnight <a href="http://www.amazon.com/Bienfang-Graphics-12-Inch-Paper-Sheets/dp/B001KZH1QK/ref=sr_1_8?ie=UTF8&qid=1442515134&sr=8-8&keywords=marker+pad">some great ones from there</a>.</p>
+                </div>
+
+                <div id="observe" class="sidenav-anchor">
+                    <h4>Observe at your location</h4>
+                    <p>Once you're at your location, walk around and observe. Take down some sketches to yourself of what you see. Aim to capture at volume, don't worry about filtering to just great observations. Focus on specific stories and details. If you don't do this, it will be much harder to have the depth that you need for your later supporting evidence. Feel free to take pictures or audio recordings on your phone to complement for your own memory, but sketching is by far more valuable because it forces you to focus on what's important. For this section, you are not graded on your communication skills, mainly on your use of visual expression techniques from class and on observation.</p>
+
+                    <p>Dev Patnaik's rule of thumb is to observe until it gets boring, then observe until it gets interesting again. Give yourself 30 minutes before changing settings. Watch, and also introduce yourself and interview people in the environment.</p>
+
+                    <p>Your goal will be to capture the milieu and activities of the Caltrain rider experience so that others who have never been there can understand its dynamics. Pay attention to the people, the environment, and how the design of the environment is influencing how people act. What are the focal points of the space, of peoples' attention?</p>
+
+                    <p>Think about the how the environment was intended to be used, and how it's being appropriated by current users. How do people interact with the architecture, with their technology (e.g., phones/music), and with the designed objects in the space? Are there any discrepancies or interesting insights that arise? If there are environments being mixed together (e.g. digital environment of a phone, the physical environment of the space), how do they interact?</p>
+
+                    <p>The deliverable here is a selection of no fewer than ten pages of your observations captured in a primarily visual form. Feel free to include other material as supplements at the end of the assignment submission — we will glance through them too.</p> 
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit</h2>
+                    <p>Scan or take photos of your sketchbook. <a href='../submit.html'>Submit</a> one combined PDF. Bring your sketchbook to class &mdash; we'll be looking at each others' work!</p>
+
+                    <p>If accessibility constraints would make it difficult for you to execute this assignment, please post (anonymously if you wish) to the class forum. In particular, please envision an alternate means of observing and communicating your observations to others, and share it in your post. If it sounds good to us, we'll OK it!</p>
+
+                    <p>Please post any questions about this project or others to the class Piazza forum.</p>
+                </div>
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>Part I is worth <b>two points</b>. You will receive two points for completing the assignment satisfactorily, submitting it, and bringing your sketches to class.</p>
+
+                    <p>However, apart from the points, this assignment will also feed into Part II. So, the course staff will separately give you in-class feedback on the quality of your submission on a check-minus, check, check-plus scale. If you get a check-minus, strongly consider redoing Part I before moving on to Part II, since your foundation is shaky. A check is fine, and the rare check-plus means that you've exceeded our expectations.</p>
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
