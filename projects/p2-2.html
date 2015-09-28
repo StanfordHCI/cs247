@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 2">
+    <title>Project 2</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/ielnko7eqvu33g">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 2: Hello, World!</h1>
+                        <h4 style="color: #888888">Part II: Mocks</h4>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The goal of Part II is to communicate your design ideas through pixel-perfect mocks. Mocks are a core device that designers use to get feedback on their ideas from other designers and other teammates, and engineers on product teams use these mocks once they've passed design review and treat them as a spec to replicate them using code.</p>
+
+                    <p>When you're done, we'll critique the mocks as a class, and then you'll implement your portfolio in Part III.</p>
+                </div>
+                    
+                <div id="assignment" class="sidenav-anchor">
+                    <h2>Part II deliverable</h2>
+                    <h4>due monday october 5 @ 1:30pm</h4>
+                    <p>Your assignment for Part II is to generate a set of wireframes and then pixel-perfect mocks.</p>
+                </div>
+
+                <div id="wireframe" class="sidenav-anchor">
+                    <h4>Wireframe three concepts</h4>
+                    <p>Now we start working our way towards detailed design concepts. The point of this step and the next is to get you feeling comfortable with mock process, all the way through to pixel-perfect.</p>
+
+                    <p>In this stage, aim to convey <b>three</b> of your concepts clearly via wireframes. We'll talk later in the class about why going for breadth with three different ideas is a good idea, but for now suffice it to say that an experienced designer would ever walk into a meeting with only one concept. Recall from CS 147 that a wireframe does not need to convey every pixel perfectly. Its goal is to instantiate the major design elements and hash out the central interaction and visual design problems while it's easy to move things around. Be strategic about where you put detail in the wireframes. If color is important to your portfolio, your wireframe should focus on prototyping the color placement and distributions. If interaction and animation is important, focus the wireframe on that instead. If a static visual piece is the central element, get that in the wireframe and play with how the other elements balance off of it. Save the other details for the pixel-perfect mock in the next step.</p>
+
+                    <p>If you can get your hands on a Mac, we strongly recommend the trial version of <a href="http://www.bohemiancoding.com/sketch/">Sketch for OS X</a>. (You can also install it on the cluster computers.) Its <a href="http://www.sketchappsources.com/">large library of templates</a> can give you tons of premade elements (e.g., <a href="http://bootstrapuikit.com/">Twitter Bootstrap UI elements</a>) so you don't need to reinvent everything from scratch. An alternative is <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a> or Photoshop, available on Stanford cluster machines. Many of the UI template libraries work with these tools as well. However, they have high learning curves. If you are truly stuck, tools such as Keynote or Powerpoint can work, but be aware that it can be difficult to use them to produce designs that look like they would be realistic web sites rather than slideware.</p>
+
+                    <p>Remember that we only expect to see the main page and one inner (e.g., content) page. Don't get overly ambitious, or these mocks and next week's implementation will be hairy! A portfolio is not an extraordinarily complex or sprawling web site. If you're worried about scoping your design, talk to your TA or studio instructor.</p>
+
+                    <p>Save a copy of these mocks as they are now, since you'll be refining them for the next deliverable.</p>
+                </div>
+
+                <div id="pixel" class="sidenav-anchor">
+                    <h4>Pixel-perfect mocks</h4>
+                    <p>Having explored the options, you are ready to refine your three wireframes into three pixel-perfect mocks. Compared to wireframes, mocks need to be detailed and make a lot of <b>low-level visual design and interaction design decisions</b>. This is where the details of your visual and interaction design need to fall into place. Using Sketch or your other software, flesh out the previously sketchy elements of your wireframe. It should now capture exactly what the portfolio will look like when you implement it.</p>
+                </div>                
+
+                <div id="example" class="sidenav-anchor">
+                    <h4>Project Examples</h4>
+                    <p>Here are some good final P2 submissions from last year:</p>
+                    <ul>
+                        <li><a href="../projects/examples/P2/syong">syong</a></li>
+                        <li><a href="../projects/examples/P2/sophieye">sophieye</a></li>
+                    </ul>
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your submission folder labeled "P2". That means one PDF that includes:</p>
+                    <ul>
+                        <li>Your final mood board and thumbnail sketches (including any revisions from Part I if the feedback warranted it)</li>
+                        <li>Your three wireframes</li>
+                        <li>Your three mocks</li>
+                    </ul>
+                    <p>Bring a full-page color printout of each of your mocks with you to class.</p>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples" class="sidenav-anchor">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>Part II is worth <b>five points</b>. This assignment will be graded on a rubric.</p>
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="verygood" valign="top">Very good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td headers="category"><div>Visual design</div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: No or little use of the visual design concepts.</td>
+                                    <td headers="adequate">2: Attempted but misapplication or poor application of interaction and visual design concepts.</td>
+                                    <td headers="good">3: Sketches and mocks utilize visual design concepts, with moderate but not game-over shortcomings.</td>
+                                    <td headers="verygood">4: Sketches and mocks utilize interaction and visual design concepts, with minor room for improvement.</td> 
+                                    <td headers="excellent">5: Sketches and mocks display mastery and creative application of interaction and visual design concepts.</td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing (e.g., no wireframes), we will reduce your score by 25% per deliverable.</p>
+                    </div>                    
+
+                </div>
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
