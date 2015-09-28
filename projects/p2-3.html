@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 2">
+    <title>Project 2</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/ielnko7eqvu33g">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 2: Hello, World!</h1>
+                        <h4 style="color: #888888">Part III: Implementation</h4>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The final goal of P2, Part III, is to translate your design ideas into a leaving, breathing artifact. All the sketches and mocks in the world are useless if we can't close the loop and fashion our idea out of code. All designers need a medium, and the web will be ours for CS 247.</p>
+                </div>
+                    
+                <div id="assignment" class="sidenav-anchor">
+                    <h2>Part III deliverable</h2>
+                    <h4>due monday october 12 @ 1:30pm</h4>
+                    <p>Your assignment for Part III is to implement your favorite portfolio design.</p>
+                </div>
+
+                <div id="crit-redesign" class="sidenav-anchor">
+                    <h4>Revised mock</h4>
+                    <p>Reflect on the feedback you got on your mocks in class and through the written feedback. Try to understand what the feedback is intending, and  why the staff are reacting to your designs the way they are. Write one paragraph reporting back the main idea of your critiques.</p>
+
+                    <p>Now, pick one of your three concepts to refine. Back to the sketchbook! Use your synthesis of the critique to rethink parts of your design, or your entire approach. Sketch out revised components of your portfolio, or changes to the overall flow and layout &mdash; whatever makes sense based on the feedback. Remember, critiques aren't intended to just give you usability feedback; they aim to question deeper aspects of your design. If you think you can address the feedback with a different solution than the one the instructor or your peers suggested, go for it. However, it is your responsibility to address the critique with your revision.</p>
+
+                    <p>Your end goal is to produce a revised pixel-perfect mock of the design. So, when you're done with the sketchbook, go back to Sketch 3 and produce the mock that you implement. You're welcome to grab feedback from us in office hours. When you have something you're happy with, write a paragraph explaining how you aimed to address the critique (and any additional criteria you had) with your revision.</p>
+                </div>
+
+                <div id="implement" class="sidenav-anchor">
+                    <h4>Implement your portfolio</h4>
+                    <p>Time to go live! Translate your mock into code using HTML and CSS, as well as Javascript if necessary. You are welcome to use any front-end web framework you want. However, we advise you to make the web site static: that is, it shouldn't require server software such as Rails, node.js, or PHP. Nearly any portfolio can be implemented using static HTML, CSS and Javascript. Getting a server framework in the loop will eat too much valuable time.</p>
+
+                    <p>You can write and debug your site locally on your computer. We recommend using GitHub to track your commits as you work to help prevent data loss. <a href="http://hci.stanford.edu/courses/cs147/2014/wi/lab/lab1/">Here's CS 147 2014's Source Control lab</a> in case you'd like some notes. When you're done, upload the site to a server so it goes live. <a href="https://itservices.stanford.edu/service/web/centralhosting/howto_user">Here's an explanation of how to get it on your Stanford web space.</a> Put a copy of all code in your submission Dropbox.</p>
+
+                    <p>Keep in mind that, because everyone has a different design, we can't teach you all the HTML/JS/CSS tricks that will get you exactly the page you want. If you're unsure, use Google and StackOverflow to help guide you. You may find it helpful to leverage front-end toolkits such as <a href="http://www.getbootstrap.com">Twitter Bootstrap</a>. If you get stuck, try creating a <a href="http://jsfiddle.net/">JSFiddle</a> so others can see, or upload your current buggy version to the web. For the JSFiddle, you may need to host any images on a server for them to render. Then, feel free to ask your fellow students and the instructors for help on Piazza.</a>
+
+                    <p>If you realize that your design is too ambitious to implement in its entirety, contact the staff with a mock showing exactly what you're proposing to implement as a scaled-back version and get their OK.</p>
+                </div>
+
+                <div id="example" class="sidenav-anchor">
+                    <h4>Project Examples</h4>
+                    <p>Here are some good final P2 submissions from last year:</p>
+                    <ul>
+                        <li><a href="../projects/examples/P2/syong">syong</a></li>
+                        <li><a href="../projects/examples/P2/sophieye">sophieye</a></li>
+                    </ul>
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h4>Submit</h4>
+                    <p>Pull everything together into your submission folder labeled "P2". That means one PDF that includes:</p>
+                    <ul>
+                        <li>One PDF that contains your crit synthesis and revised mock.</li>
+                        <li>A directory containing your entire portfolio's code and assets. We should be able to place this on a server, and it should work.</li>
+                        <li>A file containing a link to your live portfolio on the web.</li>
+                    </ul>
+                    <p>Bring a color printout of your final portfolio with you to class.</p>
+                </div>
+                
+                <!-- add this section next year when we have previous examples
+                <div id="examples" class="sidenav-anchor">
+                    <h2>Student Examples</h2>
+                    <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
+                </div>
+                -->
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>Part III is worth <b>twelve points</b>. This assignment will be graded on a rubric.</p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="incomplete" valign="top">Incomplete</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="verygood" valign="top">Very good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Visual design</div><div><small class="text-muted">6pt</small></div></td>
+                                    <td headers="incomplete">1: Interaction design concepts are ignored or misused.</td>
+                                    <td headers="unsatisfactory">2: Interaction design concepts are attempted but unsatisfactory.</td>
+                                    <td headers="adequate">3: Interaction design concepts have at least one major execution issue in the web environment.</td>
+                                    <td headers="good">4: Interaction design concepts are  executed competently, with some unevenness but not game-over problems.</td>
+                                    <td headers="verygood">5: Interaction design concepts are  executed competently, with only minor issues.</td>
+                                    <td headers="excellent">6: Interaction design concepts are carried out excellently using web technology.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Implementation</div></div><div><small class="text-muted">6pt</small></div></td>
+                                    <td headers="incomplete">1: Portfolio is extremely incomplete or too buggy to judge.</td>
+                                    <td headers="unsatisfactory">2: Portfolio has some aspects inplemented but still significant portions incomplete.</td>
+                                    <td headers="adequate">3: Portfolio has major bugs, but conveys the main idea.</td>
+                                    <td headers="good">4: Portfolio is executed but incomplete, or has moderate interaction or layout bugs.</td>
+                                    <td headers="verygood">5: Portfolio competently implements the design using web technology, with some minor interaction or layout bugs.</td>
+                                    <td headers="excellent">6: Portfolio is implemented thoroughly and effectively using web technologies.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <p>If any of the deliverables are missing (e.g., no wireframes), we will reduce your score by 25% per deliverable.</p>
+                    </div>                    
+
+                </div>
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
