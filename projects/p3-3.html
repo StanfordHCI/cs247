@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 4">
+    <title>Project 3</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 3, part III: prototyping</h1>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>Part III is an exercise in rapid prototyping — how do you convey the core of your idea without sinking in untold hours?</p>
+                </div>
+
+                <div id="schedule" class="sidenav-anchor">
+                    <h2>P3 Schedule</h2>
+                    <p>Below is the staff's recommended timeline for Project 3. These dates are the dates by which we recommend completing each milestone: keep in mind that <b>it may take several iterations of feedback on submissions before you and your team are ready to declare a milestone complete</b>. So aim to submit your first version of each milestone at least one studio day before the deadline you want to hit.</p>
+                    <ul>
+                        <li>Oct. 19 (week 5): P3.I — form team, identify area of interest, and perform needfiding observation</li>
+                        <li>Oct. 26 (week 6): P3.II — needfinding interpretation, brainstorming</li>
+                        <li>November 2 (week 7): P3.III — prototyping and user feedback</li>
+                        <li>November 19 (week 9): P3.IV — working implementation</li>
+                        <li>November 30 (week 10): P3.V — user study results and redesign plan</li>
+                        <li>December 4 (week 10): P3.VI — final presentation, <b>hard deadline</b></li>
+                        <li>December 7 (finals) @ 12:15pm: Final submission, <b>hard deadline</b></li>
+                    </ul>
+                </div>                
+
+                <div id="prototype" class="sidenav-anchor">
+                    <h2>Three prototypes</h2>
+                    <p>Much like with Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs.</p>
+
+                    <p>Your goal now is to prototype all three of your design ideas. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes. <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">Your goal is not to create a mockup or scale model, but to create experiences to which your users can react</a>.</p>
+
+                    <p>The crux of this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. As in class, before you start the prototype, identify: what's your design ideas's biggest unanswered question? Use that quesiton to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Based on the question, decide upon the best method of prototyping the idea. By now, you have a wide range of prototyping approaches in your arsenal. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Your skillset also includes Wizard of Oz prototypes, paper prototypes, video prototypes, and mocks. Which approach or toolkit will best represent each idea? The choice is yours here.</p>
+
+                    <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
+                </div>
+
+                <div id="implement" class="sidenav-anchor">
+                    <h2>Rapid feedback</h2>
+                    <p>Remember that testing many can produce better insights than testing one. So, bring your three prototypes to at least four representative users. Ask your studio staff if you need help gaining access to users.</p>
+
+                    <p>Set the stage — the user's problem or goal — and remind the user that you are trying to test the prototypes, not the users. Take notes as they use each of your prototypes. When they are done, talk with them more holistically about the three prototypes. Find out what resonanted with each prototype relative to the others, and what missed the mark. While you will gather usability feedback, your primary goal is instead to gain insight into the broader design space and your general design ideas.</p>
+
+                    <p>Write up a summary of your findings. First, describe your method and who you tested with. Second, tell us what you saw. Third, tell us your interpretation and reflections. What did the feedback imply about your original design questions that led to the prototypes? What changes will it prompt? Focus on concept, not usability.</p>
+                </div>
+
+                <div id="dynamics" class="sidenav-anchor">
+                    <h2>Team dynamics check-in</h2>
+                    <p>When you submit this assignment, everyone on the team should take a moment to privately evaluate how the team is doing. Is everyone pulling their weight? Are the collaborations effective? Are communication channels open?</p>
+
+                    <p>Everyone must fill out our <a href="https://docs.google.com/forms/d/1m3-Hxz0EbkrytWvvaMnP1TZd0aGIO4kolXm_ti1cFXo/viewform">Team Dynamics Check-in</a> along with their milestone. If things could be going better, this gives us as staff a chance to step in and help.</p>
+                </div>                 
+
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit</h2>
+                    <p>Make sure you've filled out the team dynamics check-in. Then, pull everything together into your submission folder labeled "P3-3". This includes:</p>
+                    <ul>
+                        <li>A subfolder for each prototype: the question each was trying to ask, and a description (including images) of each prototype.</li>
+                        <li>A PDF with your user feedback.</li>
+                    </ul>
+                    <p>Bring full-page color printouts of your prototypes, and be prepared to discuss the feedback.</p>
+                </div> 
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to class for feedback.</p>
+                </div>
+
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
