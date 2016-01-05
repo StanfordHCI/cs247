@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 1">
+    <title>Project 1</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="../submit.html">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/iiz19k9xk6j6ob">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 1: That's pretty sketchy</h1>
+                        <p class="lead">CS 247 takes many of the concepts you learned in introductory design coursework and deepens them. You are no longer an amateur, so we won't be treating you like one. We look forward to seeing you leap over our already-high expectations.</p>
+                    </div>
+                </div>
+
+                <!--
+                  Assignment goals (4-5 hours): 4 units * 3 hrs = 12 hrs
+                  - be able to communicate observations visually
+                  - capture visually in volume
+                  - communicate visually an idea
+                -->
+
+                <div id="goals" class="sidenav-anchor">
+                    <h2>Goal</h2>
+                    <p>The goal of P1 is communicating ideas visually.</p>
+
+                    <!--
+                    <p><b>Needfinding is "deep hanging out".</b> CS 147 focused on contextual inquiry-style user research. Needfinding is a much broader activity that involves more open-ended observation and interviewing. We'll begin getting comfortable with that here.</p>
+                    -->
+
+                    <!-- The first goal of P1 is to abandon a common error that new designers make: focusing on raw, surface-level description in needfinding. When students graduate from CS 147, typically their needfinding observations are still extremely surface-level (e.g., "It was loud, so we should find ways to make it quieter.") This time, the expectations are higher. We'll aim to turn those observations into focused needs.</p> -->
+
+                    <p><b>Design requires communication.</b> The better your communication cuts to the core of the idea, the more effective you are as a designer. It's your responsibility to ensure that others see the same thing in your ideas that you do. If they see something else, you need to accept a <i>mea culpa</i>: there's something you're not communicating clearly. Visual communication is a kind of interface design: if the recipient doesn't rapidly get it, then the interface (communication) needs to be tweaked.</p>
+                </div>
+                    
+                <div id="brief" class="sidenav-anchor">
+                    <h2>Brief</h2>
+                    <p>Your goal is to communicate ideas, interfaces and people fluidly to other designers.</p>
+                </div>
+                
+                <div id="example" class="sidenav-anchor">
+                    <h2>Project Examples</h2>
+                    <p>Note that the last iteration of this project was more focused on needfinding observation, and didn't have isolated sketching exercises. However, the strength and variety of the visual communication strategies used in these assignment stands out.</p>
+                    <ul>
+                        <li><a href="examples/p1-1/juanm95-mwenzlau-P1-1.pdf">juanm95 & mwenzlau</a></li>                        
+                        <li><a href="examples/p1-1/jni221-kianah-caltrain.pdf">jni221 & kianah</a></li>
+                    </ul>
+                </div>
+
+                <div id="prep" class="sidenav-anchor">
+                    <h4>Equip yourself</h4>
+                    <p>A good drawing pad or sketchbook is a critical part of the designer's toolkit. Make sure you've purchased a pad and pen you can take with you. Act quickly, because we are not the only class on campus that's asking you to buy a sketchbook and they do sell out.Important features: <b>you must be able to easily tear out the pages</b> (so we can tape them on the walls), no lines, no flimsy pages, no tiny pages (we recommend at least 5"x8"), no thin-lined pens (go for something with a reasonably thick ink stream), and no pencils. The Stanford Bookstore sells drawing pads, as does <a href="https://www.google.com/maps/place/University+Art/@37.473066,-122.217582,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbb3a2902b9fb:0x40d44f8e06f1dc56">University Art</a> and <a href="https://www.google.com/maps/place/Accent+Arts/@37.426745,-122.144873,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbae5939d8a8d:0x51810dd03fc0d3d1">Accent Arts</a>. If you get ahead of the game, use Amazon Prime Student to overnight <a href="http://www.amazon.com/Bienfang-Graphics-12-Inch-Paper-Sheets/dp/B001KZH1QK/ref=sr_1_8?ie=UTF8&qid=1442515134&sr=8-8&keywords=marker+pad">some great ones from there</a>.</p>
+                </div>
+
+                <div id="sketch" class="sidenav-anchor">
+                    <h4>Sketching people and technology</h4>
+                    <p>Using the techniques from lecture, start by capturing the following interfaces and interactions. Do each one at least three times &mdash; trying out different angles, styles, and techniques each time &mdash; and star your favorite one.</p>
+
+                    <p>A key to this assignment is that sketches maximize clarity, not careful detail. Capturing the right details and knowing what to leave out is key to an effective sketch.</p>
+
+                    <p>Draw big, and use half or entire pages for each sketch.</p>
+
+                    <p>Let's start with some static sketches:</p>
+
+                    <h5>Instagram</h5>
+                    <img src="../images/p1-instagram.png" class="img img-responsive img-thumbnail" />
+                    <p><small><a href="http://www.androidcentral.com/instagram-begins-beta-testing-program-android">Source: Android Central</a></small></p>
+
+                    <!--
+                    <h5>Gmail</h5>
+                    <img src="../images/p1-gmail.png" class="img img-responsive img-thumbnail" />
+                    -->
+
+                    <h5>Slate email</h5>
+                    <img src="../images/p1-email.png" class="img img-responsive img-thumbnail" />
+                    <p><small><a href="https://dribbble.com/shots/829195-Slate">Source: Dribbble</a></small></p>
+
+                    <h5>Slide concept</h5>
+                    <img src="../images/p1-curtain.png" class="img img-responsive img-thumbnail" />
+                    <p><small><a href="https://dribbble.com/shots/899177-Slide-Concept">Source: Dribbble</a></small></p>
+
+                    <h5>Fitbit</h5>
+                    <img src="../images/p1-fitbit.png" class="img img-responsive img-thumbnail" />
+                    <p><small><a href="https://robinpowered.com/blog/what-does-quantified-self-mean-for-the-office/">Source: Robinpowered</a></small></p>
+
+                    <h5>Minority report</h5>
+                    <img src="../images/p1-minority.png" class="img img-responsive img-thumbnail" />
+                    <p><small><a href="https://en.wikipedia.org/wiki/Minority_Report_(film)">Source: Dreamworks and Fox</a></small></p> 
+
+                    <p>And now some brief storyboards, with multiple panels. You only need to draw each storyboard twice, instead of three times:</p>
+
+                    <h5>Phone unlocking</h5>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/StQiMMbsyF4" frameborder="0" allowfullscreen></iframe>
+
+                    <!--
+                    <h5>Bezier curve editing</h5>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/cSZEQbrAREw" frameborder="0" allowfullscreen></iframe>
+                    -->
+
+                    <h5>Weather</h5>
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/dmKklybt0ss" frameborder="0" allowfullscreen></iframe>
+                    <p><small><a href="https://dribbble.com/shots/1824088-GIF-for-the-Weather-App?list=animated&sort=popular&timeframe=ever&offset=37">Source: Dribbble</a></small></p>
+
+                    <h5>InForm</h5>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aWo3hkwSEHs" frameborder="0" allowfullscreen></iframe>
+                    <p><small><a href="https://profiles.stanford.edu/sean-follmer">Source: Sean Follmer</a></small></p>                    
+                </div>
+
+                <div id="observe" class="sidenav-anchor">
+                    <h4>Observe and interview at your location</h4>
+                    <p>Your studio instructor will give you a location to go observe and sketch at. We'll post them here once you're assigned to studios.</p>
+
+                    <p>Once you're at your location, walk around and observe. Take down some sketches to yourself of what you see. Aim to capture at volume, don't worry about filtering to just great observations. Focus on specific stories and details. For example, try telling the story of a single person or set of people at the location. Feel free to take pictures or audio recordings on your phone to complement for your own memory, but do not capture pictures and audio now and then sketch after the fact. You must sketch while you're there. 
+
+                    <p>For this section, you are not graded on your needfinding skills, but instead on your use of visual communication techniques. In other words, are you capturing the important aspects of the environment? Can another designer understand what the situation was, or what you were trying to convey?</p>
+
+                    <p>The deliverable here is a selection of no fewer than ten pages of your sketches, captured in a primarily visual form. Feel free to include other material as supplements at the end of the assignment submission &mdash; we will glance through them too.</p> 
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit</h2>
+                    <p>Scan or take photos of your sketchbook:</p>
+                    <ul>
+                        <li>Your interface and storyboard sketches, at least three per prompt.</li>
+                        <li>At least ten pages of your observation sketches.</li>
+                    </ul>
+                    <a href='../submit.html'>Submit</a> one combined PDF.</p>
+
+                    <p>Zoom in and print out full-page versions of two of your favorite sketches from the first part of the assignment, and two of your favorite sketches from the second part of the assignment. Also bring your sketchbooks to class &mdash; we'll be looking at each others' work!</p>
+
+                    <p>If accessibility constraints would make it difficult for you to execute this assignment, please post (anonymously if you wish) to the class forum. In particular, please envision an alternate means of observing and communicating your observations to others, and share it in your post. If it sounds good to us, we'll OK it!</p>
+
+                    <p>Please post any questions about this project or others to the class Piazza forum.</p>
+                </div>
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>An important thing to keep in mind for this advanced class is that full credit is not automatic, nor very common. (There will of course be a curve at the end.) Nobody is perfect at design at first.</p>
+
+                    <p>Remember that there are no unit tests for design. In the real world, evaluation is a subjective <i>but highly expert practice</i>. We ensure fair grading by having both the TA and the studio instructor, who has years of experience, review your submission.</p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="good" valign="top">Excellent</th>
+                                  <th id="excellent" valign="top">Mastery</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Visual tools</div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Little use of sketching techniques, visual organization, or emphasis.</td>
+                                    <td headers="adequate">2: Some use of visual tools such as sketching techniques to communicate ideas, but they are used ineffectively or sparsely. Inappropriate level of detail.</td>
+                                    <td headers="good">3: Generally effective use of visual communication techniques to convey ideas. Level of detail may be a bit too much or too little. At least one major shortcoming or area for improvement.</td>
+                                    <td headers="excellent">4: Effective use of visual communication techniques to convey ideas. Level of detail is generally appropriate, but could be tweaked. Minor areas for improvement.</td>
+                                    <td headers="mastery">5: Mastery of visual communication tools to convey the ideas. Excellent choice of level of detail..</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
