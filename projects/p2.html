@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 2">
+    <title>Project 2</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="#">Submit Work</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/iiz19k9xk6j6ob">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 2: Interaction Design</h2>
+
+                        <p class="lead">P2 is our opportunity to dive into interaction design for the web. This project focuses on information hierarchy, layout, and visual design.</p>
+                    </div>
+                </div>
+
+                <div id="schedule" class="sidenav-anchor">
+                    <h2>Schedule and Feedback</h2>
+
+                    <p>Your team can work on P2 at its own pace from here until its deadline on January 25th. There is one milestone along the way (see below) and a final project submission. You will receive completion points as you pass each milestone. You can continue to iterate and revise throughout the assignment, so your assessment will be delivered with your final submission at the end of the quarter. Between now and then, we will work with you in every studio to coach you toward the best project possible and give you feedback on each milestone.</p>
+
+                    <p>As you proceed through the milestones, you can submit them to Canvas before class and by bringing printouts to class to show in studio. You can turn in a milestone at any class studio meeting, or office hours. If you have completed the milestone requirements, you will receive full points. When you submit each milestone, the course staff and your peers will work with you to critique your submission and provide a √-/√/√+ assessment.<p>
+
+          		      <ul>
+                      <li>A √- typically means that you should go back and redo the milestone in more depth. </li>
+                      <li>A √ means that the milestone is sufficient to move on. We would encourage you to think and iterate more based on our feedback before you continue, though. </li>
+                      <li>A √+ means that you have exceeded our expectations. </li><li>You are welcome to revise and resubmit a milestone as many times as you would like for feedback during studio sessions or office hours. Do so by updating the files in your Canvas submission. We will accept revisions up until the final project deadline.</li>
+                    </ul>
+
+                    <p>There are two reasons why we are using self-paced milestones for projects. Primarily, in prior iterations of the class, students and instructors often wanted to go back and iterate on milestones before moving on, but a fixed deadline structure made this very difficult. Second, working together with a team to plan and execute a large-scale project over a period of weeks or months is central to design practice.</p>
+                </div>
+
+                <div id="schedule" class="sidenav-anchor">
+                    <h2>Project Parts</h2>
+                    <p>Below is our recommended timeline for Project 2. These dates are the dates by which we recommend completing each milestone: keep in mind that <b>it may take several iterations of feedback on submissions before you and your team are ready to declare a milestone complete</b>. So aim to submit your first version of each milestone at least one studio day before the deadline you want to hit. Remember that this schedule is a suggestion; we expect that some teams will take more time interating through some of these milestones and less time on others. All deadlines are as of the beginning of class.</p>
+
+                    <ul>
+                        <li>Jan. 15 (week 2): <a href="p2-1.html">P2.I</a>.</li>
+                        <li>Jan. 25 (week 4): <a href="p2-2.html">P2.II</a>. Final submission, <b>hard deadline</b>.</li>
+                    </ul>
+                </div>                
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>The intermediate milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to studio for feedback.<p>
+
+	                <a href="p2-2.html">Part II</a>, the final submission, will be the only part of the assignment where we evaluate your work and assign points. It is worth <b>15 points</b>, and more detailed rubrics are available on the <a href="p2-2.html">Part II</a> pages.
+                </div>
+
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
