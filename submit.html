@@ -1,67 +1,125 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HCI Design Studio">
-    <title>CS 247 &middot; logistics</title>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="HCI Design Studio">
+ <title>CS 247 &middot; logistics</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/hci.css" rel="stylesheet">
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.css" rel="stylesheet">
+ <link href="css/bootstrap-theme.css" rel="stylesheet">
+ <link href="css/hci.css" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
+      <![endif]-->
+    </head>
+    <body data-spy="scroll" data-target=".sidenav">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="index.html">Home</a></li>
+              <li><a href="index.html#calendar">Calendar</a></li>
+              <li><a href="logistics.html">Logistics</a></li>
+              <li><a href="submit.html">Submit Work</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://piazza.com/class/iiz19k9xk6j6obg">Questions</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class=""><a href="index.html">Home</a></li>
-            <li><a href="index.html#calendar">Calendar</a></li>
-            <li><a href="logistics.html">Logistics</a></li>
-            <li><a href="submit.html">Submit Work</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/iiz19k9xk6j6obg">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
       </div>
-    </div>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-                <div class="sidenav" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
-                    <ul class="nav nav-stacked" id="sidenav-content">
-                    </ul>
-                </div> <!-- /sidenav -->
-            </div> <!-- /col-md-3 -->
-            <div class="col-md-9" id="logistics">
-				<div id="submit" class="sidenav-anchor">
-					<h3>Submission Procedure</h3>
-					<p>To submit an assignment, go to <a href="https://canvas.stanford.edu">canvas.stanford.edu</a>. From there, go to CS247 (either from clicking on CS247 from the Dashboard or by clicking on Courses). Then click on <b>Assignments</b> -> <b>P1</b> (left menu) -> <b>Submit Assignment</b> (top right).</p>
-          <p>After uploading your file, click <b>Submit Assignment</b>.</p>
-				</div>
+      <div class="container">
+        <div class="row">
+         <div class="col-md-3">
+          <div class="sidenav" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+            <ul class="nav nav-stacked" id="sidenav-content">
+            </ul>
+          </div> <!-- /sidenav -->
+        </div> <!-- /col-md-3 -->
+        <div class="col-md-9" id="logistics">
+          <div id="deliverables" class="sidenav-anchor">
+           <h3>Project Deliverables</h3>
+           <p>Below each milestone is a list of the required deliverables. For full instructions, refer to the project page linked in the milestone's title.</p>
+            <div id="p1" class="sidenav-anchor">
+              <h4><a href="projects/p1.html">Project 1: That's Pretty Sketchy</a></h4>
+            </div>
+            <div id="p2" class="sidenav-anchor">
+              <h4><a href="projects/p2.html">Project 2: Interaction Design</a></h4>
+              <h5><a href="projects/p2-1.html">Part 1</a></h5>
+               <ul>
+                <li>Your one-paragraph user summary</li>
+                <li>Your ten thumbnail sketches</li>
+                <li>Your three Sketch mocks</li>
+                <li>Your one HTML mock (screenshots)</li>
+                <li>A link to a live version of your HTML mock</li>
+              </ul>
+              <h5><a href="projects/p2-2.html">Part 2</a></h5>
+              <ul>
+                <li>Your Part I crit synthesis and revised mock, starting with Sketch and then moving to an HTML implementation (include both screenshots and a link to the live HTML).</li>
+                <li>Your mood board.</li>
+                <li>Your three pixel-perfect mocks in Sketch, and your one final, revised mock also in Sketch.</li>
+                <li><a href="http://goo.gl/forms/9Wo1aJgPxM" target="_blank">Also submit a team assessment form</a> (one for every member of the team). You will only get credit for P2-2 when every member of your team submits a form.</li>
+              </ul>
+            </div>
+            <div id="p3" class="sidenav-anchor">
+              <h4><a href="projects/p3.html">Project 3: Design Sprint</a></h4>
+              <h5><a href="projects/p3-1.html">Part 1</a></h5>
+              <ul>
+                <li>A text file with your team members' names and SUNet IDs.</li>
+                <li>A document detailing your topic of interest, your needfinding plan, and your discussion guide.</li>
+              </ul>
+              <h5><a href="projects/p3-2.html">Part 2</a></h5>
+              <ul>
+                <li>One PDF with your raw observations</li>
+                <li>One PDF with your transcribed 3-minute clip of the interview</li>
+                <li>One PDF with your selected observations with explanations</li>
+                <li>One PDF with your needfinding interpretations, needs, and "How Might We...?" questions</li>
+              </ul>
+              <h5><a href="projects/p3-3.html">Part 3</a></h5>
+              <ul>
+                <li>One PDF that contains your brainstormed idea sketches, and your further explorations of two top ideas.</li>
+                <li>One PDF that contains your brainstormed dark horse ideas, and your further exploration of one of them.</li>
+                <li>Three PDF or zip files, one for each prototype: the question each was trying to ask, and a description (including images) of each.</li>
+              </ul>
+              <h5><a href="projects/p3-4.html">Part 4</a></h5>
+              <ul>
+                <li>A PDF with your user feedback from the needfinding with prototypes.</li>
+                <li>A PDF with your sketches and brainstorms</li>
+                <li>A PDF with your final proposed design</li>
+                <li>Everyone must fill out our <a href="http://goo.gl/forms/Y2UxyVty6K">Team Dynamics Check-in</a> along with their milestone. If things could be going better, this gives us as staff a chance to step in and help.</li>
+              </ul>
+            </div>
+            <div id="p4" class="sidenav-anchor">
+              <h4>Project 4: Coming Soon</h4>
+            </div>
+          </div>
+          <div id="submission-procedure" class="sidenav-anchor">
+            <h3>Submission Procedure</h3>
+            <p>To submit an assignment, go to <a href="https://canvas.stanford.edu">canvas.stanford.edu</a>. From there, go to CS247 (either from clicking on CS247 from the Dashboard or by clicking on Courses). Then click on <b>Assignments</b> -> <b>P1 (for example)</b> (left menu) -> <b>Submit Assignment</b> (top right).</p>
+            <p>After uploading your file, click <b>Submit Assignment</b>.</p>
+            <p>For group submissions, only one member needs to submit the deliverables for the whole group.</p>
+          </div>
+        </div>
 
-					
+
         <!--
 				<div id="faq" class="sidenav-anchor">
 					<h3>Frequently asked questions</h3>
@@ -86,16 +144,16 @@
   				</div>  				
 					</div>
 				</div>
-        -->
-			</div>
-		</div>
+      -->
+    </div>
+  </div>
 
-	</div>
+</div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/hci.js"></script>
-  </body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<script src="js/hci.js"></script>
+</body>
 </html>
