@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 4">
+    <title>Project 4</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="../submit.html">Projects</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 4: Final</h1>
+                        <h4 style="color: #888888">Part III: final presentation</h4>
+                    </div>
+                </div>
+
+               <div id="iterate" class="sidenav-anchor">
+                    <h2>Iterate</h2>
+                    <p>Based on your feedback from your users and in your studio, iterate on your prototype. This is your last chance to pull out the stops!</p>
+
+                    <p>Flesh out your prototype. Reflect on our lessons from the visual design component of class: start with visual information hierarchy, then think about grids, layout, negative space, color, fonts, and more. Even at this final state, remember that it's a prototype and not a demo: it doesn't need to be complete. If you ever start talking about options or preferences or user logins, stop — you're not focusing on the right parts of the prototype. You can probably even fake most of the data in your application. We don't expect a live database. However, the prototype should be maturely designed now, so that expert external judges now so that you can get user feedback on the main interaction flow and needs.</p>
+
+                    <p>Bring your prototype so you can show it off during the demo and poster session! The staff and judges will interact with it there. Prepare a user task or scenario (or maybe a small set of them) to run through on the prototype with visitors to your poster. Think in advance of how to demo your system with as little friction as possible.</p>                    
+                </div> 
+
+                <div id="pitch" class="sidenav-anchor">
+                    <h2>Pitch</h2>
+                    <p>You need to come up with a forty five-second pitch to the audience. You are welcome to design your pitch however any way that you feel will be compelling. We will present your slide(s) behind you as you present, and will automatically go on to the next group after forty five seconds. Keep in mind that your audience are likely design experts.</p>
+
+                    <p>Look below for details on how to submit your presentation materials.</p>
+                </div>
+
+                <div id="poster" class="sidenav-anchor">
+                    <h2>Poster</h2>
+                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main concept. It should be geared towards pitching your project to viewers/judges and not about your design process. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco($25)</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit</h2>
+                    <b>The deliverables are due by Friday (3/11) 10am so that we can compile the slide deck</b>. Include:</p>
+                    <ul>
+                        <li>A text file with your project name and all team members' names — we will be using this to personalize the judges' rubric sheets.</li>
+                        <li>Either: 
+                            <ul>
+                            <li>A 45-sec video about your project, or</li>
+                            <li>A 45-sec Powerpoint (<b>16:9 aspect ratio, pptx</b>) presentation for your project. If your presentation is on multiple slides or uses animation, time the slides to advance automatically.</li>
+                            </ul>
+                        </li>
+                        <li>Your poster file, in PDF form.</li>
+                    </ul>
+                </div> 
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>The grading in this section focuses on your presentation and poster materials. The grading for the overall prototype and demo will be attached to your final deliverable, due during finals.</p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Presentation</div></div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Presentation and poster are incomplete or insufficient.</td>
+                                    <td headers="adequate">2: Presentation and poster tend to obscure the main idea.</td>
+                                    <td headers="adequate">3: Presentation and poster adequately explain the main idea, but are overwhelmed by details, do not present enough information, or are unclear.</td>
+                                    <td headers="good">4: Presentation and poster are generally clear, with moderate but not game-over issues.</td>
+                                    <td headers="excellent">5: Presentation and poster communicate the design idea clearly and effectively.</td>
+                                </tr>                                        
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+                </div>
+
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
