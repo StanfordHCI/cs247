@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 3">
+    <title>Project 4</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.css" rel="stylesheet">
+    <link href="../css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".sidenav">
+
+    <!-- 
+    Assignment template
+    ------------------
+    To create a new assignment:
+    1) Write all the HTML as you normally would underneath the #assignment-description div.
+    2) Anything that you want to appear in the navbar on the left needs to be enclosed
+        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
+        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
+        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
+    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
+        <div class="table-responsive">.
+    -->
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#calendar">Calendar</a></li>
+            <li><a href="../logistics.html">Logistics</a></li>           
+            <li><a href="../submit.html">Projects</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="project container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidenav" data-spy="affix">
+                    <ul class="nav nav-stacked" id="sidenav-content">   
+                    </ul>
+                </div> <!-- /sidenav -->
+            </div> <!-- /col-md-3 -->  
+            <div class="col-md-9" id="assignment-description"> 
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Project 4: Final</h2>
+
+                        <p class="lead"> P4 is your chance to go deep, iterate, and create your prototype. It culminates with the final presentations during dead week.</p>
+                    </div>
+                </div>
+
+                <div id="goals" class="sidenav-anchor">
+                  <h2>Goal</h2>
+                  P4 pulls it all together: visual communication, interaction design, and prototype implementation. Continue with your P3 teams to aim for a realized prototype that has evolved based on user feedback. 
+                </div>
+
+                <div id="schedule" class="sidenav-anchor">
+                    <h2>Schedule and Feedback</h2>
+
+                    <p>Below is our recommended timeline for Project 4. Remember that <b>it may take several iterations of feedback on submissions before you and your team are ready to declare a milestone complete</b>. So aim to submit your first version of each milestone at least one studio day before the deadline you want to hit. </p>
+                    <ul>
+                        <li>Feb. 29 (week 9): <a href="p4-1.html">P4.I — functional prototype</a></li>
+                        <li>Mar. 4 (week 9): <a href="p4-2.html">P4.II — user feedback</a></li>
+                        <li>Mar. 11 (week 10) @ 10am, <strong>hard deadline</strong>: <a href="p4-3.html">P4.III — final prototype and presentations</a></li>
+                        <li>Mar. ?? (finals) @ ???pm, <strong>hard deadline</strong>: <a href="p4-4.html">P4.IV - team feedback and final report</a> </li>
+                    </ul>
+                </div>                
+
+                <div id="evaluation" class="sidenav-anchor">
+                    <h2>Grading rubric</h2>
+                    <p>Each of the three milestones is worth <strong>five points</strong>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing printouts to class for feedback.<p>
+
+                    <p>We will grade both the <a href="p4-3.html">final presentation</a> and the <a href="p4-4.html">final submission</a> summatively.
+                </div>
+
+            </div>            
+        </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/hci.js"></script>
+  </body>
+</html>
