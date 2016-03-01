@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interaction Design Studio">
+    <title>CS 247 &middot; HCI Design Studio</title>
+
+  	<!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+      <style>
+      .judge .img-circle{
+      	width: 140px; 
+      	height: 140px;
+      	margin-bottom: 10px;
+      }
+      .judge{
+      	float: left;
+      	/*height: 250px;*/
+      	text-align: left;
+      }
+      .featurette-heading{
+      	padding-bottom: 30px;
+      }
+      .lead span{
+      	font-weight: bold;
+      }
+      .lead .detail{
+        font-size: 16px;
+        color:#888;
+        list-style-type: none;
+        padding: 0px 0px 10px 168px;
+      }
+      @media only screen and (max-width: 768px){
+          .lead .detail{
+            padding-left:0px;
+          }
+      }
+      </style>
+    <body>
+
+        <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#calendar">Calendar</a></li>
+            <li><a href="logistics.html">Logistics</a></li>
+            <li><a href="submit.html">Deliverables</a></li>
+            <li><a href="finalpresentations.html">Final Presentation</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/iiz19k9xk6j6ob">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+  <div class="container">
+    <div class="jumbotron">
+     <h3>CS247 HCI Design Studio</h3>
+     <h1>Final Presentation</h1>
+     <p>Friday, March 11, 6pm - 8pm</p>
+     <p>Stanford d.school (550 Panama Mall, Stanford)</p>
+   </div>
+
+ <div id="syllabus">
+   <p class="lead">Come and check out how 80 Stanford students solve real-world problems with programming and design. </p>
+   <p class="lead">There will be 26 teams presenting their projects. </p>
+
+   <hr>
+
+   <div class="row">
+    <div class="container">
+     <div class="row featurette">
+      <div class="col-md-7">
+       <h2 class="featurette-heading">Agenda</h2>
+       <ul class="lead">
+          <li> 
+             5:30 - 6:00pm   Social Mixer
+          </li>
+          <li class="detail">
+            Students set up and guests arrive.
+          </li>
+          <li>
+            6:00pm - 6:15pm   Introduction
+          </li>
+          <li>
+            6:15pm - 7:00pm   Elevator Pitches
+          </li>
+          <li class="detail">
+            Each team presents a 30-second pitch of their work.
+          </li>
+          <li>
+            7:00pm - 7:50pm   Poster and Demo Session
+          </li>
+          <li class="detail">
+            Students present demos of their prototypes. Food will be served. 
+          </li>
+          <li>
+            7:50pm - 8:00pm   Closing Remarks
+          </li>  								
+      </ul>
+  </div>
+<div class="col-md-5">
+  <h2>
+    Project themes:
+  </h2>
+    <ul class="lead">
+      <li>Autonomous Things</li>
+      <li>Destinations</li>
+      <li> Leveling the Playing Field</li>
+      <li> Towards Invisible Interfaces</li>
+      <li> Home is Where the Heart Is</li>
+      <li> Technology for Human Being </li>
+    </ul>
+</div>
+</div>
+
+
+<hr class="featurette-divider">
+
+<!-- Three columns of text below the carousel -->
+<h2 class="featurette-heading">Judges</h2>
+<div id="judgeWrapper"></div>
+
+
+<!-- START THE FEATURETTES -->
+
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.4596406022183!2d-122.17190060000001!3d37.426245099999925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad571970303%3A0xe54e90a1fed21300!2s550+Panama+Mall!5e0!3m2!1sen!2sus!4v1394479497997" width="100%" height="400" frameborder="0" style="border:0"></iframe>
+  </div>
+
+  <div class="col-md-7">
+    <h2 class="featurette-heading">Where is the <span class="text-muted">d.school</span>?</h2>
+    <p class="lead">The d.school (Hasso Platner Institute of Design) lives in <span><a href="https://www.google.com/maps/place/550+Panama+Mall/@37.4262451,-122.1719006,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbad571970303:0xe54e90a1fed21300" target="_blank">Building 550</a></span>, in the center of campus. </p>
+
+
+    <p class="lead">  Thomas F. Peterson Engineering Laboratory/Building 550<br/>
+      550 Panama Mall<br/>
+      Stanford, CA 94305</p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  <div class="row featurette">
+    <div class="col-md-7">
+     <h2 class="featurette-heading">Parking</h2>
+     <p class="lead">If you are visiting from off-campus, you should park at <span><a href="https://www.google.com/maps/place/L-39/@37.4234363,-122.1709056,17z/data=!3m1!4b1!4m2!3m1!1s0x808fbad4658159a1:0x24ff3038f06f81fe" target="_blank">Tressider Visitor Parking</a></span> and then walk to Building 550. Parking is free, starting at 4PM.</p>
+     <p>For more information, please visit <a href="http://dschool.stanford.edu/about/#getting-to-our-building" target="_blank" >http://dschool.stanford.edu/about/#getting-to-our-building</a></p>
+   </div>
+   <div class="col-md-5">
+     <a href="http://maps.google.com/maps?saddr=Stanford,+California+(Tresidder+Union+Parking+Lot)&amp;daddr=Panama+St&amp;hl=en&amp;ll=37.424366,-122.169529&amp;spn=0.008001,0.015374&amp;sll=37.424475,-122.17039&amp;sspn=0.004,0.007687&amp;geocode=FdUHOwIdYtK3-CEtOFr4xFyIWg%3BFQUTOwIdkM63-A&amp;vpsrc=6&amp;t=v&amp;dirflg=w&amp;mra=dme&amp;mrsp=1&amp;sz=18&amp;z=17"><img src="http://cl.ly/2M152a0u1m341K1A3A3T/Screen%20shot%202011-11-21%20at%2012.54.57%20AM.png" alt="image" width="100%"></a>
+   </div>
+ </div>
+
+ <hr class="featurette-divider">
+
+
+ <!-- FOOTER -->
+ <footer>
+  <p class="pull-right"><a href="#">Back to top</a></p>
+</footer>
+
+</div>
+
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    // $.getJSON('./judge/info.json', function(data){
+
+
+     var data=[
+        {
+            "name": "Armando Garza",
+            "bio": "Armando Garza is a seasoned designer with marketing expertise. His passion for designing customer experiences began 15 years ago as a print and digital designer for an in-house marketing team. Throughout his career he has partnered with startups and marketing agencies as an independent design consultant. Today, Armando designs experiences for a Fortune 100 company in Silicon Valley where he is responsible for the customer experience of an ecommerce website.",
+            "photo": "images/judges/garza.png"
+        },
+        {
+            "name": "George Arriola",
+            "bio": "George Arriola celebrates the renegade spirit of California by designing products and experiences that are: Human. Simple. Authentic. Currently, Arriola runs the bespoke skunk works product design consultancy, Minimalisms.  Working with craftspeople around the world, he has designed iconic objects and experiences such as the world's first heirloom electronic, Runcible, by Monohm. Designed to be quiet. Fundamentally calming. Humanistic.  Previously, Arriola led multidisciplinary teams of industrial design and CMF, visual and interactive design, and product management, focused on product design at Apple, PlayStation, Sony, Theranos and Adobe.  During his tenure with Sony, Arriola was directly responsible for establishing, defining and driving Sony's common UX across all 5-screens known as \"genome\" from Bravia 4K, Xperia to Vita, ending with the PlayStation 4 console and connected experiences.  When not working, he enjoys artisan sake brewing, culinary excursions, architecture and hunting for the next best cup of cold brew coffee.  Arriola currently splits his time between San Francisco, Tokyo and Kyoto.",
+              "photo": "images/judges/arriola.png"
+        },
+        {
+            "name": "Seth Hunter",
+            "bio": "I am a research scientist at Intel Labs - formerly at the MIT Media Lab. I have a background in Cog. Sci, HCI, Art and Technology, UX, and now Holography. ",
+            "photo": "images/judges/hunter.png"
+
+        },
+        {
+            "name": "David Ayman Shamma",
+            "bio": "I dig everything HCI & AI & Social Computing. ",
+            "photo": "images/judges/shamma.png"
+
+        },
+        {
+            "name": "Adam Elman",
+            "bio": "I'm a senior interaction designer at Intel.  I've been working in design for about 15 years, with a special focus in speech and language-based UI. I'm also a Stanford HCI alum!",
+            "photo": "images/judges/elman.png"
+        },
+        {
+            "name": "Jenny Oja Mailhot",
+            "bio": "I’m a Design Director at Sliced Bread Design, a boutique design agency in Mountain View, CA. We follow a design thinking process on all of our projects. We consult with all kinds of clients, from startups like Ring to large companies like Google, and my expertise is in user research and interaction design. Previously, I was a design manager at Adobe Systems for the Creative Suite products and way back when was the lead designer for the early versions of InDesign.",
+            "photo": "images/judges/mailhot.png"
+        },
+        {
+            "name": "David Chouinard",
+            "bio": "Imagineer (R&D) at Walt Disney Imagineering, with a focus on visual analytics and HCI. Previously: flight tracking tools (FlightAware).",
+            "photo": "images/judges/chouinard.png"
+        },
+        {
+            "name": "Karim Guessous",
+            "bio": "Karim is the Founder and CEO of Tradepal, a mobile bulletin board for college students.",
+            "photo": "images/judges/guessous.png"
+        },
+        {
+            "name": "Kathryn Papadopoulos",
+            "bio": "Kathryn is a UX Researcher at Google, working on their Knowledge team (spanning Search, Identity, and Maps products). She is an alum of Stanford, having completed her masters in Symbolic Systems.",
+            "photo": "images/judges/papadopoulos.png"
+        },
+        {
+            "name": "Kevin Ho",
+            "bio": "Kevin is a software engineer and project lead at IDEO, where he focuses on designing experiences where software plays a key role. Past work has ranged from designing products for multimodal transit to data visualizations of data in the retail space.",
+            "photo": "images/judges/ho.png"
+        },
+        {
+            "name": "Terry Winograd",
+            "bio": "Longtime Stanford HCI teacher - created the CS247 course in 1990",
+            "photo": "images/judges/winograd.png"
+        },
+        {
+            "name": "Mike Brzozowski",
+            "bio": "Mike is a researcher at Google, working on scaling qualitative research methods to better understand people in India. Before that, he was a researcher in HP Labs' Social Computing Group, and before that, he was at Stanford specializing in HCI.",
+            "photo": "images/judges/brzozowski.png"
+        },
+        {
+            "name": "Frank Bentley",
+            "bio": "Principal Researcher at Yahoo leading research for our Communications products.  Also teach HCI at MIT, on EdX, and at Stanford.",
+            "photo": "images/judges/bentley.png"
+        },
+        {
+            "name": "Sean Follmer",
+            "bio": "Sean Follmer is a human-computer interaction researcher and designer. He is an Assistant Professor of Mechanical Engineering at Stanford University, where he teaches the design of smart and connected devices and leads research at the intersection between human-computer interaction (HCI) and robotics.",
+            "photo": "images/judges/follmer.png"
+        },
+        {
+            "name": "Stuart Card",
+            "bio": "Stuart Card is presently a Consulting Professor in the CS Dept. Previously, he was a Senior Research Fellow and manager at Xerox PARC. His human performance studies led to the introduction of the mouse, and he has done work in information visualization and information foraging. In 2007, he won the Bower Award and Prize from the Franklin Institute for his theoretical studies in HCI. He is a member of the National Academy of Engineering.",
+            "photo": "images/judges/card.png"
+        },
+        {
+            "name": "Tejinder Judge",
+            "bio": "Tejinder Judge is a User Experience Researcher at Google. She currently leads research on Google for Families. ",
+            "photo": "images/judges/judge.png"
+        },
+        {
+            "name": "Franci McFarland",
+            "bio": "Senior User Experience Researcher at LinkedIn, improving the design of technology products by providing deep understanding of users’ wants, needs and pain points.\n",
+            "photo": "images/judges/mcfarland.png"
+        },
+        {
+            "name": "Graham Roth",
+            "bio": "Associate Product Manager at IXL Learning.  Stanford graduate with a BS in Physics and Computer Science (HCI) and an MS in Computer Science (HCI), and former CS247 TA. Passionate about food and the arts, as well meaningful products that do good for people.",
+            "photo": "images/judges/roth.png"
+        }
+    ];
+
+    var curRow = null;
+    for (var i=0;i<data.length;i++){
+      var width = 6;
+      if (i%(12/width) == 0) {
+        curRow = $("<div>", { class: "row" });
+        $("#judgeWrapper").append(curRow);
+      }
+     var judge=$("<div>", {id: "judge"+i, class: "col-md-" + width + " judge"});
+     var photo=$("<img>",{class:"img-circle", alt:data[i].name, src:data[i].photo});
+     curRow.append(judge);
+     $("#judge"+i).append(photo);
+     $("#judge"+i).append("<h3>"+data[i].name+"</h3><p>"+data[i].bio+"</p>");
+   }
+
+    // });
+});
+
+</script>
+
+</body>
+</html>
