@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interaction Design Studio">
+    <title>CS 247 &middot; HCI Design Studio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <link href="css/hci.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+
+    </style>
+    <body>
+
+        <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#calendar">Calendar</a></li>
+            <li><a href="logistics.html">Logistics</a></li>
+            <li><a href="submit.html">Deliverables</a></li>
+            <li><a href="finalpresentations.html">Final Presentation</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://piazza.com/class/iiz19k9xk6j6ob">Questions</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+  <div class="container">
+    <div class="jumbotron">
+     <h3>CS247 HCI Design Studio</h3>
+     <h1>Final Presentation</h1>
+     <p>Friday, March 11, 6pm - 8pm</p>
+     <p>Stanford d.school (550 Panama Mall, Stanford)</p>
+   </div>
+
+   <div>
+       <h2> Presentation Order </h2>
+       <p> Pitches will be delivered in the following order. Find a specific project after the pitches at the table listed; corresponding map below. 
+
+       <div>
+           <h3> Leveling the Playing field </h3>
+            <ul id="ltpf">
+            </ul>
+        </div>
+
+        <div>
+            <h3> Technology for Human-Being </h3>
+            <ul id="tfhb">
+            </ul>
+        </div>
+
+        <div>
+           <h3> Home is Where the Heart Is </h3>
+            <ul id="hiwthi">
+            </ul>
+        </div>
+
+        <div>
+            <h3> Destinations </h3>
+            <ul id="dest">
+            </ul>
+        </div>
+
+        <div>
+            <h3> Autonomous Things </h3>
+            <ul id="at">
+            </ul>
+        </div>
+
+        <div>
+            <h3> Invisible Interfaces </h3>
+            <ul id="ii">
+            </ul>
+        </div>
+
+    </div>
+
+    <div>
+        <h2> Atrium Map </h2>
+        <img src="images/map.png" alt="Atrium Map">
+    </div>
+
+
+  </div>
+
+
+ <!-- FOOTER -->
+ <footer>
+  <p class="pull-right"><a href="#">Back to top</a></p>
+</footer>
+
+</div>
+
+
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../js/bootstrap.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    // $.getJSON('./judge/info.json', function(data){
+
+
+     var data=[
+    {
+        "studio": "Leveling the Playing Field",
+        "title": "Obi",
+        "description": "Helping teachers collaboratively care for their students.",
+        "name1": "Ashwin",
+        "name2": "Clark",
+        "name3": "Andrew",
+        "tablenum": 1,
+        "pitchnum": 1
+    },
+    {
+        "studio": "Leveling the Playing Field",
+        "title": "Daana",
+        "description": " Many people hesitate when donating to a nonprofit because they don't know how their money will be spent; using Daana, nonprofits can encourage more people to donate by easily sending periodic updates to their donors on the specific people they are helping and how.",
+        "name1": "Courtney",
+        "name2": "Nathaniel",
+        "name3": "Crystal",
+        "tablenum": 2,
+        "pitchnum": 2
+    },
+    {
+        "studio": "Leveling the Playing Field",
+        "title": "JumpStart",
+        "description": "Low-Income Student College Tuition, Paid For By Tech Companies.",
+        "name1": "Gordon",
+        "name2": "Rachel",
+        "name3": "Maddy",
+        "name4": "Krister",
+        "tablenum": 3,
+        "pitchnum": 3
+    },
+    {
+        "studio": "Leveling the Playing Field",
+        "title": "Ufu",
+        "description": "Ufu is the data-driven solution to after-school tutoring programs. Empower your tutors, motivate your students, and drive your program to success!",
+        "name1": "Santiago",
+        "name2": "Jared",
+        "name3": "Colin",
+        "tablenum": 4,
+        "pitchnum": 4
+    },
+    {
+        "studio": "Human Being",
+        "title": "Liveset",
+        "description": "Liveset introduces the social element to the experience of music listening by facilitating live music listening with new people based on your music tastes. ",
+        "name1": "Brian",
+        "name2": "Albert",
+        "name3": "Derrick",
+        "tablenum": 5,
+        "pitchnum": 5
+    },
+    {
+        "studio": "Human Being",
+        "title": "friendSHIP",
+        "description": "We are helping close friends resolve conflicts in their relationships by giving a structure to help them reflect on their experiences and making feedback a regular and normal part of the relationship.",
+        "name1": "Jennifer",
+        "name2": "Stephanie",
+        "name3": "Tamu",
+        "tablenum": 6,
+        "pitchnum": 6
+    },
+    {
+        "studio": "Human Being",
+        "title": "Dance Diff",
+        "description": "Dance Diff pairs your dance video with that of an instructor and allows a visual comparison with crowdsourced suggestions for improvement.",
+        "name1": "Lloyd",
+        "name2": "Ray",
+        "name3": "Sharleen",
+        "tablenum": 7,
+        "pitchnum": 7
+    },
+    {
+        "studio": "Human Being",
+        "title": "Lotus",
+        "description": "Lotus is a wearable app that provides meditation for busy people.",
+        "name1": "Sarah",
+        "name2": "Peter",
+        "name3": "David",
+        "tablenum": 8,
+        "pitchnum": 8
+    },
+    {
+        "studio": "Human Being",
+        "title": "MaskMatch",
+        "description": "Our app help people effortlessly find a lunch/coffee partner right at where they are.",
+        "name1": "Sherry",
+        "name2": "Yinglan",
+        "name3": "Jun",
+        "tablenum": 9,
+        "pitchnum": 9
+    },
+    {
+        "studio": "Home is where the heart is",
+        "title": "Quality Time",
+        "description": "Quality Time provides activity ideas to busy parents to help them plan quality time with their children.",
+        "name1": "Amanda",
+        "name2": "Jia",
+        "name3": "Juliana",
+        "tablenum": 10,
+        "pitchnum": 10
+    },
+    {
+        "studio": "Home is where the heart is",
+        "title": "SleepTec",
+        "description": "SleepTec is a smart pillow/companion app interface that collects information about a user's sleep, then presents that data in an easy to understand format, including actionable tasks designed to improve the user's sleep. ",
+        "name1": "April",
+        "name2": "Adrian ",
+        "name3": "Thu",
+        "name4": "Kirby",
+        "tablenum": 11,
+        "pitchnum": 11
+    },
+    {
+        "studio": "Home is where the heart is",
+        "title": "Mission Control ",
+        "description": "Mission Control helps parents and kids capture and celebrate the milestones that come with growing up.",
+        "name1": "Jare",
+        "name2": "Sam",
+        "name3": "Nathalia",
+        "name4": "Kat",
+        "tablenum": 12,
+        "pitchnum": 12
+    },
+    {
+        "studio": "Destinations",
+        "title": "Storybook",
+        "description": "Storybook is a photo-based scavenger hunt app that pushes for guest interaction before the wedding. ",
+        "name1": "Allen",
+        "name2": "Lorena",
+        "name3": "Ramon",
+        "tablenum": 13,
+        "pitchnum": 13
+    },
+    {
+        "studio": "Destinations",
+        "title": "Footsteps",
+        "description": "Footsteps helps travelers explore the hidden gems of foreign places by following personal journeys created by others. ",
+        "name1": "Catherine",
+        "name2": "Benhan",
+        "name3": "Andrei",
+        "tablenum": 14,
+        "pitchnum": 14
+    },
+    {
+        "studio": "Destinations",
+        "title": "stumbl",
+        "description": "stumbl helps people discover and share hidden adventures, so everyone can feel like a local.",
+        "name1": "Gus",
+        "name2": "Nate",
+        "name3": "Peter",
+        "tablenum": 15,
+        "pitchnum": 15
+    },
+    {
+        "studio": "Destinations",
+        "title": "Townie",
+        "description": "Townie is a solution that provides users a holistic understanding of restaurants in a holistic understanding of restaurants in an unknown region in order to instill more confidence in dining decisions.",
+        "name1": "Joseph",
+        "name2": "Timi",
+        "name3": "Qingping",
+        "tablenum": 16,
+        "pitchnum": 16
+    },
+    {
+        "studio": "Destinations",
+        "title": "Slate",
+        "description": "Slate, a beautiful way to build your travel experience.",
+        "name1": "Kate",
+        "name2": "Emily",
+        "name3": "Peter",
+        "tablenum": 17,
+        "pitchnum": 17
+    },
+    {
+        "studio": "Autonomous Things",
+        "title": "Pay It Forward",
+        "description": "Make friends through casual dining and sponsored meals; connect through something we all love!",
+        "name1": "Kevin",
+        "name2": "Adrienne",
+        "name3": "Evan",
+        "tablenum": 18,
+        "pitchnum": 18
+    },
+    {
+        "studio": "Autonomous Things",
+        "title": "Amend",
+        "description": "Project Managing Avatar that improves provides positive affirmation",
+        "name1": "Nathan",
+        "name2": "Dartis",
+        "name3": "Sarai",
+        "tablenum": 19,
+        "pitchnum": 19
+    },
+    {
+        "studio": "Autonomous Things",
+        "title": "ACL Mate",
+        "description": "Mobile app that helps individuals with limited access to insurance to get better physical therapy care after ACL surgery, leveraging social networks and pre-loaded exercises.",
+        "name1": "Stephen",
+        "name2": "Will",
+        "name3": "Vivek",
+        "tablenum": 26,
+        "pitchnum": 20
+    },
+    {
+        "studio": "Autonomous Things",
+        "title": "Conductor",
+        "description": "We address future situations in which people need to be guided and assured oftheir safety without any nearby authority figures during different autonomous bus incidents.",
+        "name1": "Ramon",
+        "name2": "Tyler",
+        "name3": "Will",
+        "tablenum": 20,
+        "pitchnum": 21
+    },
+    {
+        "studio": "Autonomous Things",
+        "title": "MadeEasy",
+        "description": "We help users repurpose their routine groceries and leftovers by suggesting new and exciting recipes to make with ingredients on hand.",
+        "name1": "Shelley",
+        "name2": "Hanna",
+        "name3": "Rohit",
+        "tablenum": 21,
+        "pitchnum": 22
+    },
+    {
+        "studio": "Invisitble Interfaces",
+        "title": "Narnia",
+        "description": "Narnia transforms the bathroom experience into a private, immersive escape.",
+        "name1": "Maya",
+        "name2": "Tara",
+        "name3": "Shubha",
+        "tablenum": 22,
+        "pitchnum": 23
+    },
+    {
+        "studio": "Invisitble Interfaces",
+        "title": "Hari",
+        "description": "Hari is a tamagotchi-like companion for millennials struggling with anxiety and loneliness.",
+        "name1": "Eric",
+        "name2": "Jackie",
+        "name3": "Jorge",
+        "name4": "Richard",
+        "tablenum": 23,
+        "pitchnum": 24
+    },
+    {
+        "studio": "Invisitble Interfaces",
+        "title": "Leo",
+        "description": "Leo is a physical therapy assistant that reminds you to do your exercises, logs your activity, and suggests new exercises to get you back to 100% as quickly as possible.",
+        "name1": "Derin",
+        "name2": "Dan",
+        "name3": "Andrew",
+        "tablenum": 24,
+        "pitchnum": 25
+    },
+    {
+        "studio": "Invisitble Interfaces",
+        "title": "Pensieve",
+        "description": "Pensieve is an online platform that empowers users to share stories with loved ones when the moment is right, making photos, videos, and sound recordings discoverable when certain time, location, and life event triggers are activated.",
+        "name1": "Jorge",
+        "name2": "Edric",
+        "name3": "Dylan",
+        "name4": "Victoria",
+        "tablenum": 25,
+        "pitchnum": 26
+    }
+];
+
+    var curRow = null;
+    for (var i=0;i<data.length;i++){
+        curRow = $("<li>");
+        if (data[i].studio == "Leveling the Playing Field") {
+            $("#ltpf").append(curRow);
+        } else if  (data[i].studio == "Destinations") {
+            $("#dest").append(curRow);
+        } else if  (data[i].studio == "Human Being") {
+            $("#tfhb").append(curRow);
+        } else if  (data[i].studio == "Autonomous Things") {
+            $("#at").append(curRow);
+        } else if  (data[i].studio == "Home is where the heart is") {
+            $("#hiwthi").append(curRow);
+        } else if  (data[i].studio == "Invisitble Interfaces") {
+            $("#ii").append(curRow);
+        }
+
+        names = "";
+        if (data[i].name1) {
+            names = names + data[i].name1;
+        }
+        if (data[i].name2) {
+            names = names + ", " +  data[i].name2;
+        }        
+        if (data[i].name3) {
+            names = names +  ", " + data[i].name3;
+        }        
+        if (data[i].name4) {
+            names = names +  ", " + data[i].name4;
+        }
+
+        curRow.append("<b>" + data[i].title + ": </b><small>" + data[i].description + "</small><br/><small> " + names + " </small><br /> <small> Table " + data[i].tablenum + "</small>");
+        curRow.append("<br/>");
+    }
+});
+
+</script>
+
+</body>
+</html>
