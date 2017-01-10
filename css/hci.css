@@ -6,12 +6,33 @@ small.notes {
 }
 
 a, a:hover {
-  color: #990615;
+  color: #820000;
 }
 
 #calendar small {
   color: #AAAAAA;
 }
+
+/*
+ * Footer etc for ludwig
+ */
+ body {
+   font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ #global-footer {
+   margin-top: 0px;
+ }
+
+ #footer .contentinfo {
+  color: #827252;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #f2f1eb;
+ }
+ h6 {
+   font-weight: 600;
+ }
 
 /*
  * Navbar color customizations from http://smarchal.com/twbscolor/
@@ -20,7 +41,7 @@ a, a:hover {
 .navbar-default {
     /*background-image: linear-gradient(to bottom,#943943 0,#7d0512 100%);*/
     background-image: none;
-    background-color: #7d0512;
+    background-color: #8C1515;
     /*border-color: #943943;*/
 }
 .navbar-default .navbar-brand {
@@ -38,8 +59,8 @@ a, a:hover {
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffbbbc;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #ecf0f1;
     background-image: none;
@@ -52,8 +73,8 @@ a, a:hover {
 
 }*/
 
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .open > a:focus {
     /*color: #ffbbbc;*/
@@ -71,8 +92,8 @@ a, a:hover {
     border-top-color: #ffbbbc;
     border-bottom-color: #ffbbbc;
 }
-.navbar-default .navbar-nav > .open > a .caret, 
-.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
 .navbar-default .navbar-nav > .open > a:focus .caret {
     border-top-color: #ffbbbc;
     border-bottom-color: #ffbbbc;
@@ -122,13 +143,14 @@ body {
 .jumbotron:after {
      content:"";
      background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+     /*background-color: #f2f1eb*/
      opacity: 0.15;
      top: 0;
      left: 0;
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;        
+     z-index: -1;
 }
 
 .navbar-default {
@@ -154,14 +176,14 @@ body {
 .sidenav .nav > li > a:focus {
   text-decoration: none;
   background-color: #e5e3e9;
-  border-right: 1px solid #990615;
+  border-right: 1px solid #820000;
 }
 .sidenav .nav > .active > a,
 .sidenav .nav > .active:hover > a,
 .sidenav .nav > .active:focus > a {
   font-weight: bold;
   background-color: transparent;
-  border-right: 1px solid #990615;
+  border-right: 1px solid #820000;
 }
 
 /* Nav: second level */
@@ -219,5 +241,5 @@ body {
 .project h3,
 .project h4
 {
-  font-family: 'Rock Salt';
+  font-family: 'Source Sans Pro', sans-serif;
 }
