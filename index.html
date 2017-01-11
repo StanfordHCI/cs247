@@ -1,97 +1,110 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Interaction Design Studio">
-    <title>CS 247 &middot; HCI Design Studio</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-theme.css" rel="stylesheet">
-    <link href="css/hci.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Interaction Design Studio">
+	<title>CS 247 &middot; HCI Design Studio</title>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#calendar">Calendar</a></li>
-            <li><a href="logistics.html">Logistics</a></li>
-            <li><a href="submit.html">Deliverables</a></li>
-            <li><a href="finalpresentations.html">Final Presentation</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/ixo25ur3q0a491">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+	<!-- Stanford Identity -->
+	<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 
-	<!-- this is a comment in HTML -->
+	<!-- Customizations -->
+	<link href="css/hci.css" rel="stylesheet">
+
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/hci.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!-- Fixed navbar -->
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#calendar">Calendar</a></li>
+					<li><a href="logistics.html">Logistics</a></li>
+					<li><a href="submit.html">Deliverables</a></li>
+					<li><a href="finalpresentations.html">Final Presentation</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://piazza.com/class/ixo25ur3q0a491">Questions</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+
+	<div class="wrap">
 	<div class="container">
 		<div class="jumbotron">
-  			<h1>HCI design studio</h1>
-  			<p>CS 247 &middot; Winter 2017</p>
+			<h1>HCI design studio</h1>
+			<p>CS 247 &middot; Winter 2017</p>
 		</div>
 
 		<div id="syllabus">
-			<p class="lead">This class will deepen your fluency with design for interactive technology. You will engage hands-on in a design studio environment with expert designers, learning to critique and be critiqued by leaders who hold years of experience. Along the way, you'll learn advanced techniques for needfinding, rapid prototyping, visual design, and interaction design.</p>
+			<p class="lead">This class will deepen your fluency with design for interactive technology. You will engage hands-on in a design studio environment with expert designers, learning to critique and be critiqued by leaders who hold years of experience. Along the way,
+				you'll learn advanced techniques for needfinding, rapid prototyping, visual design, and interaction design.</p>
 			<hr>
 
 			<div class="row">
 				<div class="col-md-4 col-sm-12">
 					<ul class="list-unstyled">
-	  					<li><strong>Head instructor</strong></li>
-	  					<li><a href="http://hci.stanford.edu/msb">Prof. Michael Bernstein</a>
-	                        <span class="text-muted"><small>Th 4:30pm-6pm, Gates 384</small></span>
-	                   	</li>
-	                   	<li>&nbsp;</li>
+						<li><strong>Head instructor</strong></li>
+						<li><a href="http://hci.stanford.edu/msb">Prof. Michael Bernstein</a>
+							<span class="text-muted"><small>Th 4:30pm-6pm, Gates 384</small></span>
+						</li>
+						<li>&nbsp;</li>
 
 						<li><strong>Weekly schedule</strong></li>
-	  					<li>Lecture+Studio <span class="text-muted"><small>M+F 3:30-5:20pm, Lathrop 282</small></span></li>
+						<li>Lecture+Studio <span class="text-muted"><small>M+F 3:30-5:20pm, Lathrop 282</small></span></li>
 					</ul>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<ul class="list-unstyled">
 						<strong>Studio instructors and themes</strong>
-              <li><a href="//baxleydesign.com">Bob Baxley</a> | Social Decision Making <span class="text-muted"><small>TBA</small></span></li>
-              <li><a href="//www.aboutjmarlow.com">Jenn Marlow</a> | Banishing Bland Buildings <span class="text-muted"><small>TBA</small></span></li>
-              <li>Helena Roeber | Leveling the playing field <span class="text-muted"><small>TBA</small></span></li>
-              <li><a href="//www.slicedbreaddesign.com">Julie Stanford</a> and <a href="//jofish.com">Jofish Kaye</a> | Cutting Edge <span class="text-muted"><small>TBA</small></span></li>
-              <li><a href="//www.microsoft.com/en-us/research/people/johntang/">John Tang</a> | Disrupting Echo Chambers <span class="text-muted"><small>TBA</small></span></li>
-              <!--<li><a href="https://piazza.com/class/iiz19k9xk6j6ob?cid=37">Studio Instructor Contact Info</a></li>-->
-	  				</ul>
+						<li><a href="//baxleydesign.com">Bob Baxley</a> | Social Decision Making <span class="text-muted"><small>TBA</small></span></li>
+						<li><a href="//www.aboutjmarlow.com">Jenn Marlow</a> | Banishing Bland Buildings <span class="text-muted"><small>TBA</small></span></li>
+						<li>Helena Roeber | Leveling the playing field <span class="text-muted"><small>TBA</small></span></li>
+						<li><a href="//www.slicedbreaddesign.com">Julie Stanford</a> and <a href="//jofish.com">Jofish Kaye</a> | Cutting Edge <span class="text-muted"><small>TBA</small></span></li>
+						<li><a href="//www.microsoft.com/en-us/research/people/johntang/">John Tang</a> | Disrupting Echo Chambers <span class="text-muted"><small>TBA</small></span></li>
+						<!--<li><a href="https://piazza.com/class/iiz19k9xk6j6ob?cid=37">Studio Instructor Contact Info</a></li>-->
+					</ul>
 				</div>
 				<div class="col-md-4 col-sm-6">
 					<strong>TAs</strong>
 					<ul class="list-unstyled">
-  					<li>Kat Gregory <span class="text-muted"><small>TBD</small></span></li>
-  					<li>Ashley Ngu <span class="text-muted"><small>TBD</small></span></li>
-  					<li>Shubha Raghvendra <span class="text-muted"><small>TBD</small></span></li>
-  					<li>Ludwig Schubert <span class="text-muted"><small>We 2pm-3pm, Huang Engineering Basement</small></span></li>
-  					<li>Peter Washington <span class="text-muted"><small>TBD</small></span></li>
-	  			</ul>
+						<li>Kat Gregory <span class="text-muted"><small>TBD</small></span></li>
+						<li>Ashley Ngu <span class="text-muted"><small>TBD</small></span></li>
+						<li>Shubha Raghvendra <span class="text-muted"><small>TBD</small></span></li>
+						<li>Ludwig Schubert <span class="text-muted"><small>We 1:45pm-2:45pm, Huang Basement</small></span></li>
+						<li>Peter Washington <span class="text-muted"><small>Fri 10am-11am, Lathrop Tech Lounge</small></span></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -99,165 +112,190 @@
 		<div id="calendar">
 			<h3>Syllabus</h3>
 			<div class="table-responsive">
-			<table class="table">
-	          	<thead>
-	            	<tr>
-	              		<th>Week</th>
-		              	<th>Monday</th>
-		              	<th>Friday</th>
-	            	</tr>
-	          	</thead>
-	          	<tbody>
-		            <tr>
-		              	<td><h6>1</h6></td>
-		              	<td>
-	              			<h6>January 9</h6>
-							<p><a href="slides/01-intro-crit.pdf">Class intro; studios</a></p>
-							<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScbBH9chEdti_WSLDXOzxJgNYmcdFtYv2ErJHkuzQNuU0sl2g/viewform">Sign up for studios by 11:59pm</a></p>
-							<p><a href="projects/p1.html">P1 out</a></p>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Week</th>
+							<th>Monday</th>
+							<th>Friday</th>
+						</tr>
+					</thead>
+					<tbody>
 
-						</td>
+						<tr>
+							<td><h6>1</h6></td>
+							<td>
+								<h6>January 9</h6>
+								<p><a href="slides/01-intro-crit.pdf">Class intro; studios</a></p>
+								<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScbBH9chEdti_WSLDXOzxJgNYmcdFtYv2ErJHkuzQNuU0sl2g/viewform">Sign up for studios by 11:59pm</a></p>
+								<p><a href="projects/p1.html">P1 out</a></p>
+							</td>
+							<td>
+								<h6>January 13</h6>
+								<p>Sketching</p>
+								<p>Reading: <a href="readings/understanding_comics.pdf">Understanding Comics</a></p>
+								<p>P1 due</p>
+								<p>P2 out</p>
+							</td>
+						</tr>
 
-            <td>
-              <h6>January 13</h6>
-                <p>Sketching</p>
-                <p>Reading: <a href="//cs247.stanford.edu/2015-fall/readings/understanding_comics.pdf">Understanding Comics</a></p>
-                <p>P1 due</p>
-                <p>P2 out</p>
-            </td>
-<!--
-		              	<td>
-		              		<h6>Due Monday, 1/4, 11:59pm PST</h6>
-                            <p><a href="http://hci.st/247signup">Sign up</a> for class</p>
+						<tr>
+							<td><h6>2</h6></td>
+							<td>
+								<h6>January 16</h6>
+								<p>No class; MLK day</p>
+							</td>
+							<td>
+								<h6>January 20</h6>
+								<p>Needfinding observation vs. interpretation</p>
+							</td>
+						</tr>
 
-		              		<h6>Due Friday, 1/8, 3:30pm PST</h6>
-                            <p><a href="projects/p1.html">Project 1</a></p>
-						</td>
--->
-		            </tr>
+						<tr>
+							<td><h6>3</h6></td>
+							<td>
+								<h6>January 23</h6>
+								<p>Interviewing</p>
+							</td>
+							<td>
+								<h6>January 27</h6>
+								<p>Brainstorming</p>
+								<p>P2 due</p>
+								<p>P3 out</p>
+							</td>
+						</tr>
 
-		            <tr>
-		              	<td><h6>2</h6></td>
-		              	<td>
-	              			<h6>January 16</h6>
-							<p>No class; MLK day</p>
+						<tr>
+							<td><h6>4</h6></td>
+							<td>
+								<h6>January 30</h6>
+								<p>Picking prototypes</p>
+							</td>
+							<td>
+								<h6>February 3</h6>
+								<p>Parallel prototyping</p>
+							</td>
+						</tr>
 
-						</td>
-		              	<td>
-	              			<h6>January 20</h6>
-	              			<p>Needfinding observation vs. interpretation</p>
+						<tr>
+							<td><h6>5</h6></td>
+							<td>
+								<h6>February 6</h6>
+								<p>P3 studio day</p>
+							</td>
+							<td>
+								<h6>February 10</h6>
+								<p>P3 due</p>
+								<p>P4 out</p>
+							</td>
+						</tr>
 
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>3</h6></td>
-		              	<td>
-	              			<h6>January 23</h6>
-	              			<p>Interviewing</p>
+						<tr>
+							<td><h6>6</h6></td>
+							<td>
+								<h6>February 13</h6>
+								<p>Layout: information hierarchy, <br> grids, wireframing, responsive design</p>
+							</td>
+							<td>
+								<h6>February 17</h6>
+								<p>Mocks</p>
+							</td>
+						</tr>
 
-						</td>
-		              	<td>
-	              			<h6>January 27</h6>
-	              			<p>Brainstorming</p>
-	              			<p>P2 due</p>
-	              			<p>P3 out</p>
+						<tr>
+							<td><h6>7</h6></td>
+							<td>
+								<h6>February 20</h6>
+								<p>No class; Presidents' Day</p>
+							</td>
+							<td>
+								<h6>February 24</h6>
+								<p>Visual design</p>
+							</td>
+						</tr>
 
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>4</h6></td>
-		              	<td>
-	              			<h6>January 30</h6>
-	              			<p>Picking prototypes</p>
+						<tr>
+							<td><h6>8</h6></td>
+							<td>
+								<h6>February 27</h6>
+								<p>Ubiquitous computing</p>
+							</td>
+							<td>
+								<h6>March 3</h6>
+								<p>Social computing</p>
+							</td>
+						</tr>
 
-						</td>
-		              	<td>
-	              			<h6>February 3</h6>
-	              			<p>Parallel prototyping</p>
-                        </td>
-		            </tr>
-		            <tr>
-		              	<td><h6>5</h6></td>
-		              	<td>
-	              			<h6>February 6</h6>
-	              			<p>P3 studio day</p>
-						</td>
-		              	<td>
-	              			<h6>February 10</h6>
-	              			<p>P3 due</p>
-	              			<p>P4 out</p>
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>6</h6></td>
-		              	<td>
-	              			<h6>February 13</h6>
-	              			<p>Layout: information hierarchy, grids, wireframing, responsive design</p>
-						</td>
-		              	<td>
-	              			<h6>February 17</h6>
-	              			<p>Mocks</p>
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>7</h6></td>
-		              	<td>
-	              			<h6>February 20</h6>
-							<p>No class; Presidents' Day</p>
-						</td>
-		              	<td>
-	              			<h6>February 24</h6>
-	              			<p>Visual design</p>
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>8</h6></td>
-		              	<td>
-	              			<h6>February 27</h6>
-	              			<p>Ubiquitous computing</p>
-						</td>
-		              	<td>
-	              			<h6>March 3</h6>
-	              			<p>Social computing</p>
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>9</h6></td>
-		              	<td>
-	              			<h6>March 6</h6>
-	              			<p>Art+design</p>
-						</td>
-		              	<td>
-	              			<h6>March 10</h6>
-	              			<p>Special topics</p>
-						</td>
-		            </tr>
-		            <tr>
-		              	<td><h6>10</h6></td>
-		              	<td>
-	              			<h6>March 13</h6>
-	              			<p>P4 work day</p>
-						</td>
-		              	<td>
-	              			<h6>March 17</h6>
-	              			<p>Final Presentations</p>
-	              			<p>P4 due</p>
-						</td>
-		            </tr>
+						<tr>
+							<td><h6>9</h6></td>
+							<td>
+								<h6>March 6</h6>
+								<p>Art+design</p>
+							</td>
+							<td>
+								<h6>March 10</h6>
+								<p>Special topics</p>
+							</td>
+						</tr>
 
-	          	</tbody>
-        	</table>
-		</div>
+						<tr>
+							<td><h6>10</h6></td>
+							<td>
+								<h6>March 13</h6>
+								<p>P4 work day</p>
+							</td>
+							<td>
+								<h6>March 17</h6>
+								<p>Final Presentations</p>
+								<p>P4 due</p>
+							</td>
+						</tr>
 
-		<p>Materials for this site coordinated by Michael Bernstein, adapted from previous material by Jeff Heer and Scott Klemmer.</p>
+					</tbody>
+				</table>
+			</div> <!-- table-responsive end -->
 
-	</div>
+		</div> <!-- calender end -->
+	</div> <!-- container end -->
+	</div> <!-- wrap end -->
 
+	<div id="footer">
+		<div class="contentinfo" role="contentinfo">
+			<div class="container">
+	    	<span class="text-small">
+					Materials for this site coordinated by Michael Bernstein, adapted from previous material by Jeff Heer and Scott Klemmer.
+				</span>
+			</div>
+    </div>
+		<!-- Global footer snippet start -->
+		<div id="global-footer">
+		  <div class="container">
+		    <div class="row">
+		      <div id="bottom-logo" class="span2">
+		        <a href="http://www.stanford.edu">
+		          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
+		        </a>
+		      </div>
+		      <!-- #bottom-logo end -->
+		      <div id="bottom-text" class="span10">
+		        <ul>
+		          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
+		          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
+		          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
+		          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
+		          <li class="emergency-info"><a href="http://emergency.stanford.edu">Emergency Info</a></li>
+		        </ul>
+		      </div> <!-- .bottom-text end -->
+		      <div class="clear"></div>
+		      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
+		      <span id="copyright-complaint"><a href="https://uit.stanford.edu/security/copyright-infringement" class="copyright-complaint" >Copyright Complaints</a></span>
+		      </p>
+		    </div> <!-- .row end -->
+		  </div> <!-- .container end -->
+		</div> <!-- global-footer end -->
+		<!-- Global footer snippet end -->
+	</div> <!-- footer end -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.js"></script>
-    <script src="js/hci.js"></script>
-  </body>
+</body>
+
 </html>
