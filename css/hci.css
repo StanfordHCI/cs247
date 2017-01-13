@@ -49,6 +49,10 @@ a, a:hover {
    background-color: #8c1515;
  }
 
+ #info .list-unstyled li {
+   padding-bottom: 5px;
+ }
+
 /*
  * Navbar color customizations from http://smarchal.com/twbscolor/
  * http://smarchal.com/twbscolor/?bd=7d0512&bh=943943&cd=ecf0f1&ch=ffbbbc
