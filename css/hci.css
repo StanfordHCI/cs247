@@ -18,6 +18,7 @@ a, a:hover {
  */
  body {
    font-family: 'Source Sans Pro', sans-serif;
+   color: black;
  }
 
  #global-footer {
@@ -47,6 +48,10 @@ a, a:hover {
 
  .label-danger {
    background-color: #8c1515;
+ }
+
+ .label-warning {
+   background-color: #3c3e41;
  }
 
  #info .list-unstyled li {
@@ -139,7 +144,7 @@ a, a:hover {
 
 body {
   padding-top: 70px;
-  background-color: #f7f7f7;
+  background-color: #faf7f7;
   position: relative;
 }
 
