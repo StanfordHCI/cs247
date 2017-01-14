@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<!--#set var="title" value="CS 247 · HCI Design Studio" -->
+	<!--#set var="title" value="CS 247 - HCI Design Studio" -->
 	<!--#include virtual="includes/header.shtml" -->
 </head>
 

@@ -1,74 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 4">
-    <title>Project 2</title>
 
-    <!-- Bootstrap -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+  <!--#set var="title" value="CS 247 - Project 2: Needfinding II" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
 
-  	<!-- Stanford Identity -->
-  	<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
-  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-
-  	<!-- Customizations -->
-  	<link href="../css/hci.css" rel="stylesheet">
-
-  	<!-- JavaScript -->
-  	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  	<script src="../js/hci.js"></script>
-
-  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  	<!--[if lt IE 9]>
-  		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-  	<![endif]-->
-
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!--
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/ixo25ur3q0a491">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
@@ -95,7 +34,7 @@
                 <div id="poster" class="sidenav-anchor">
                     <h2>Presentation</h2>
                     <p>Create a four-minute presentation (e.g., Powerpoint, Keynote) communicating your final needfinding results: your most compelling observations, interpretations, and How Might We questions. Remember the principles of effective communitation: the presentation should not be a braindump, but instead an effective communicator of your main results.</p>
-                </div>                
+                </div>
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
@@ -139,7 +78,7 @@
                                     <td headers="good">3: Identification of a relevant user group, but too broad or not compelling. Methods are generally appropriate but may not give complete information.</td>
                                     <td headers="verygood">4: Identification of a compelling user group and appropriate approach to learning about them.</td>
                                     <td headers="excellent">5: Identification of a compelling user group and insightful approach to learning about them.</td>
-                                </tr> 
+                                </tr>
 
                                 <tr>
                                     <td headers="category"><div>Observations</div><div><small class="text-muted">5pt</small></div></td>
@@ -148,7 +87,7 @@
                                     <td headers="good">3: Observations are generally on-target, but do not capture all stakeholders or have sufficient depth.</td>
                                     <td headers="good">4: Observations capture all stakeholders at reasonable depth.</td>
                                     <td headers="excellent">5: Observations identify many points of view that would not be obvious to a casual observer of the environment.</td>
-                                </tr>                                
+                                </tr>
 
                                 <tr>
                                     <td headers="category"><div>Interpretation</div><div><small class="text-muted">5pt</small></div></td>
@@ -162,13 +101,16 @@
                         </table>
 
                         <p>If any of the deliverables are missing (e.g., no How Might We questions), we will reduce your score by 25% per deliverable.</p>
-                    </div>                    
+                    </div>
                 </div>
-                                
+
                 </div>
             </div>
         </div>
 
     </div>
   </body>
+
+  <!--#include virtual="includes/footer.shtml" -->
+
 </html>

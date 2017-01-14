@@ -1,74 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 2">
-    <title>Project 2</title>
 
-    <!-- Bootstrap -->
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<head>
+  <!--#set var="title" value="CS 247 - Project 2: Needfinding I" -->
+  <!--#include virtual="includes/header.shtml" -->
+</head>
 
-  	<!-- Stanford Identity -->
-  	<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
-  	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-
-  	<!-- Customizations -->
-  	<link href="../css/hci.css" rel="stylesheet">
-
-  	<!-- JavaScript -->
-  	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  	<script src="../js/hci.js"></script>
-
-  	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  	<!--[if lt IE 9]>
-  		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-  		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-  	<![endif]-->
-
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!--
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/ixo25ur3q0a491">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
@@ -99,9 +38,9 @@
                     <p>Decide on an initial needfinding plan, focusing on with whom and where you want to do your needfinding. Produce a short list of your stakeholders: for example, if you are interested in elder care, potential stakeholders include the elderly being cared for, family members, and health care professionals. How or where you might find them, interview them, and observe them? What do you hope to learn? What will you be sketching? This should be at least two solid paragraphs.</p>
 
                     <p>Next, put together a discussion guide of questions and topics to cover when you go out on your interviews. The discussion guide should record verbatim your introduction, the questions you are going to ask, what activities (if any) you are planning on doing with the participants, and (if any) survey questions you will be distributing over the web. The verbatim part is key because if you ask leading questions, the needfinding will be useless. The <a href="../readings/needfinding-patnaik.pdf">Asking Questions section in Patnaik</a> should help.</p>
-                
+
                     <p>Before going out, post your needfinding plan to your studio staff on Piazza for feedback.</p>
-                </div>                    
+                </div>
 
                 <div id="observation" class="sidenav-anchor">
                     <h2>Observation</h4>
@@ -136,7 +75,7 @@
                         <li>A document detailing your topic of interest, your needfinding plan, and your discussion guide.</li>
                         <li>Your selected observations with explanations</li>
                         <li>Your selected interpretations with explanations</li>
-                        <li>Your How Might We questions</li>                        
+                        <li>Your How Might We questions</li>
                         <li>Any studio-specific requirements</li>
                     </ul>
 
@@ -145,15 +84,18 @@
                     <!--
                     <p>Bring a full-page color printout of 1) your selected observations and 2) your people profiles with you to studio.</p>
                     -->
-                </div>                
+                </div>
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Grading rubric</h2>
                     <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your deliverables to class for feedback.</p>
                 </div>
-            </div>            
+            </div>
         </div>
 
     </div>
   </body>
+
+  <!--#include virtual="includes/footer.shtml" -->
+
 </html>
