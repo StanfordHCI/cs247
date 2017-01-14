@@ -3,11 +3,11 @@
 
 <head>
   <!--#set var="title" value="CS 247 - Project 1: Critique" -->
-  <!--#include virtual="includes/header.shtml" -->
+  <!--#include virtual="../includes/header.shtml" -->
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
-  <!--#include virtual="includes/navigation.html" -->
+  <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
@@ -122,6 +122,6 @@
 
   </body>
 
-  <!--#include virtual="includes/footer.shtml" -->
+  <!--#include virtual="../includes/footer.shtml" -->
 
 </html>
