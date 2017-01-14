@@ -2,66 +2,12 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Interaction Design Studio">
-	<title>CS 247 &middot; HCI Design Studio</title>
-
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Stanford Identity -->
-	<link href="https://www.stanford.edu/su-identity/css/su-identity.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600' rel='stylesheet' type='text/css'>
-
-	<!-- Customizations -->
-	<link href="css/hci.css" rel="stylesheet">
-
-	<!-- JavaScript -->
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="js/hci.js"></script>
-
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-	<![endif]-->
-
+	<!--#set var="title" value="CS 247 · HCI Design Studio" -->
+	<!--#include virtual="includes/header.shtml" -->
 </head>
 
 <body>
-	<!-- Fixed navbar -->
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				<a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-				<!-- <a class="navbar-brand" href="http://www.stanford.edu">
-					<img src="https://www.stanford.edu/su-identity/images/brandbar-stanford-logo@2x.png" alt="Stanford University" width="152" height="23">
-				</a> -->
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="#calendar">Calendar</a></li>
-					<li><a href="logistics.html">Logistics</a></li>
-					<li><a href="submit.html">Deliverables</a></li>
-					<!-- <li><a href="finalpresentations.html">Final Presentation</a></li> -->
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="https://piazza.com/class/ixo25ur3q0a491">Questions</a></li>
-				</ul>
-			</div>
-			<!--/.nav-collapse -->
-		</div>
-	</div>
+	<!--#include virtual="includes/navigation.html" -->
 
 	<div class="wrap">
 	<div class="container">
@@ -164,15 +110,15 @@
 								<p>
 									Class intro & studios: <a href="slides/01-intro-crit.pdf">slides</a><br>
 									<a href="https://docs.google.com/forms/d/e/1FAIpQLScbBH9chEdti_WSLDXOzxJgNYmcdFtYv2ErJHkuzQNuU0sl2g/viewform">Sign up for studios</a> by 11:59pm<br>
-									<a href="projects/p1.html">P1</a> out
+									<a href="projects/p1.html">P1 (Critique)</a> out
 								</p>
 							</td>
 							<td>
 								<h6>January 13</h6>
 								<p>Sketching: <a href="slides/02-sketching.pdf">slides</a> <br>
 									Reading: <a href="readings/understanding_comics.pdf">Understanding Comics</a><br>
-									<a href="projects/p1.html">P1</a> due<br>
-									<a href="projects/p2.html">P2</a> out
+									<a href="projects/p1.html">P1 (Critique)</a> due<br>
+									<a href="projects/p2.html">P2 (Needfinding)</a> out
 								</p>
 							</td>
 						</tr>
@@ -200,8 +146,8 @@
 								<h6>January 27 <span class="label label-danger">due date</span></h6>
 								<p>
 									Brainstorming<br>
-									<a href="projects/p2.html">P2</a> <a href="projects/p2-2.html">part II</a> due<br>
-									P3 out
+									<a href="projects/p2-2.html">P2 part II</a> due<br>
+									P3 (Design Sprint) out
 								</p>
 							</td>
 						</tr>
@@ -227,8 +173,8 @@
 							<td>
 								<h6>February 10</h6>
 								<p>
-									P3 due<br>
-									P4 out
+									P3 (Design Sprint) due<br>
+									P4 (Final Project) out
 								</p>
 							</td>
 						</tr>
@@ -291,7 +237,7 @@
 								<h6>March 17</h6>
 								<p>
 									Final Presentations<br>
-									P4 due
+									P4 (Final Project) due
 								</p>
 							</td>
 						</tr>
@@ -304,42 +250,7 @@
 	</div> <!-- container end -->
 	</div> <!-- wrap end -->
 
-	<div id="footer">
-		<div class="contentinfo" role="contentinfo">
-			<div class="container">
-	    	<span class="text-small">
-					Materials for this site coordinated by Michael Bernstein, adapted from previous material by Jeff Heer and Scott Klemmer.
-				</span>
-			</div>
-    </div>
-		<!-- Global footer snippet start -->
-		<div id="global-footer">
-		  <div class="container">
-		    <div class="row">
-		      <div id="bottom-logo" class="span2">
-		        <a href="http://www.stanford.edu">
-		          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
-		        </a>
-		      </div>
-		      <!-- #bottom-logo end -->
-		      <div id="bottom-text" class="span10">
-		        <ul>
-		          <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
-		          <li class="maps alt"><a href="http://visit.stanford.edu/plan/maps.html">Maps &amp; Directions</a></li>
-		          <li class="search-stanford"><a href="http://www.stanford.edu/search/">Search Stanford</a></li>
-		          <li class="terms alt"><a href="http://www.stanford.edu/site/terms.html">Terms of Use</a></li>
-		          <li class="emergency-info"><a href="http://emergency.stanford.edu">Emergency Info</a></li>
-		        </ul>
-		      </div> <!-- .bottom-text end -->
-		      <div class="clear"></div>
-		      <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span></span>.&nbsp;&nbsp;
-		      <span id="copyright-complaint"><a href="https://uit.stanford.edu/security/copyright-infringement" class="copyright-complaint" >Copyright Complaints</a></span>
-		      </p>
-		    </div> <!-- .row end -->
-		  </div> <!-- .container end -->
-		</div> <!-- global-footer end -->
-		<!-- Global footer snippet end -->
-	</div> <!-- footer end -->
+	<!--#include virtual="includes/footer.shtml" -->
 
 </body>
 

@@ -69,24 +69,24 @@ a, a:hover {
     border: none;
 }
 .navbar-default .navbar-brand {
-    color: #ecf0f1;
+    color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #ffbbbc;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #ecf0f1;
-    font-weight: 300;
+    color: #ffffff;
+    /* font-weight: 300; */
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffbbbc;
+    color: #ffffff;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #ecf0f1;
+    color: #ffffff;
     background-image: none;
     background-color: transparent;
 }
@@ -166,9 +166,11 @@ body {
 
 .jumbotron:after {
      content:"";
-     background: url("../images/verplank.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+     background: url("../images/header_light.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
      /*background-color: #f2f1eb*/
-     opacity: 0.15;
+     background-size: cover;
+     background-repeat: no-repeat;
+     opacity: 1;
      top: 0;
      left: 0;
      bottom: 0;
