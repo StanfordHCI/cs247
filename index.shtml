@@ -35,6 +35,8 @@
 
 			<hr>
 
+			<h3>Logistics</h3>
+
 			<div class="row" id="info">
 				<div class="col-sm-4">
 					<h5>Head instructor</h5>
@@ -89,6 +91,13 @@
 		</div>
 
 		<hr>
+
+		<h3>Calendar</h3>
+		<div class="row">
+			<div class="col-sm-12">
+				<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=700&amp;wkst=2&amp;bgcolor=%23FAF7F7&amp;src=stanford.edu_au5u6un56ai57128du0o34095k%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="900" height="700" frameborder="0" scrolling="no"></iframe>
+			</div>
+		</div>
 
 		<div id="calendar">
 			<h3>Syllabus</h3>
