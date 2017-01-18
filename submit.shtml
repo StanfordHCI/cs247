@@ -21,10 +21,27 @@
           <div id="deliverables" class="sidenav-anchor">
            <h3>Project Deliverables</h3>
            <p>Below each milestone is a list of the required deliverables. For full instructions, refer to the project page linked in the milestone's title.</p>
-           <h4>Project 1: Crit</h4>
-           <ul>
-            <li>One combined PDF of your critiques</li>
-           </ul>
+
+           <div id="p1" class="sidenav-anchor">
+             <h4><a href="projects/p1.shtml">Project 1: Crit</a></h4>
+             <ul>
+              <li>One combined PDF of your critiques</li>
+             </ul>
+           </div>
+
+           <div id="p2" class="sidenav-anchor">
+             <h4><a href="projects/p2.shtml">Project 2: Needfinding</a></h4>
+             <h5><a href="projects/p2-1.shtml">Part 1</a></h5>
+             <ul>
+                 <li>A text file with your team members' names and SUNet IDs.</li>
+                 <li>A document detailing your topic of interest, your needfinding plan, and your discussion guide.</li>
+                 <li>Your selected observations with explanations</li>
+                 <li>Your selected interpretations with explanations</li>
+                 <li>Your How Might We questions</li>
+                 <li>Any studio-specific requirements</li>
+             </ul>
+           </div>
+
 
            <!--
             <div id="p1" class="sidenav-anchor">
