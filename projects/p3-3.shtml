@@ -1,64 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 4">
-    <title>Project 3</title>
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.css" rel="stylesheet">
-    <link href="../css/hci.css" rel="stylesheet">
-    
+<head>
+  <!--#set var="title" value="CS 247 - Project 2: Needfinding I" -->
+  <!--#include virtual="../includes/header.shtml" -->
+</head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!-- 
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>           
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
@@ -72,75 +21,89 @@
                 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1><a href="p3.html">Project 3: Design Sprint</a></h1>
+                        <h1>Project 3: Prototyping</h1>
                         <h4 style="color: #888888">Part III</h4>
                     </div>
                 </div>
 
-                <div id="brainstorm" class="sidenav-anchor">
-                  <h2>Brainstorming</h2>
-		  <div id="flare" class="sidenav-anchor">
-                    <h4>Flare</h4>
-                    <p>Now it's time to synthesize your needfinding results into design concepts that involve technology. Work with your team to brainstorm together on whiteboards, sketchbooks, artisanal cheese scraps &mdash; whatever it takes.</p>
+                <div id="implement" class="sidenav-anchor">
+                    <h2>Final feedback and prototype</h2>
+                    <p>Take your revised prototypes out to the field again. Based on your results, pick one to revise and refine further. Your end goal is a final prototype of your selected idea. Remember that this is still a prototype, so it's not expected to be a fully functioning piece of software. However, the better you can fake it, the more compellingly your prototype will communicate.</p>
 
-                    <p>Start with your "How Might We..." questions that ground your brainstorm with actionable problems. Sketch out enough ideas until you find a set that you’re inspired to explore further. It should be at least 15 ideas, and probably many more. This brainstorm should be wild and broad. Use the brainstorming techniques from class; <a href="../readings/mix-it-up.pdf">Julie Stanford has provided a set of suggested prompts to get you going</a>. Again, focus not on usability patches, but deeper design innovations.</p>
-
-                    <p>Once you hit saturation — and this may take multiple brainstorms — capture your ideas to share them with us. Sketch out those ideas clearly for the staff the read and understand. They should communicate clearly from wall distance if we tape them up. You can use a combination of media if it's helpful.
+                    <p>Write up a final summary: what need is being addressed? What approach are you taking? What feedback drove you toward the current design? And how does it work? Be sure to capture your prototype via video or photos.</p>
                 </div>
 
-                <div id="focus" class="sidenav-anchor">
-                    <h4>Focus</h4>
-                    <p>Select ideas that you would like to pursue — we suggest two — and expand on them a bit further. Sketch out the broader interaction context of how you imagine these ideas being used. Include who the users are, the major needs those users bring to the situation, and how your design solution addresses the needs.</p>
-                </div>
-
-                <div id="darkhorse" class="sidenav-anchor">
-                    <h4>Dark Horse</h4>
-
-                    <p>Now that you've identified some design directions you like, it's time to change tack and include a <i>dark horse</i> idea. A dark horse, in horse racing, is a contender who most people don't think will win, but may turn in an unexpectedly strong performance and produce a huge payoff. Dark horse ideas are intended to be something far out there or nearly impossible. In the best case, your dark horse ideas might end up winning the race. However, even in the worst case, they can give us tremendous design insight and prevent design fixation, where the design space shrinks too rapidly.</p>
-
-                    <p>There are three requirements for dark horse ideas. First, they must be "dark": they must explore a space that is risky, radical, infeasible, and/or in a direction orthogonal to previously explored solutions. They should feel slightly uncomfortable. Second, they must be brainstormed after the more traditional ideas — you can't have a dark path without a traditional "light" path to contrast it against. Third, they must be refined enough that they could be prototyped and objectively tested. That is, it cannot be infeasible: it needs to be something that we could put in front of real people to see whether it would work.</p>
-
-                    <p>If you have dark horse ideas that came up in your initial brainstorm, you can use that. If you're not satisfied, brainstorm some! Try using <a href="https://dschool.stanford.edu/groups/k12/wiki/faf1d/Powers_of_Ten.html">Powers of Ten</a> and other techniques to push further and generate even more. After you brainstorm and sketch out dark horse ideas, choose one that you'd like to include among your set of two top candidates from before. Expand on your dark horse idea like you did for the previous top two ideas.</p>
-                </div>
-
-                <div id="prototype" class="sidenav-anchor">
-                    <h2>Three prototypes</h2>
-                    <p>Much like with Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs.</p>
-
-                    <p>Your goal now is to prototype all three of your design ideas. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes. <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">Your goal is not to create a mockup or scale model, but to create experiences to which your users can react</a>.</p>
-
-                    <p>The key to this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. As in class, before you start the prototype, identify: what's your design idea's biggest unanswered question? Write it down — this will be the crux of your prototype. Use that question to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Based on the question, decide upon the best method of prototyping the idea. By now, you have a wide range of prototyping approaches in your arsenal. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Your skillset also includes Wizard of Oz prototypes, paper prototypes, video prototypes, and mocks. Which approach or toolkit will best represent each idea? The choice is yours here.</p>
-
-                    <p>One hint from previous iterations of CS 247: often, at this point, a role prototype is the best fit.</p>
-
-                    <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
-                </div>                               
 
                 <div id="submit" class="sidenav-anchor">
-                    <h2>Submit</h2>
+                    <h2>Submit and Present</h2>
+
+                    <h3>On Canvas</h3>
                     <p>Pull everything together into your submission for P3.III on Canvas. This includes:</p>
                     <ul>
-                        <li>One PDF that contains your brainstormed idea sketches, and your further explorations of two top ideas.</li>
-                        <li>One PDF that contains your brainstormed dark horse ideas, and your further exploration of one of them.</li>
-                        <li>Three PDF or zip files, one for each prototype: the question each was trying to ask, and a description (including images) of each.</li>
+                        <li>A PDF with your final summary and prototype. Video optional.</li>
                     </ul>
-                    <p>Be prepared to share your top three ideas and prototypes within three to five minutes in studio. Bring full-page color printouts of your top three ideas' sketches (two through the first brainstorm, one dark horse) and either your actual prototypes or printouts of the prototypes with you to studio.</p>
+
+                    <h3>In Studio</h3>
+                    <p>Present your final prototype in five minutes in studio. Cover the need being addressed, your high level insight, user feedback, and the prototype itself. Bring your prototype for show-and-tell.</p>
                 </div> 
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Grading rubric</h2>
-                    <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to class for feedback.</p>
+                    <p>Part III is worth <b>fifteen points</b>, graded on a rubric.</p>
+
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="verygood" valign="top">Very good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Ideation<br/></div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Ideas are only marginally appropriate to the domain, barely articulate design goals, or barely address the given needs.</td>
+                                    <td headers="adequate">2: The designs address user needs in ways that are surface-level interpretations of the problem space. Design goals are trivial or not well-connected to the idea.</td>
+                                    <td headers="good">3: Ideas address user needs in generally appropriate ways, but are uneven in their depth. Some may be incremental, have questionable design goals, or are surface-level interpretations of the problem space.</td>
+                                    <td headers="verygood">4: Ideas address user needs in appropriate and novel ways. Minor issues with incrementality, design goals, or depth.</td>
+                                    <td headers="excellent">5: Ideas present nontrivial and insightful interpretations of the design space, grounded in well-articulated design goals.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Prototyping<br/></div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype is incomplete or does not instantiate the desired design.</td>
+                                    <td headers="adequate">2: Prototype targets the incorrect design hypotheses, resulting in testing "the wrong part" of the idea.</td>
+                                    <td headers="good">3: Prototype is uneven in its targeting of the most important questions about the design ideas.</td>
+                                    <td headers="verygood">4: Prototype generally asks and answers the most important questions about the design idea, with minor mistargeting of the question.</td>
+                                    <td headers="excellent">5: Prototype asks and answers the most important questions about the design idea.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Iterating<br/></div><div><small class="text-muted">5pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Team did not iterate meaningfully based on users and critiques across milestones.</td>
+                                    <td headers="adequate">2: Iteration based on users and critiques was perfunctory and minimial.</td>
+                                    <td headers="good">3: Iteration  was somewhat responsive to users and critiques.</td>
+                                    <td headers="verygood">4: Iteration resulted in new insights through experiences with users and critiques.</td>
+                                    <td headers="excellent">5: Iteration was nimble and identified significant design insights through experiences with users and critiques.</td>
+                                </tr>                                 
+
+                            </tbody>
+                        </table>
+
+                        <p>If any of the deliverables are missing (e.g., no wireframes), we will reduce your score by 25% per deliverable.</p>
+                    </div>                    
                 </div>
 
             </div>            
         </div>
 
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/hci.js"></script>
   </body>
+
+  <!--#include virtual="../includes/footer.shtml" -->  
 </html>

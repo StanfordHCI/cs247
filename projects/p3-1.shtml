@@ -1,64 +1,13 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 4">
-    <title>Project 3</title>
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.css" rel="stylesheet">
-    <link href="../css/hci.css" rel="stylesheet">
-    
+<head>
+  <!--#set var="title" value="CS 247 - Project 3: Prototyping I" -->
+  <!--#include virtual="../includes/header.shtml" -->
+</head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!--
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
@@ -72,77 +21,79 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1><a href="p3.html">Project 3: Design Sprint</a></h1>
+                        <h1>Project 3: Prototyping</h1>
                         <h4 style="color: #888888">Part I</h4>
                     </div>
                 </div>
 
                 <div id="team" class="sidenav-anchor">
-                    <h2>Form a team</h4>
-                    <p>Form a team of three from your studio. We suggest that you seek out teammates who bring together complementary skills and who have compatible schedules and priorities. If your studio cannot divide evenly into groups of three, talk to the studio staff about options. You are welcome to choose your own team, but for the best experience we recommend working with a different team than P2. You will stick with this team for the rest of the quarter, executing the final project across both P3 and P4.</p>
-
-                    <p>Once you've formed a team, make it official by registering it on <a href="https://docs.google.com/spreadsheets/d/1JfcdUp7fzmcHAUIolPGYciWC3_RvMhkoy4WrOW-0tXE/edit#gid=0">this Google Sheet </a><b>ASAP</b>.  Find your instructors' initials and write the full names of your team members in a blank row.</p>
+                    <h2>New team</h4>
+                    <p>Form a team of four people from your studio. You can be with a maximum of one other person that you worked with on P2.</p>
                 </div>
 
-               <div id="plan" class="sidenav-anchor">
-                    <h2>Write a needfinding plan</h4>
-                    <p>You are welcome to choose any direction that fits within the studio theme. You may take ideas from lecture, or brainstorm your own. Remember that it may take some time to set up the interviews and the trip, so start early. We may be able to help connect you with relevant user groups. Look past the people and environments that are readily accessible: focus on opportunities that will teach us something. For example, if you're studying health, Vaden is nearby but doesn't give you new perspectives, so avoid it. To help your selection, identify relevant stakeholders — people directly involved or implicated in the activity. For example, if you are interested in elder care, potential stakeholders include the elderly being cared for, family members, and health care professionals.</p>
-
-                    <p>Decide on a needfinding plan, focusing on with whom and where you want to do your needfinding. Produce a shot list of your stakeholders, including how or where you might find them, interview them, and observe them. What do you hope to learn? Who will you talk to? What will you be sketching? This should be at least two solid paragraphs. The <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">d.school bootcamp bootleg</a> has good ideas about different ways to frame your needfinding. Example helpful sections include interview preparation and extreme users.</p>
-
-                    <p>Next, put together a discussion guide of questions and topics to cover when you go out on your interviews. The discussion guide should record verbatim your introduction, the questions you are going to ask, what activities (if any) you are planning on doing with the participants, and (if any) survey questions you will be distributing over the web. The verbatim part is key because if you ask leading questions, the needfinding will be useless. The <a href="../readings/needfinding-patnaik.pdf">Asking Questions section in Patnaik</a> should help.</p>
-
-                <p>You should have at least one interview per person on your team, but we ask you to do more. The more interviews you do, the more interesting insights you will find.</p>
+                <div id="team" class="sidenav-anchor">
+                    <h2>Prompt</h4>
+                    <p>Each studio will provide their P3 prompt here, TBA.</p>
                 </div>
 
-                <!--
-                <div id="observation" class="sidenav-anchor">
-                    <h2>Observation</h4>
-                    <p>Execute on your needfinding plan and gather your observations. Capture a mix of sketches, text, and when appropriate, photo and video.</p>
+    <div id="brainstorm" class="sidenav-anchor">
+      <h2>Brainstorming</h2>
+          <div id="flare" class="sidenav-anchor">
+                    <h4>Flare and Focus</h4>
+                    <p>Starting with the prompt, and any insights you can carry over from P2, work with your team to brainstorm together on whiteboards, sketchbooks, artisanal cheese scraps &mdash; whatever it takes. The only constraints are that your design involve interactive technology in some way, and be feasible to implement given the technology trajectory in the next five years. Work to "How Might We..." questions that ground your brainstorm with actionable problems. This should produce at least 15 ideas, and probably many more.</p>
 
-                    <p>Compile your team's observations together into one PDF. Now, filter your raw materials into five pages of your most interesting observations that the course staff can look at, and copy them into another PDF, alongside a couple sentences each of explanation if you'd like. Bring these selections to studio.</p>
+                    <p>Once you hit saturation — and this may take multiple brainstorms — capture your ideas to share them with us. Sketch out those ideas clearly for the staff the read and understand. They should communicate clearly from wall distance if we tape them up. You can use a combination of media if it's helpful.
 
-                    <p>As part of your synthesis, generate three people profiles to capture different stakeholders or user groups. <a href="https://docs.google.com/document/d/1hBcZuyHrgmr3cjRwsgiKO3rwcz2z-xv963EBkSaDp3w/edit?usp=sharing">(See a template here that you can copy and edit for your submission.)</a> People profiles ensure that you have enough depth on a perspective from your conversations to tell a story. They help your results become more emotionally resonant.</p>
-
-                    <p>Next milestone will be to produce interpretations of these observations.</p>
+                    <p>Select ideas that you would like to pursue — we suggest two — and expand on them a bit further. Sketch out the broader interaction context of how you imagine these ideas being used. Include who the users are, the major needs those users bring to the situation, and how your design solution addresses the needs.</p>
                 </div>
-                -->
+
+                <div id="darkhorse" class="sidenav-anchor">
+                    <h4>Dark Horse</h4>
+
+                    <p>Now that you've identified some design directions you like, it's time to change tack and include a <i>dark horse</i> idea. A dark horse, in horse racing, is a contender who most people don't think will win, but may turn in an unexpectedly strong performance and produce a huge payoff. Dark horse ideas are intended to be something far out there or nearly impossible. In the best case, your dark horse ideas might end up winning the race. However, even in the worst case, they can give us tremendous design insight and prevent design fixation, where the design space shrinks too rapidly.</p>
+
+                    <p>There are three requirements for dark horse ideas. First, they must be "dark": they must explore a space that is risky, radical, infeasible, and/or in a direction orthogonal to previously explored solutions. They should feel slightly uncomfortable. Second, they must be brainstormed after the more traditional ideas — you can't have a dark path without a traditional "light" path to contrast it against. Third, they must be refined enough that they could be prototyped and objectively tested. That is, it cannot be infeasible: it needs to be something that we could put in front of real people to see whether it would work.</p>
+
+                    <p>After you brainstorm and sketch out dark horse ideas, choose one that you'd like to include among your set of two top candidates from before. Expand on your dark horse idea like you did for the previous top two ideas.</p>
+                </div>
+
+                <div id="prototype" class="sidenav-anchor">
+                    <h2>Three prototypes</h2>
+                    <p>Much like with Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs.</p>
+
+                    <p>Your goal now is to prototype all three of your design ideas. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes. <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">Your goal is not to create a mockup or scale model, but to create experiences to which your users can react</a>.</p>
+
+                    <p>The key to this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. As in class, before you start the prototype, identify: what's your design idea's biggest unanswered question? Write it down — this will be the crux of your prototype. Use that question to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Use any prototyping technique in your arsenal.</p>
+
+                    <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
+                </div>                               
 
                 <div id="submit" class="sidenav-anchor">
-                    <h2>Submit</h2>
+                    <h2>Submit and Present</h2>
 
+                    <h3>On Canvas</h3>
                     <p>Pull everything together into your submission for P3.I on Canvas. This includes:</p>
                     <ul>
-                        <li>A text file with your team members' names and SUNet IDs.</li>
-                        <li>A document detailing your topic of interest, your needfinding plan, and your discussion guide.</li>
-
-                        <!--
-                        <li>Your raw observations</li>
-                        <li>Your selected observations with explanations</li>
-                        <li>Your people profiles</li>
-                        -->
+                        <li>One PDF that contains your brainstormed idea sketches, and your further explorations of two top ideas.</li>
+                        <li>One PDF that contains your brainstormed dark horse ideas, and your further exploration of one of them.</li>
+                        <li>Three PDF or zip files, one for each prototype: the question each was trying to ask, and a description (including images) of each.</li>
                     </ul>
-                    <p> Have one of your group memebers submit these documents on Canvas. </p>
-                    <p>Be prepared to present your needfinding plan and discussion guide in studio in three to four minutes. Bring a printout of your needfinding plan and discussion guide with you to studio.</p>
-                    <!--
-                    <p>Bring a full-page color printout of 1) your selected observations and 2) your people profiles with you to studio.</p>
-                    -->
+
+                    <h3>In Studio</h3>
+                    <p>Be prepared to share your top three ideas and prototypes in five minutes in studio. Bring full-page color printouts of your top three ideas' sketches and either your actual prototypes or printouts of the prototypes.</p>
                 </div>
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Grading rubric</h2>
-                    <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your deliverables to class for feedback.</p>
+                    <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to class for feedback.</p>
                 </div>
 
             </div>
         </div>
 
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/hci.js"></script>
   </body>
+
+  <!--#include virtual="../includes/footer.shtml" -->
+
 </html>
