@@ -7,17 +7,18 @@
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
   <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
                     <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
             </div> <!-- /col-md-3 -->
-            <div class="col-md-9" id="assignment-description">
+            <div class="col-md-8" id="assignment-description">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -66,7 +67,7 @@
                     <p>The key to this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. As in class, before you start the prototype, identify: what's your design idea's biggest unanswered question? Write it down — this will be the crux of your prototype. Use that question to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Use any prototyping technique in your arsenal.</p>
 
                     <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
-                </div>                               
+                </div>
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit and Present</h2>

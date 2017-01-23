@@ -7,17 +7,18 @@
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
   <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
                     <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
             </div> <!-- /col-md-3 -->
-            <div class="col-md-9" id="assignment-description">
+            <div class="col-md-10" id="assignment-description">
 
                 <div class="row">
                     <div class="col-md-12">
@@ -27,38 +28,38 @@
                 </div>
 
                 <div id="goals" class="sidenav-anchor">
-                    <h2>Iterate</h2>
+                    <h3>Iterate</h3>
                     <p>This is the iterative, deliberate practice part of the assignment. Based on the critiques from your studio staff and your peers, go back out into the field. Your studio instructor may have suggested a different place to go this time or different people to talk to. Gather more observations, interview more people, and gain a deeper understanding of the phenomenon of interest. Improve your interpretations and your How Might We? questions. The expectations are high now: blow us away!</p>
                 </div>
 
                 <div id="poster" class="sidenav-anchor">
-                    <h2>Presentation</h2>
+                    <h3>Presentation</h3>
                     <p>Create a four-minute presentation (e.g., Powerpoint, Keynote) communicating your final needfinding results: your most compelling observations, interpretations, and How Might We questions. Remember the principles of effective communitation: the presentation should not be a braindump, but instead an effective communicator of your main results.</p>
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
-                    <h2>Submit</h2>
+                    <h3>Submit</h3>
 
-                    <h3>On Canvas</h3>
+                    <h4>On Canvas</h4>
                     <p>Pull your final materials together into your P2 Part II submission folder. That means one PDF that includes revisions of all elements that were part of Part I, as well as a copy of your presentation slides.</p>
 
-                    <h3>In Studio</h3>
+                    <h4>In Studio</h4>
                     <p>Your team will present your final results, using your slides, in studio.</p>
 
-                    <h3>Team Dynamics Checkin</h3>
+                    <h4>Team Dynamics Checkin</h4>
                     <p>Please <a href="https://goo.gl/forms/mZn3iaVi2pUL4noE2">submit a team assessment form</a> (one for every member of the team). You will only get credit for P2-2 when every member of your team submits a form.</p>
 
                 </div>
 
                 <!-- add this section next year when we have previous examples
                 <div id="examples" class="sidenav-anchor">
-                    <h2>Student Examples</h2>
+                    <h3>Student Examples</h3>
                     <p>Check out an example of this assignment from last year <a href="https://stanford.coursera.org/hci-2012-fall/wiki/view?page=Assignment1StudentExamples">here</a>. Keep in mind that the assignment was slightly different last year. </p>
                 </div>
                 -->
 
                 <div id="evaluation" class="sidenav-anchor">
-                    <h2>Grading rubric</h2>
+                    <h3>Grading rubric</h3>
                     <p>Part II is worth <b>fifteen points</b>, graded on a rubric.</p>
 
                     <div class="table-responsive">
@@ -76,7 +77,7 @@
                                 <tbody>
 
                                 <tr>
-                                    <td headers="category"><div>Method</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="category"><div>Method</div><div><small class="text-muted">5pt</small></div></td>
                                     <td headers="unsatisfactory">1: No clear user group to speak of. Ad-hoc methods.</td>
                                     <td headers="adequate">2: Identification of a generic or too-broad user group. Methods only give cursory access.</td>
                                     <td headers="good">3: Identification of a relevant user group, but too broad or not compelling. Methods are generally appropriate but may not give complete information.</td>

@@ -7,14 +7,19 @@
 </head>
 
 <body>
-	<!--#include virtual="includes/navigation.html" -->
 
-	<div class="wrap">
-	<div class="container">
-		<div class="jumbotron">
-			<h1>HCI design studio</h1>
+	<!--#include virtual="includes/brandbar.html" -->
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1><span class="department-name">HCI</span> <span class="course-name">design studio</span></h1>
 			<p>CS 247 &middot; Winter 2017</p>
 		</div>
+	</div>
+
+	<!--#include virtual="includes/navigation.html" -->
+
+	<div class="container">
 
 		<div id="syllabus">
 			<p class="lead">
@@ -24,18 +29,7 @@
 
 			<hr>
 
-			<h3>Learning goals</h3>
-			<ul id="learning-goals">
-				<li>Students will become comfortable critiquing, receiving critiques, and iterating on their designs in an advanced studio environment.</li>
-				<li>Students will be able to perform needfinding with community members and stakeholders that goes beyond surface-level observations and produces deeper insights and needs.</li>
-				<li>Students will be able to communicate their ideas: visually through sketching and mocks, through show-and-tell reports to studio, and through presentation to large groups.</li>
-				<li>Students will be able to identify the most appropriate question to answer for their design, and to rapidly create a prototype to do so.</li>
-				<li>Students will be able to utilize current tools and technologies (e.g. Sketch and HTML/JS/CSS/Bootstrap) to produce high-quality designs.</li>
-			</ul>
-
-			<hr>
-
-			<h3>Logistics</h3>
+			<!-- <h3>Logistics</h3> -->
 
 			<div class="row" id="info">
 				<div class="col-sm-4">
@@ -90,27 +84,40 @@
 			</div>
 		</div>
 
-		<hr>
+		<!-- <hr> -->
 
-		<h3>Calendar</h3>
+		<!-- <h3>Calendar</h3> -->
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="hidden-xs">
-					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;wkst=2&amp;bgcolor=%23FAF7F7&amp;src=stanford.edu_au5u6un56ai57128du0o34095k%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;wkst=2&amp;bgcolor=%23fbfbf9&amp;src=stanford.edu_au5u6un56ai57128du0o34095k%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="700" frameborder="0" scrolling="no"></iframe>
 				</div>
 				<div class="visible-xs-block">
-					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=2&amp;bgcolor=%23FAF7F7&amp;src=stanford.edu_au5u6un56ai57128du0o34095k%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+					<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;wkst=2&amp;bgcolor=%23fbfbf9&amp;src=stanford.edu_au5u6un56ai57128du0o34095k%40group.calendar.google.com&amp;color=%23711616&amp;ctz=America%2FLos_Angeles" style="border-width:0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
 				</div>
 			</div>
 		</div>
 
+		<hr>
+
+		<h5>Learning goals</h5>
+		<ul id="learning-goals">
+			<li>Students will become comfortable critiquing, receiving critiques, and iterating on their designs in an advanced studio environment.</li>
+			<li>Students will be able to perform needfinding with community members and stakeholders that goes beyond surface-level observations and produces deeper insights and needs.</li>
+			<li>Students will be able to communicate their ideas: visually through sketching and mocks, through show-and-tell reports to studio, and through presentation to large groups.</li>
+			<li>Students will be able to identify the most appropriate question to answer for their design, and to rapidly create a prototype to do so.</li>
+			<li>Students will be able to utilize current tools and technologies (e.g. Sketch and HTML/JS/CSS/Bootstrap) to produce high-quality designs.</li>
+		</ul>
+
+		<hr>
+
 		<div id="calendar">
-			<h3>Syllabus</h3>
-			<div class="table-responsive">
+			<!-- <h3>Syllabus</h3> -->
+			<div class="table-static">
 				<table class="table">
 					<thead>
 						<tr>
-							<th>Week</th>
+							<th class="hidden-xs">Week</th>
 							<th>Monday</th>
 							<th>Friday</th>
 						</tr>
@@ -118,7 +125,7 @@
 					<tbody>
 
 						<tr>
-							<td><h6>1</h6></td>
+							<td class="hidden-xs"><h6>1</h6></td>
 							<td>
 								<h6>January 9</h6>
 								<p>
@@ -138,7 +145,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>2</h6></td>
+							<td class="hidden-xs"><h6>2</h6></td>
 							<td>
 								<h6>January 16</h6>
 								<p><em class="text-muted">No class; MLK day</em></p>
@@ -151,7 +158,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>3</h6></td>
+							<td class="hidden-xs"><h6>3</h6></td>
 							<td>
 								<h6>January 23</h6>
 								<p>Interviewing</p>
@@ -167,7 +174,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>4</h6></td>
+							<td class="hidden-xs"><h6>4</h6></td>
 							<td>
 								<h6>January 30</h6>
 								<p>Picking prototypes</p>
@@ -179,7 +186,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>5</h6></td>
+							<td class="hidden-xs"><h6>5</h6></td>
 							<td>
 								<h6>February 6</h6>
 								<p>P3 studio day</p>
@@ -194,7 +201,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>6</h6></td>
+							<td class="hidden-xs"><h6>6</h6></td>
 							<td>
 								<h6>February 13</h6>
 								<p>Layout: information hierarchy, <br> grids, wireframing, responsive design</p>
@@ -206,7 +213,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>7</h6></td>
+							<td class="hidden-xs"><h6>7</h6></td>
 							<td>
 								<h6>February 20</h6>
 								<p>No class; Presidents' Day</p>
@@ -218,7 +225,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>8</h6></td>
+							<td class="hidden-xs"><h6>8</h6></td>
 							<td>
 								<h6>February 27</h6>
 								<p>Ubiquitous computing</p>
@@ -230,7 +237,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>9</h6></td>
+							<td class="hidden-xs"><h6>9</h6></td>
 							<td>
 								<h6>March 6</h6>
 								<p>Art+design</p>
@@ -242,7 +249,7 @@
 						</tr>
 
 						<tr>
-							<td><h6>10</h6></td>
+							<td class="hidden-xs"><h6>10</h6></td>
 							<td>
 								<h6>March 13</h6>
 								<p>P4 work day</p>
@@ -262,7 +269,6 @@
 
 		</div> <!-- calender end -->
 	</div> <!-- container end -->
-	</div> <!-- wrap end -->
 
 	<!--#include virtual="includes/footer.shtml" -->
 

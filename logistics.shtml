@@ -7,19 +7,19 @@
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
-
+  <!--#include virtual="includes/brandbar.html" -->
   <!--#include virtual="includes/navigation.html" -->
 
   <div class="container">
   	<div class="row">
 
-  		<div class="col-md-3">
-        <div class="sidenav" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+  		<div class="col-md-2">
+        <div class="sidenav" data-spy="affix" data-offset-top="80" data-offset-bottom="200">
           <ul class="nav nav-stacked" id="sidenav-content"></ul>
         </div> <!-- /sidenav -->
       </div> <!-- /col-md-3 -->
 
-      <div class="col-md-9" id="logistics">
+      <div class="col-md-8" id="logistics">
   			<div id="prereqs" class="sidenav-anchor">
   				<h3>Prerequisites</h3>
   				<p>We want a diverse classroom. If you are a student who is not from the Computer Science department, Management Science &amp; Engineering department, or Symbolic Systems program, there may be some flexibility in these prerequisites. Please speak to the instructor or post on Piazza.</p>
@@ -61,10 +61,14 @@
   				<div id="deliverables" class="sidenav-anchor">
   					<h4>Deliverables</h4>
   					<p>The class consists of four projects (P1&ndash;P4). Projects will have intermediate deadlines where we can give you feedback. These deadlines will give credit for submitting a complete milestone, but will also receive a check-minus/check/check-plus evaluation as you consider how to move forward. You will share progress and deliverables in studio. The final project culminates in a presentation and poster at the end of the quarter in front of invited design jurors.</p>
-
-                        <p>Submission guidelines can be found <a href="submit.html">here</a>. Late assignments will not be accepted. There are two reasons that assignments need to be submitted on time. First, to be able to provide you with rapid feedback about your work, the teaching staff begins looking at assignments immediately. Second, you'll present your work in studio, and you need to be prepared to participate.</p>
-
+  					<p>Late assignments will not be accepted. There are two reasons that assignments need to be submitted on time. First, to be able to provide you with rapid feedback about your work, the teaching staff begins looking at assignments immediately. Second, you'll present your work in studio, and you need to be prepared to participate.</p>
   					<p>There are rubrics beneath each assignment that explain how you and the staff will grade your submission. Different columns represent different scores.</p>
+  				</div>
+  				<div id="submission-procedure" class="sidenav-anchor">
+  				  <h4>Submission Procedure</h3>
+  				  <p>To submit an assignment, go to <a href="https://canvas.stanford.edu">canvas.stanford.edu</a>. From there, go to CS247 (either from clicking on CS247 from the Dashboard or by clicking on Courses). Then click on <b>Assignments</b> -> <b>P1 (for example)</b> (left menu) -> <b>Submit Assignment</b> (top right).</p>
+  				  <p>After uploading your file, click <b>Submit Assignment</b>.</p>
+  				  <p>For group submissions, only one member needs to submit the deliverables for the whole group.</p>
   				</div>
   				<div id="breakdown" class="sidenav-anchor">
   					<h4>Grade breakdown</h4>

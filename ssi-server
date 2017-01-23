@@ -1,0 +1,123 @@
+#!/usr/local/opt/python/bin/python2.7
+# encoding: utf-8
+
+# Ludwig Schubert for CS247
+# based on
+
+
+import hashlib
+import json
+import mimetypes
+import tempfile
+import os
+import re
+import base64
+import webbrowser
+from bottle import route, run, response, request, abort, template
+from optparse import OptionParser
+from threading import Timer
+
+
+ROOT_PATH = None
+SSI_INCL_EXP = re.compile(r'<!-- *# *include *(virtual|file)=[\'\"]([^\'"]+)[\'\"] *-->')
+AUTO_INDEX = None
+INDEX = 'index.html'
+
+AUTO_INDEX_TEMPLATE = '''<html><body>
+<ul>
+  % for item in content:
+    <li><a href="{{ item }}">{{ item }}</a></li>
+  % end
+</ul>
+'''
+
+def auto_index(path):
+    return template(AUTO_INDEX_TEMPLATE, content=os.listdir(os.path.join(ROOT_PATH, path)))
+
+@route('/')
+@route('/<path:path>')
+def static(path=''):
+    print "Static Path: ", path
+    if path.startswith(options.rootpath):
+        _, path = path.split(options.rootpath, 1)
+        path = path.lstrip('/')
+
+    def get_included_content(webpath, root_path=ROOT_PATH):
+        print "SSI webpath: ", webpath
+        if webpath.startswith('/'):
+            path = os.path.join(root_path, webpath.lstrip('/'))
+        else:
+            path = os.path.join(root_path, webpath)
+
+        print "SSI Path: ", path
+        with open(path, 'r') as f:
+            content = f.read()
+            content = re.sub(
+                SSI_INCL_EXP,
+                lambda x: get_included_content(x.groups()[1], os.path.dirname(path)),
+                content
+            )
+
+        return content
+
+    fullpath = os.path.join(ROOT_PATH, path)
+    exists = os.path.exists(fullpath) and os.path.isfile(fullpath)
+    mimes = mimetypes.guess_type(fullpath)
+    response.content_type = mimes[0] or 'html'
+
+    if path == '' or fullpath.endswith('/') and not exists:
+        if AUTO_INDEX and os.path.isdir(os.path.join(ROOT_PATH, path)):
+            return auto_index(path)
+        else:
+            return static("{0}/{1}".format(path, INDEX).strip('/') )
+
+    if not exists:
+        abort(404)
+
+    req_etag = request.headers.get('If-None-Match')
+    stat = os.stat(fullpath)
+    etag = base64.b64encode(hashlib.md5("{0}-{1}".format(stat.st_size, stat.st_mtime)).digest())
+
+    if etag == req_etag:
+        return abort(304)
+
+    if 'html' in response.content_type or not response.content_type:
+        content = get_included_content(path)
+        return content
+    else:
+        with open(fullpath) as f:
+            content = f.read()
+            response.set_header('Etag', etag)
+        return content
+
+
+def main(options, config, *args):
+    global ROOT_PATH, AUTO_INDEX, INDEX
+
+    ROOT_PATH = options.root
+    AUTO_INDEX = options.autoindex
+    INDEX = options.index
+
+    url = "http://{0}:{1}/{2}".format('localhost' if options.host == '0.0.0.0' else options.host, options.port, options.rootpath)
+    Timer(0.1, lambda: webbrowser.open(url, new=2)).start()
+    run(
+        host=options.host,
+        port=options.port,
+        server='wsgiref' if options.debug else 'eventlet',
+        reloader=options.debug
+    )
+    return 0
+
+if __name__ == '__main__':
+    parser = OptionParser(usage="usage: %prog [options]")
+    parser.add_option("-H", "--host", dest="host", default='0.0.0.0', help="listen this address")
+    parser.add_option("-P", "--port", dest="port", type=int, default=9088, help="http port for listening")
+    parser.add_option("-D", "--debug", dest="debug", action="store_true", default=False)
+    parser.add_option("-d", "--path", dest="root", default=os.path.abspath(os.path.curdir))
+    parser.add_option("-r", "--rootpath", dest="rootpath", default="", help="root path in URL for requests")
+    parser.add_option("-A", "--autoindex", dest="autoindex", action="store_true", default=False)
+    parser.add_option("-I", "--index", dest="index", default='index.html')
+
+    options, args = parser.parse_args()
+
+    exit(main(options, args))

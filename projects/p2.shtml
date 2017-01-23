@@ -7,22 +7,22 @@
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
   <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
                     <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
             </div> <!-- /col-md-3 -->
-            <div class="col-md-9" id="assignment-description">
+            <div class="col-md-8" id="assignment-description">
 
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Project 2: Needfinding</h2>
-
+                        <h1>Project 2: Needfinding</h1>
                         <p class="lead">P2 focuses on advanced techniques and deliberate practice for needfinding.</p>
                     </div>
                 </div>
@@ -51,11 +51,15 @@
                     <h2>Project Parts</h2>
                     <p>Below is our recommended timeline for Project 2. These dates are the dates by which we recommend completing each milestone: keep in mind that <b>it may take several iterations of feedback on submissions before you and your team are ready to declare a milestone complete</b>. This schedule is a suggestion; we expect that some teams will take more time interating through some of these milestones and less time on others. All deadlines are as of the beginning of class.</p>
 
-                    <h3><a href="p2-1.shtml">Part I</a></h3>
-                    <p>Jan. 20 (week 2)</p>
+                    <div id="p2-1" class="sidenav-anchor">
+                        <h5><a href="p2-1.shtml">Part I</a></h5>
+                        <p>Jan. 20 (week 2)</p>
+                    </div>
 
-                    <h3><a href="p2-2.shtml">Part II</a></h3>
-                    <p>Jan. 27 (week 3). Final submission, hard deadline.</p>
+                    <div id="p2-2" class="sidenav-anchor">
+                        <h5><a href="p2-2.shtml">Part II</a></h5>
+                        <p>Jan. 27 (week 3). Final submission, hard deadline.</p>
+                    </div>
 
                 </div>
 

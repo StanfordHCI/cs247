@@ -7,17 +7,18 @@
 </head>
 
 <body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
   <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix"  data-offset-top="80">
                     <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
             </div> <!-- /col-md-3 -->
-            <div class="col-md-9" id="assignment-description">
+            <div class="col-md-8" id="assignment-description">
 
                 <div class="row">
                     <div class="col-md-12">

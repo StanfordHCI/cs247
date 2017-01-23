@@ -1,6 +1,6 @@
 $(document).ready(function() {
     initializeSideNav();
-    var offset = 60;
+    var offset = 0;
 
     $('#sidenav-content li a').click(function(event) {
         event.preventDefault();
