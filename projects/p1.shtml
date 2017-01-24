@@ -57,7 +57,14 @@
 
                 <div id="example" class="sidenav-anchor">
                     <h2>Project Examples</h2>
-                    <p><a href="http://www.azarask.in/blog/post/how-to-critique-an-interface/">Aza Raskin's essay on how to critique an interface</a> may be instructive. <a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">Bret Victor's critique of the future of ubiquitous computing visions</a> is one of my favorite, demonstrating that you can critique a design without focusing on button placement.</p>
+                    <div id="example-professionals" class="sidenav-anchor">
+                        <h4>By professionals</h4>
+                        <p><a href="http://www.azarask.in/blog/post/how-to-critique-an-interface/">Aza Raskin's essay on how to critique an interface</a> may be instructive. <a href="http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/">Bret Victor's critique of the future of ubiquitous computing visions</a> is one of my favorite, demonstrating that you can critique a design without focusing on button placement.</p>
+                    </div>
+                    <div id="example-peers" class="sidenav-anchor">
+                        <h4>By your peers</h4>
+                        <p>We particularly liked <a href="/2017-winter/projects/examples/p1-example-1.pdf">this submission by Lindsey</a> and <a href="/2017-winter/projects/examples/p1-example-2.pdf">this submission by Kimiya.</a></p>
+                    </div>
                 </div>
 
                 <div id="prep" class="sidenav-anchor">
@@ -83,7 +90,7 @@
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit</h2>
-                    <a href='../submit.html'>Submit</a> one combined PDF of your critiques. (<a href="https://canvas.stanford.edu/courses/55308/assignments/58055">Direct link to Canvas submission.</a>)</p>
+                    <p>Submit one combined PDF of your critiques. (<a href="https://canvas.stanford.edu/courses/55308/assignments/58055">Direct link to Canvas submission.</a>)</p>
 
                     <p>Print out full-page versions of the interfaces or your annotated visual critique and bring it to class on Friday. We'll be looking at each others' work!</p>
 
