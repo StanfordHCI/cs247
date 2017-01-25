@@ -39,7 +39,7 @@ a, a:hover {
  }
 
  #footer .contentinfo {
-  color: #827252;
+  color: #73623f;
   margin-top: 60px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -99,18 +99,18 @@ a, a:hover {
     border: none;
 }
 .navbar-default .navbar-brand {
-    color: #827252;
+    color: #73623f
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-    color: #827252;
+    color: #73623f;
 }
 .navbar-default .navbar-nav > li > a {
-    color: #827252;
+    color: #73623f;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #827252;
+    color: #73623f;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -209,8 +209,8 @@ a, a:hover {
 
 .jumbotron p {
   font-weight: 400;
-  /* color: #3f3c30; */
-  color: #5f574f;
+  color: #3f3c30;
+  /* color: #5f574f; */
 }
 
 .jumbotron .department-name {
