@@ -41,9 +41,7 @@
       <h2>Brainstorming</h2>
           <div id="flare" class="sidenav-anchor">
                     <h4>Flare and Focus</h4>
-                    <p>Starting with the prompt, and any insights you can carry over from P2, work with your team to brainstorm together on whiteboards, sketchbooks, artisanal cheese scraps &mdash; whatever it takes. The only constraints are that your design involve interactive technology in some way, and be feasible to implement given the technology trajectory in the next five years. Work to "How Might We..." questions that ground your brainstorm with actionable problems. This should produce at least 15 ideas, and probably many more.</p>
-
-                    <p>Once you hit saturation — and this may take multiple brainstorms — capture your ideas to share them with us. Sketch out those ideas clearly for the staff the read and understand. They should communicate clearly from wall distance if we tape them up. You can use a combination of media if it's helpful.
+                    <p>Starting with the prompt, and any insights you can carry over from P2, work with your team to brainstorm together on whiteboards, sketchbooks, artisanal cheese scraps &mdash; whatever it takes. The only constraints are that your design involve interactive technology in some way, and be feasible to implement given the technology trajectory in the next five years. Work to "How Might We..." questions that ground your brainstorm with actionable problems. This should produce at least 15 ideas, and probably many more. Sketch them out clearly.</p>
 
                     <p>Select ideas that you would like to pursue — we suggest two — and expand on them a bit further. Sketch out the broader interaction context of how you imagine these ideas being used. Include who the users are, the major needs those users bring to the situation, and how your design solution addresses the needs.</p>
                 </div>
@@ -60,11 +58,9 @@
 
                 <div id="prototype" class="sidenav-anchor">
                     <h2>Three prototypes</h2>
-                    <p>Much like with Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs.</p>
+                    <p>Much like with Horcruxes, one should not place all their faith in a single prototype. As we've discussed in class, having multiple parallel prototypes produces better final designs. Your goal now is to prototype all three of your design ideas. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes. <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">Your goal is not to create a mockup or scale model, but to create experiences to which your users can react</a>.</p>
 
-                    <p>Your goal now is to prototype all three of your design ideas. The explicit goal of this assignment is to challenge ourselves to generate convincing but rapid prototypes. <a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf">Your goal is not to create a mockup or scale model, but to create experiences to which your users can react</a>.</p>
-
-                    <p>The key to this assignment will be figuring out how to prototype each idea quickly and convincingly, without sinking untold hours into them. As in class, before you start the prototype, identify: what's your design idea's biggest unanswered question? Write it down — this will be the crux of your prototype. Use that question to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Use any prototyping technique in your arsenal.</p>
+                    <p>The key to this assignment will be articulating: what's your design idea's biggest unanswered question? Use that question to figure out what kind of prototype you would need to build and how you would get feedback from users to answer it. Do not try to create a single prototype that covers the entire idea. This is doomed to be too unfocused to learn much useful. Prototypes can be hand-drawn, constructed physically, behavioral, or digital. Use any prototyping technique in your arsenal.</p>
 
                     <p>Capture your questions and prototypes so that we can understand what you did. Include relevant materials (e.g., images, videos) and a short description.</p>
                 </div>
