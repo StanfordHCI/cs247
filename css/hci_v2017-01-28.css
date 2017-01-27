@@ -362,3 +362,13 @@ h6 {
   position: relative;
   top: -0.3em;
 }
+
+.alert {
+  border-radius: 3px;
+}
+
+.alert-info {
+  color: #73623f;
+  background-color: #e9e6df;
+  border-color: #e3dfd5;
+}

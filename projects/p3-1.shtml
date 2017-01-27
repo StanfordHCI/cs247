@@ -34,6 +34,9 @@
 
                 <div id="prompts" class="sidenav-anchor">
                     <h2>Prompt</h2>
+                        <div class="alert alert-info" role="alert">
+                            <p>These may get tailored to reflect the content of your P2 submissions—please check back after the weekend for updates.</p>
+                        </div>
                         <h5>Social Decision Making <small>Bob Baxley </small></h5>
                         <p class="">
                             Imagine a technology service/site/app that a family could use together to determine a charitable giving plan. Imagine the family has four members: two parents, one high school aged child, and one college aged child. You can focus on one of the following specific decisions/issues:
