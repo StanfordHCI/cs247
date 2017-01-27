@@ -32,9 +32,43 @@
                     <p>Form a team of four people from your studio. You can be with a maximum of one other person that you worked with on P2.</p>
                 </div>
 
-                <div id="team" class="sidenav-anchor">
-                    <h2>Prompt</h4>
-                    <p>Each studio will provide their P3 prompt here, TBA.</p>
+                <div id="prompts" class="sidenav-anchor">
+                    <h2>Prompt</h2>
+                        <h5>Social Decision Making <small>Bob Baxley </small></h5>
+                        <p class="">
+                            Imagine a technology service/site/app that a family could use together to determine a charitable giving plan. Imagine the family has four members: two parents, one high school aged child, and one college aged child. You can focus on one of the following specific decisions/issues:
+                            <ul class="su-list">
+                                <li>How do they collectively determine an appropriate level of giving?</li>
+                                <li>How do they decide whether to focus on a single cause or multiple causes?</li>
+                                <li>How do they select a specific charity within a chosen cause?</li>
+                            </ul>
+                        </p>
+                        <p>
+                            The goal is to create an interaction that supports a small group with an uneven distribution of power make a decision about how to allocate a fixed resource.
+                        </p>
+
+                        <h5>Banishing Bland Buildings <small>Jenn Marlow </small></h5>
+                        <p class="">
+                            Your users are foreign tourists in Stanford Shopping Center. They do not know any English, people at the shopping center speak none of their languages, Google Translate stinks in their language. Create a system that would let them communicate successfully with others in the shopping center to:
+                        </p>
+                            <ul class="su-list">
+                                <li>Find lunch—one of them is vegetarian, but does not like spicy food</li>
+                                <li>Find out what's the most popular store at the shopping center, and the most popular thing to buy there</li>
+                                <li>Fix a mental model error: they think that they are at Stanford, but can't seem to find any of the Stanford landmarks (because they're actually at the shopping center)</li>
+                            </ul>
+
+                        <h5>Leveling the playing field <small>Helena Roeber </small></h5>
+                        <p>Will be determined after submissions in studio today!</p>
+
+                        <h5>Cutting Edge <small>Julie Stanford & Jofish Kaye</small></h5>
+                        <p>Design an experience that helps deliver information to surgery patients pre and/or post surgery. Narrow your focus to think about specific use cases — is this patient having an emergency surgery or a pre-planned procedure? Do they have a support team of friends and family or are they alone? What information will they need to reference once versus multiple times? Think about what patient’s information needs are, their state of mind when they receive the information, and what the source will be.  Also think about the medical provider’s communication needs. What information do they believe patients should have? How will they know if the patient received it? How will they know what patients have already been told when they interact with them? The experience could be on mobile, web, a kiosk, tablet or any other digital medium of your choice.  And, by the way, <a class="sneaky-link" href="/2017-winter/images/axe.png">no person should be harmed in your attempt to create a situation where someone needs surgery</a>.</p>
+
+                        <h5>Disrupting Echo Chambers <small>John Tang</small></h5>
+                        <p>Assuming there exists an algorithm for identifying items of a different point of view than the ones you choose to view, how would you design a UX that <em>injects</em> these complementary posts into the user’s view and attracts them to view it? Key points are how to present it to the user and how to <em>intensify</em> this presentation so the user does get some exposure to different points of view. Pick a distribution channel (for example social media feeds like Facebook, Snapchat, Periscope, digital news sites, reddit threads; even web search results on controversial topics) and figure out how to work into users’ existing use practices to introduce them to differing perspectives.</p>
+
+                        <h5>Subvert <small>Prof. Michael Bernstein </small> </h5>
+                        <p>Pick a topic of dialogue in the campus or national environment, and identify a point of view that you feel is under-represented. Design an intervention that draws attention to that point of view. The design can exist in any technologically-mediated interactive environment: interactive kiosk, social media, mobile app. The design goal should be for it to spread as virally as possible.</p>
+                    </ul>
                 </div>
 
     <div id="brainstorm" class="sidenav-anchor">
@@ -88,6 +122,7 @@
             </div>
         </div>
 
+    </div>
     </div>
   </body>
 

@@ -38,14 +38,20 @@
                     <h2>Project Parts</h2>
                     <p>Below is our recommended timeline for Project 3. Keep in mind that it may take several iterations of feedback on submissions before you and your team are ready to declare a milestone complete.</p>
 
-                    <h3><a href="p3-1.shtml">Part I</a></h3>
-                    <p>Feb. 3 (week 4)</p>
+                    <div id="part1" class="sidenav-anchor">
+                        <h3><a href="p3-1.shtml">Part I</a></h3>
+                        <p>Feb. 3 (week 4)</p>
+                    </div>
 
-                    <h3><a href="p3-2.shtml">Part II</a></h3>
-                    <p>Feb. 10 (week 5)</p>
+                    <div id="part2" class="sidenav-anchor">
+                        <h3><a href="p3-2.shtml">Part II</a></h3>
+                        <p>Feb. 10 (week 5)</p>
+                    </div>
 
-                    <h3><a href="p3-3.shtml">Part III</a></h3>
-                    <p>Feb. 13 (week 6). Final submission, hard deadline.</p>
+                    <div id="part3" class="sidenav-anchor">
+                        <h3><a href="p3-3.shtml">Part III</a></h3>
+                        <p>Feb. 13 (week 6). Final submission, hard deadline.</p>
+                    </div>
 
                 </div>
 

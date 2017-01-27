@@ -169,11 +169,11 @@
 								<p>Interviewing: <a href="slides/04-interviewing.pdf">slides</a> </p>
 							</td>
 							<td>
-								<h6>January 27 <span class="label label-danger">due date</span></h6>
+								<h6>January 27</h6>
 								<p>
 									Brainstorming<br>
 									<a href="projects/p2-2.shtml">P2 part II</a> due<br>
-									P3 (Design Sprint) out
+									<a href="projects/p3.shtml">P3 (Design Sprint)</a> out
 								</p>
 							</td>
 						</tr>
@@ -185,8 +185,9 @@
 								<p>Picking prototypes</p>
 							</td>
 							<td>
-								<h6>February 3</h6>
+								<h6>February 3 <span class="label label-warning">suggested due date</span></h6>
 								<p>Parallel prototyping</p>
+								<a href="projects/p3-1.shtml">P3 Part I</a> soft due
 							</td>
 						</tr>
 
@@ -197,10 +198,9 @@
 								<p>P3 studio day</p>
 							</td>
 							<td>
-								<h6>February 10</h6>
+								<h6>February 10 <span class="label label-warning">suggested due date</span></h6>
 								<p>
-									P3 (Design Sprint) due<br>
-									P4 (Final Project) out
+									<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
 								</p>
 							</td>
 						</tr>
@@ -208,8 +208,14 @@
 						<tr>
 							<td class="hidden-xs"><h6>6</h6></td>
 							<td>
-								<h6>February 13</h6>
-								<p>Layout: information hierarchy, <br> grids, wireframing, responsive design</p>
+								<h6>February 13 <span class="label label-danger">due date</span></h6>
+								<p>
+									Layout: information hierarchy, <br> grids, wireframing, responsive design
+								</p>
+								<p>
+									<a href="projects/p3-2.shtml">P3 Part III</a> and all earlier parts
+									<a href="projects/p3.shtml">P3 (Design Sprint)</a> hard due
+								</p>
 							</td>
 							<td>
 								<h6>February 17</h6>
