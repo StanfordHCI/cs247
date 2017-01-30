@@ -101,11 +101,12 @@ a, a:hover {
     border: none;
 }
 .navbar-default .navbar-brand {
-    color: #73623f
+    color: #73623f;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #73623f;
+    background-color: #e9e6df;
 }
 .navbar-default .navbar-nav > li > a {
     color: #73623f;
@@ -113,6 +114,7 @@ a, a:hover {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #73623f;
+    background-color: #e9e6df;
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -122,21 +124,21 @@ a, a:hover {
     background-image: none;
     background-color: transparent;
 }
-/*
+
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-
-}*/
+  background-color: green;
+}
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .open > a:focus {
     /*color: #ffbbbc;*/
-    /*background-color: #943943;*/
-    background-image: none;
-    background-color: transparent;
+    background-color: #e9e6df;
+    /* background-image: none;
+    background-color: transparent; */
 }
 
 .navbar-default .navbar-nav > .dropdown > a .caret {
@@ -155,11 +157,11 @@ a, a:hover {
     border-bottom-color: #ffbbbc; */
 }
 .navbar-default .navbar-toggle {
-    border-color: #827252;
+    border-color: #e3dfd5;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #d5d0c0;
+    background-color: #e9e6df;
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #827252;
@@ -190,6 +192,30 @@ a, a:hover {
     /* font-weight: 300; */
 }
 
+nav .btn-su {
+  color: #73623f;
+  background-color: #f2f1eb;
+  border-color: #e3dfd5;
+}
+
+nav .btn-su:hover {
+  color: #73623f;
+  background-color: #e9e6df;
+  border-color: #e3dfd5;
+}
+
+nav .btn-su:active {
+  color: #73623f;
+  background-color: #e9e6df;
+  border-color: #e3dfd5;
+}
+
+nav .btn-su:hover:active {
+  color: #73623f;
+  background-color: #e9e6df;
+  border-color: #e3dfd5;
+}
+
 
 .anchor {
 	padding-top: 40px; /* prevents the fixed navbar from obscuring the anchors */
@@ -202,6 +228,7 @@ a, a:hover {
   position: relative;
   background: none;
   margin-bottom: 0;
+  /* text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5); */
 }
 
 .jumbotron h1 {
@@ -371,4 +398,39 @@ h6 {
   color: #73623f;
   background-color: #e9e6df;
   border-color: #e3dfd5;
+}
+
+td h6 {
+  margin-top: 0;
+}
+
+#calendar td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+#calendar p {
+  margin-bottom: 5px;
+}
+
+#current-week {
+  background-color: #f5f4ed;
+  /* border-left: 1px #8c1515 dashed; */
+  /* border-right: 1px #8c1515 dashed; */
+
+}
+
+#current-week .hidden-xs h6 {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 1em;
+  background-color: #8c1515;
+  /* padding-top: 16px;
+  padding-bottom: 16px; */
 }

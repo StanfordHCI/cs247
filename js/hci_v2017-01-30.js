@@ -16,6 +16,15 @@ $(document).ready(function() {
         $('small.notes').css("display", "block");
     }
 
+    // highlight current week
+    courseStart = new Date(2017,0,9)
+    startWeek = ISO8601_week_no(courseStart);
+    today = new Date()
+    currentWeek = ISO8601_week_no(today);
+    weeksIntoCourse = currentWeek - startWeek; // 0 indexed
+    weekRows = $("#calendar tr:not(:first)"); // don't select table header
+    weekRows.eq(weeksIntoCourse).attr('id', 'current-week');
+
 });
 
 function initializeSideNav() {
@@ -70,3 +79,17 @@ var urlParams;
     while (match = search.exec(query))
        urlParams[decode(match[1])] = decode(match[2]);
 })();
+
+// http://www.w3resource.com/javascript-exercises/javascript-date-exercise-24.php
+function ISO8601_week_no(dt)
+{
+   var tdt = new Date(dt.valueOf());
+   var dayn = (dt.getDay() + 6) % 7;
+   tdt.setDate(tdt.getDate() - dayn + 3);
+   var firstThursday = tdt.valueOf();
+   tdt.setMonth(0, 1);
+   if (tdt.getDay() !== 4) {
+    tdt.setMonth(0, 1 + ((4 - tdt.getDay()) + 7) % 7);
+   }
+   return 1 + Math.ceil((firstThursday - tdt) / 604800000);
+}

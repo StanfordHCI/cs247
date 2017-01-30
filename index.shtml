@@ -133,19 +133,19 @@
 							<td class="hidden-xs"><h6>1</h6></td>
 							<td>
 								<h6>January 9</h6>
-								<p>
-									Class intro & studios: <a href="slides/01-intro-crit.pdf">slides</a><br>
-									<a href="https://docs.google.com/forms/d/e/1FAIpQLScbBH9chEdti_WSLDXOzxJgNYmcdFtYv2ErJHkuzQNuU0sl2g/viewform">Sign up for studios</a> by 11:59pm<br>
-									<a href="projects/p1.shtml">P1 (Critique)</a> out
-								</p>
+								<p>Class intro & studios: <a href="slides/01-intro-crit.pdf">slides</a></p>
+
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLScbBH9chEdti_WSLDXOzxJgNYmcdFtYv2ErJHkuzQNuU0sl2g/viewform">Sign up for studios</a> by 11:59pm<br>
+								<a href="projects/p1.shtml">P1 (Critique)</a> out
 							</td>
 							<td>
 								<h6>January 13</h6>
-								<p>Sketching: <a href="slides/02-sketching.pdf">slides</a> <br>
-									Reading: <a href="readings/understanding_comics.pdf">Understanding Comics</a><br>
-									<a href="projects/p1.shtml">P1 (Critique)</a> due<br>
-									<a href="projects/p2.shtml">P2 (Needfinding)</a> out
+								<p>
+									Sketching: <a href="slides/02-sketching.pdf">slides</a> <br>
+									Reading: <a href="readings/understanding_comics.pdf">Understanding Comics</a>
 								</p>
+								<a href="projects/p1.shtml">P1 (Critique)</a> due<br>
+								<a href="projects/p2.shtml">P2 (Needfinding)</a> out
 							</td>
 						</tr>
 
@@ -153,7 +153,7 @@
 							<td class="hidden-xs"><h6>2</h6></td>
 							<td>
 								<h6>January 16</h6>
-								<p><em class="text-muted">No class; MLK day</em></p>
+								<em class="text-muted">No class; MLK day</em>
 							</td>
 							<td>
 								<h6>January 20</h6>
@@ -166,15 +166,13 @@
 							<td class="hidden-xs"><h6>3</h6></td>
 							<td>
 								<h6>January 23</h6>
-								<p>Interviewing: <a href="slides/04-interviewing.pdf">slides</a> </p>
+								Interviewing: <a href="slides/04-interviewing.pdf">slides</a>
 							</td>
 							<td>
 								<h6>January 27</h6>
 								<p>Brainstorming: <a href="slides/05-brainstorming.pdf">slides</a></p>
-								<p>
-									<a href="projects/p2-2.shtml">P2 part II</a> due<br>
-									<a href="projects/p3.shtml">P3 (Design Sprint)</a> out
-								</p>
+								<a href="projects/p2-2.shtml">P2 part II</a> due<br>
+								<a href="projects/p3.shtml">P3 (Design Sprint)</a> out
 							</td>
 						</tr>
 
@@ -182,7 +180,7 @@
 							<td class="hidden-xs"><h6>4</h6></td>
 							<td>
 								<h6>January 30</h6>
-								<p>Picking prototypes: <a href="slides/06-picking-prototypes.pdf">slides</a></p>
+								Picking prototypes: <a href="slides/06-picking-prototypes.pdf">slides</a>
 							</td>
 							<td>
 								<h6>February 3 <span class="label label-warning">suggested due date</span></h6>
@@ -195,13 +193,11 @@
 							<td class="hidden-xs"><h6>5</h6></td>
 							<td>
 								<h6>February 6</h6>
-								<p>P3 studio day</p>
+								P3 studio day
 							</td>
 							<td>
 								<h6>February 10 <span class="label label-warning">suggested due date</span></h6>
-								<p>
-									<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
-								</p>
+								<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
 							</td>
 						</tr>
 
@@ -210,16 +206,14 @@
 							<td>
 								<h6>February 13 <span class="label label-danger">due date</span></h6>
 								<p>
-									Layout: information hierarchy, <br> grids, wireframing, responsive design
+									Layout: information hierarchy, grids, wireframing, responsive design
 								</p>
-								<p>
-									<a href="projects/p3-2.shtml">P3 Part III</a> and all earlier parts
-									<a href="projects/p3.shtml">P3 (Design Sprint)</a> hard due
-								</p>
+								<a href="projects/p3-2.shtml">P3 Part III</a> and all earlier parts
+								<a href="projects/p3.shtml">P3 (Design Sprint)</a> hard due
 							</td>
 							<td>
 								<h6>February 17</h6>
-								<p>Mocks</p>
+								Mocks
 							</td>
 						</tr>
 
@@ -227,11 +221,11 @@
 							<td class="hidden-xs"><h6>7</h6></td>
 							<td>
 								<h6>February 20</h6>
-								<p>No class; Presidents' Day</p>
+								<em class="text-muted">No class; Presidents' Day</em>
 							</td>
 							<td>
 								<h6>February 24</h6>
-								<p>Visual design</p>
+								Visual design
 							</td>
 						</tr>
 
@@ -239,11 +233,11 @@
 							<td class="hidden-xs"><h6>8</h6></td>
 							<td>
 								<h6>February 27</h6>
-								<p>Ubiquitous computing</p>
+								Ubiquitous computing
 							</td>
 							<td>
 								<h6>March 3</h6>
-								<p>Social computing</p>
+								Social computing
 							</td>
 						</tr>
 
@@ -251,11 +245,11 @@
 							<td class="hidden-xs"><h6>9</h6></td>
 							<td>
 								<h6>March 6</h6>
-								<p>Art+design</p>
+								Art+design
 							</td>
 							<td>
 								<h6>March 10</h6>
-								<p>Special topics</p>
+								Special topics
 							</td>
 						</tr>
 
@@ -263,14 +257,12 @@
 							<td class="hidden-xs"><h6>10</h6></td>
 							<td>
 								<h6>March 13</h6>
-								<p>P4 work day</p>
+								P4 work day
 							</td>
 							<td>
 								<h6>March 17</h6>
-								<p>
-									Final Presentations<br>
-									P4 (Final Project) due
-								</p>
+								<p>Final Presentations</p>
+								P4 (Final Project) due
 							</td>
 						</tr>
 
