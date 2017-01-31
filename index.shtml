@@ -193,10 +193,11 @@
 							<td class="hidden-xs"><h6>5</h6></td>
 							<td>
 								<h6>February 6</h6>
-								P3 studio day
+								Rapid prototyping & P3 studio day
 							</td>
 							<td>
 								<h6>February 10 <span class="label label-warning">suggested due date</span></h6>
+								<p>Layout: information hierarchy, grids, wireframing, responsive design</p>
 								<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
 							</td>
 						</tr>
@@ -206,10 +207,10 @@
 							<td>
 								<h6>February 13 <span class="label label-danger">due date</span></h6>
 								<p>
-									Layout: information hierarchy, grids, wireframing, responsive design
+
 								</p>
 								<a href="projects/p3-2.shtml">P3 Part III</a> and all earlier parts
-								<a href="projects/p3.shtml">P3 (Design Sprint)</a> hard due
+								<a href="projects/p3.shtml">P3 (Design Sprint)</a> due
 							</td>
 							<td>
 								<h6>February 17</h6>
