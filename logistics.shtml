@@ -20,6 +20,7 @@
       </div> <!-- /col-md-3 -->
 
       <div class="col-md-8" id="logistics">
+	      	<h1>Logistics</h1>
   			<div id="prereqs" class="sidenav-anchor">
   				<h3>Prerequisites</h3>
   				<p>We want a diverse classroom. If you are a student who is not from the Computer Science department, Management Science &amp; Engineering department, or Symbolic Systems program, there may be some flexibility in these prerequisites. Please speak to the instructor or post on Piazza.</p>

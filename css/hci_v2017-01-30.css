@@ -196,6 +196,7 @@ nav .btn-su {
   color: #73623f;
   background-color: #f2f1eb;
   border-color: #e3dfd5;
+  margin-left: 15px;
 }
 
 nav .btn-su:hover {
@@ -214,6 +215,10 @@ nav .btn-su:hover:active {
   color: #73623f;
   background-color: #e9e6df;
   border-color: #e3dfd5;
+}
+
+.navbar-right {
+  /* padding-left: 15px; */
 }
 
 
