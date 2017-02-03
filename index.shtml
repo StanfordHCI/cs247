@@ -197,7 +197,7 @@
 							</td>
 							<td>
 								<h6>February 10 <span class="label label-warning">suggested due date</span></h6>
-								<p>Layout: information hierarchy, grids, wireframing, responsive design</p>
+								<p>P3 studio work day</p>
 								<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
 							</td>
 						</tr>
@@ -206,15 +206,13 @@
 							<td class="hidden-xs"><h6>6</h6></td>
 							<td>
 								<h6>February 13 <span class="label label-danger">due date</span></h6>
-								<p>
 
-								</p>
 								<a href="projects/p3-3.shtml">P3 Part III</a> and all earlier parts
 								<a href="projects/p3.shtml">P3 (Design Sprint)</a> due
 							</td>
 							<td>
 								<h6>February 17</h6>
-								Mocks
+								Layout: information hierarchy, grids, wireframing, responsive design
 							</td>
 						</tr>
 
@@ -226,7 +224,7 @@
 							</td>
 							<td>
 								<h6>February 24</h6>
-								Visual design
+								Mocks
 							</td>
 						</tr>
 
@@ -234,11 +232,11 @@
 							<td class="hidden-xs"><h6>8</h6></td>
 							<td>
 								<h6>February 27</h6>
-								Ubiquitous computing
+								Visual design
 							</td>
 							<td>
 								<h6>March 3</h6>
-								Social computing
+								Ubiquitous computing
 							</td>
 						</tr>
 
@@ -246,11 +244,11 @@
 							<td class="hidden-xs"><h6>9</h6></td>
 							<td>
 								<h6>March 6</h6>
-								Art+design
+								Social computing
 							</td>
 							<td>
 								<h6>March 10</h6>
-								Special topics
+								Art+design
 							</td>
 						</tr>
 

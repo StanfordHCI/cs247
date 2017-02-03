@@ -27,6 +27,11 @@
                     </div>
                 </div>
 
+                <div id="example" class="sidenav-anchor">
+                    <h2>Project Examples By Peers</h2>
+                    <p>We particularly liked <a href="/2017-winter/projects/examples/p2-example-1.pdf">this submission from the Cutting Edge studio</a> and <a href="/2017-winter/projects/examples/p2-example-2.pdf">this submission from the Leveling the Playing Field studio</a>.</p>
+                </div>
+
                 <div id="schedule" class="sidenav-anchor">
                     <h2>Schedule and Feedback</h2>
 
