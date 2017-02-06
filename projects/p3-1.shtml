@@ -34,9 +34,9 @@
 
                 <div id="prompts" class="sidenav-anchor">
                     <h2>Prompt</h2>
-                        <div class="alert alert-info" role="alert">
+                        <!-- <div class="alert alert-info" role="alert">
                             <p>These may get tailored to reflect the content of your P2 submissions—please check back after the weekend for updates.</p>
-                        </div>
+                        </div> -->
                         <h5>Social Decision Making <small>Bob Baxley </small></h5>
                         <p class="">
                             Imagine a technology service/site/app that a family could use together to determine a charitable giving plan. Imagine the family has four members: two parents, one high school aged child, and one college aged child. You can focus on one of the following specific decisions/issues:
@@ -61,7 +61,10 @@
                             </ul>
 
                         <h5>Leveling the playing field <small>Helena Roeber </small></h5>
-                        <p>Will be determined after submissions in studio today!</p>
+                        <h6>Culture Clash</h6>
+                        <p>Design a solution that fosters community and collaboration between entire groups of people with different cultural, linguistic or socioeconomic backgrounds who share a common space, i.e. a cultural center, a neighborhood or a city. Examples for problems that can be addressed by your solution can be the tensions between Mandarin and English speakers at the Avenidas Senior Center, tech industry employees vs Latino residents of the Mission neighborhood in SF, and Oakland established artists vs incoming residents.</p>
+                        <h6>Homelessness</h6>
+                        <p>Design a solution which builds sustainable, uplifting relationships between homeless people and people with secure housing. Consider homeless people living on the streets, in shelters, vehicles, and other inadequate housing situations. Your goal is to create a solution resulting in more trust and understanding between the two parties such that both see positive change in their lives.</p>
 
                         <h5>Cutting Edge <small>Julie Stanford & Jofish Kaye</small></h5>
                         <p>Design an experience that helps deliver information to surgery patients pre and/or post surgery. Narrow your focus to think about specific use cases — is this patient having an emergency surgery or a pre-planned procedure? Do they have a support team of friends and family or are they alone? What information will they need to reference once versus multiple times? Think about what patient’s information needs are, their state of mind when they receive the information, and what the source will be.  Also think about the medical provider’s communication needs. What information do they believe patients should have? How will they know if the patient received it? How will they know what patients have already been told when they interact with them? The experience could be on mobile, web, a kiosk, tablet or any other digital medium of your choice.  And, by the way, <a class="sneaky-link" href="/2017-winter/images/axe.png">no person should be harmed in your attempt to create a situation where someone needs surgery</a>.</p>
