@@ -1,114 +1,158 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 4">
-    <title>Project 4</title>
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.css" rel="stylesheet">
-    <link href="../css/hci.css" rel="stylesheet">
-    
+<head>
+  <!--#set var="title" value="CS 247 - Project 4: Interaction Design" -->
+  <!--#include virtual="../includes/header.shtml" -->
+</head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!-- 
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>           
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
+  <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
-                    <ul class="nav nav-stacked" id="sidenav-content">   
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
-            </div> <!-- /col-md-3 -->  
-            <div class="col-md-9" id="assignment-description"> 
-                
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
                 <div class="row">
                     <div class="col-md-12">
-                        <h1><a href="p4.html">Project 4: Final</a></h1>
-                        <h4 style="color: #888888">Part I: alpha prototype</h4>
+                        <h1>Project 4: Interaction Design</h1>
+                        <h4 style="color: #888888">Part I</h4>
                     </div>
                 </div>
 
-                <div id="functional" class="sidenav-anchor">
-                    <h2>Rough functional prototype</h2>
-                    <p>Get something that's moving. It's not going to be perfect. But it will comprise the central interaction of your design in code, and nothing more. Don't make it pretty. Don't try to build out the whole idea. Keep it lightweight. Feel free to Wizard of Oz components that you will later implement. Fake any data or user accounts — don't build any back end code if you can avoid it. If you've focused your question correctly, your functional prototype will convey the most important aspect of the experience that you are envisioning, and nothing else.</p>
-
-                    <p>The central goal of this milestone is to arrive at something that you and the staff agree has captured the core idea well and will be suitable for user testing. We strongly recommend iterating on this milestone in studio at least once, meaning that you submit something, get feedback in studio, and submit again.</p>
-
-                    <p>We expect that most teams will continue their final proposal from P3. You are welcome to pivot in consultation with your studio staff.</p>
+                <div id="team" class="sidenav-anchor">
+                    <h2>Final team</h4>
+                    <p>Form a team of four people from your studio. There are no restrictions beyond this --- you can work with people from previous teams.</p>
                 </div>
 
-                <div id="submit" class="sidenav-anchor">
-                    <h2>Submit</h2>
-                    <ul>
-                        <li>One short movie or screencast (between 1-2 minutes) of your current prototype. Add a voiceover so that we can tell what's going on. Don't worry about editing it well, just capture the main idea. If your prototype is implemented for the web, we would strongly encourage you to include a link as well.</li>
-                        <li><em>Optional</em>: One PDF with screenshots of your prototype. </li>
+                <div id="prompts" class="sidenav-anchor">
+                    <h2>Prompt</h2>
+                        <!-- <div class="alert alert-info" role="alert">
+                            <p>These may get tailored to reflect the content of your P2 submissions—please check back after the weekend for updates.</p>
+                        </div> -->
+                        <h5>Social Decision Making <small>Bob Baxley </small></h5>
+                        <p class="">
+                            TBA
+                        </p>
+
+                        <h5>Banishing Bland Buildings <small>Jenn Marlow </small></h5>
+                        <p class="">TBA</p>
+                           
+
+                        <h5>Leveling the playing field <small>Helena Roeber </small></h5>
+                        <p>TBA</p>
+
+                        <h5>Cutting Edge <small>Julie Stanford & Jofish Kaye</small></h5>
+                        <p>TBA</p>
+
+                        <h5>Disrupting Echo Chambers <small>John Tang</small></h5>
+                        <p>TBA</p>
+
+                        <h5>Subvert <small>Prof. Michael Bernstein </small> </h5>
+                        <p>Pick a topic of dialogue in the campus or national environment, and identify a point of view that you feel is under-represented. You may re-use any team's topic and point of view from P3, or generate a new one. The rest TBA.</p>
                     </ul>
-                    <p>Bring your video and a working version of your prototype to studio.</p>
-                </div> 
+                </div>
+
+                <div id="sketch" class="sidenav-anchor">
+                    <h2>Sketch ten thumbnails</h2>
+                    <p>It's time to start brainstorming designs. Start sketching. We're looking for you to generate ten different concept thumbnails focusing on the interaction, information hierarchy, and overall layout. Each sketch should be about a quarter-page if you're using an 8.5"x11" sketchbook. They're intentionally postcard-sized so that you focus on the overall layout rather than detail. If you need multiple different sketches to capture a single idea, that's fine.</p>
+
+                    <p>Try different user flows through the application, different grid structures, and calling attention to information through negative space. Aim for variety &mdash; diversity in your sketches will make it easier to find the design that you like best. Feel free to include color in your sketches if it would help convey your idea, but using grayscale is great too. One piece of advice: don't make it too complex, since you'll be implementing it soon.</p>
+
+                    <p>Here is an example sketch for a project building a physician newsleter portal:</p>
+                    <div class="row">
+                        <img class="img-responsive img-thumbnail col-md-6"src="../images/p2-sketch.png" />
+                    </div>
+                    <small>Courtesy of Julie Stanford and Sliced Bread Design</small>                     
+                </div>                
+
+                <div id="ixn-layout" class="sidenav-anchor">
+                    <h2>Three Sketch Wireframes</h2>
+                    <p>Pick your top three ideas and create rough mocks for each. These mocks are intended to evolve and instantiate your sketches given realistic constraints in screen size and layout.</p>
+
+                    <p>If you can get your hands on a Mac, we strongly recommend the trial version of <a href="http://www.bohemiancoding.com/sketch/">Sketch for OS X</a>. (You can also install it on the cluster computers.) Its <a href="http://www.sketchappsources.com/">large library of templates</a> can give you tons of premade elements (especially helpful for this assignment: the <a href="http://bootstrapuikit.com/">Twitter Bootstrap UI elements</a>) so you don't need to reinvent everything from scratch. An alternative is <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a> or Photoshop, available on Stanford cluster machines. Many of the UI template libraries work with these tools as well. However, they have high learning curves. If you are truly stuck, tools such as Keynote or Powerpoint can work, but be aware that it can be difficult to use them to produce designs that look like they would be realistic web sites rather than slideware. It's fine to use Sketch UI kits for default styles and buttons, since the focus isn't on visual design right now. Likewise, you can use Lorem Ipsum text if you need.</p>
+
+                    <p>If you need to convey multiple states of the application &mdash; for example, a second page or an interactive widget &mdash; do so through separate screens in the mock.</p>
+
+                    <p>Here are example Sketch mocks. Note that the visual design language leans in the general direction that will be used, but it uses a lot of pre-canned resources and is not final.</p>
+
+                    <div class="row">
+                        <img class="img img-responsive col-md-4"src="../images/p2-sketch1.png" />
+                        <img class="img img-responsive col-md-4"src="../images/p2-sketch2.png" />
+                        <img class="img img-responsive col-md-4"src="../images/p2-sketch3.png" />
+                    </div>
+                    <small>Courtesy of Julie Stanford and Sliced Bread Design</small>
+
+                    <p>We recommend making sure to get feedback in studio at this point, before narrowing down to a single design to pursue!</p>
+                </div>
+
+                <div id="ixn-layout" class="sidenav-anchor">
+                    <h2>One Marvel Wireframe</h2>
+                    <p>Sketch isn't very interactive, so we'll connect it with <a href="https://marvelapp.com/">Marvel</a>. Choose one of your three designs to pursue further. Expand your wireframe so that its main interaction flows are all present and possible to click through in Marvel.</p>
+
+                    <p>Our critiques in studio will be focused on whether your design is focusing on the right elements of the interaction and information.</p>
+                </div>                
+
+                <!--
+                <div id="examples" class="sidenav-anchor">
+                    <h4>Find examples</h4>
+                    <p>Given your goals from above, go find other web sites and applications that communicate the same idea. You're welcome to find as many as you'd like, but screenshot and share at least four. Now it's time for a little critique. For each item, annotate it with one "I Like..." and one "I Wish..." statement. For example, "I like this guide's use of San Francisco iconography. It really makes the guide feel local.", and "I wish that the art deco theme weren't so overwrought." Do not focus on low-level usability problems &mdash; critique the design's high-level decisions.</p>
+                </div>
+                
+
+
+                -->            
+
+                <div id="impl" class="sidenav-anchor">
+                    <h2>User feedback</h2>
+                    <p>After your Marvel wireframe is ready, use the techniques you learned in CS 147 to get feedback from users on them. Summarize what you learned, and how you will be iterating based on the feedback.</p>
+                </div>
+
+                <div id="example" class="sidenav-anchor">
+                    <h2>Examples</h2>
+                    <p>Here are some good submissions from last year. Note some differences in the assignment: HTML wireframes instead of using Marvel, and the the implementation and user feedback requirements were in other milestones:</p>
+                    <ul>
+                        <li><a href="examples/p2-1/CS247_P2-1_example1.pdf">SA+OH+VC</a></li>
+                        <li><a href="examples/p2-1/CS247_P2-1_example2.pdf">CM+BS+AT</a></li>
+                    </ul>
+                </div>                
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit and Present</h2>
+
+                    <h3>On Canvas</h3>
+                    <p>Pull everything together into your submission for P4.I on Canvas. This includes:</p>
+                    <ul>
+                        <li>Your ten thumbnail sketches</li>
+                        <li>Your three Sketch wireframe</li>
+                        <li>Your one Marvel wireframe (screenshots)</li>
+                        <li>A link to a live version of your Marvel wireframe</li>
+                        <li>A summary of your user feedback method, results, and plans</li>
+                    </ul>
+
+                    <h3>In Studio</h3>
+                    <p>Print out your Sketch and Marvel wireframes (each fullsize on a separate page) and bring them with you to studio for critique. You will have five minutes to lay out your goal, designs, and user feedback.</p>
+                </div>
 
                 <div id="evaluation" class="sidenav-anchor">
                     <h2>Grading rubric</h2>
                     <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to class for feedback.</p>
                 </div>
 
-            </div>            
+            </div>
         </div>
 
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/hci.js"></script>
+    </div>
   </body>
+
+  <!--#include virtual="../includes/footer.shtml" -->
+
 </html>

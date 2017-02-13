@@ -1,119 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Project 4">
-    <title>Project 4</title>
 
-    <!-- Bootstrap -->
-    <link href="../css/bootstrap.css" rel="stylesheet">
-    <link href="../css/bootstrap-theme.css" rel="stylesheet">
-    <link href="../css/hci.css" rel="stylesheet">
-    
+<head>
+  <!--#set var="title" value="CS 247 - Project 4: Interaction Design" -->
+  <!--#include virtual="../includes/header.shtml" -->
+</head>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body data-spy="scroll" data-target=".sidenav">
-
-    <!-- 
-    Assignment template
-    ------------------
-    To create a new assignment:
-    1) Write all the HTML as you normally would underneath the #assignment-description div.
-    2) Anything that you want to appear in the navbar on the left needs to be enclosed
-        in a <div id="unique-id" class="sidenav-anchor">. On page load, hci.js will look up
-        anything enclosed in .sidenav-anchor, find the first header (h1-h6) inside it, and add
-        it to the navigation pane on the left. Make sure it has a unique div id so that there is something to anchor the hyperlink to.
-    3) I recommend going with Bootstrap's recommendation and putting any <table class="table"> elements enclosed in a
-        <div class="table-responsive">.
-    -->
-
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="http://hci.stanford.edu">Stanford HCI</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#calendar">Calendar</a></li>
-            <li><a href="../logistics.html">Logistics</a></li>           
-            <li><a href="../submit.html">Deliverables</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://piazza.com/class/i3ak156hiw060a">Questions</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
+  <!--#include virtual="../includes/navigation.html" -->
 
     <div class="project container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="sidenav" data-spy="affix">
-                    <ul class="nav nav-stacked" id="sidenav-content">   
+            <div class="col-md-2">
+                <div class="sidenav" data-spy="affix" data-offset-top="80">
+                    <ul class="nav nav-stacked" id="sidenav-content">
                     </ul>
                 </div> <!-- /sidenav -->
-            </div> <!-- /col-md-3 -->  
-            <div class="col-md-9" id="assignment-description"> 
-                
+            </div> <!-- /col-md-3 -->
+            <div class="col-md-8" id="assignment-description">
+
                 <div class="row">
                     <div class="col-md-12">
-                        <h1><a href="p4.html">Project 4: Final</a></h1>
-                        <h4 style="color: #888888">Part II: user feedback</h4>
+                        <h1>Project 4: Interaction Design</h1>
+                        <h4 style="color: #888888">Part II</h4>
                     </div>
                 </div>
 
-                <div id="feedback" class="sidenav-anchor">
-                    <h2>User feedback</h2>
-                    <p>Find representative users for your design and bring them in for a user feedback session on your prototype. This should involve at least five different users. (If the nature of your design means that your user group is extremely difficult to connect with, coordinate with your studio staff to agree on a realistic goal.)</p>
+                <div id="moodboard" class="sidenav-anchor">
+                    <h2>Design language: mood board</h2>
+                    <p>A mood board capture the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space.To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
 
-                    <p>For each user, set the stage and make sure they understand that you are testing the prototype, not them. Lay out tasks or goals that they are trying to achieve, and let them interact with your prototype. Make sure one of your team members is taking notes and recording any relevant media (e.g., photos, video). Another team member should guide the process. Encourage the user to follow a think-aloud protocol — you likely learned this technique in CS 147. Try your absolute hardest not to intervene. Watching helplessly as someone struggles to use your interface is one of the hardest, but most valuable, things you can do.</p>
-
-                    <p>Afterwards, it's time to synthesize. Convert your observations into sticky notes and start clustering them on a whiteboard. Identify themes, re-cluster, and discuss until your main reflections have settled.</p>
-
-                    <p>Write up a brief report detailing your method, results, and reflections. You will inevitably notice usability improvements you should be making, but <strong>focus your analysis on ways in which your high-level design is or is not addressing users' needs</strong>.</p>
-
-                    <p>Finally, sketch or mock your proposed redesign that you will be pursuing based on this feedback.</p>
-                </div>         
-
-                <div id="submit" class="sidenav-anchor">
-                    <h2>Submit</h2>
-                    <ul>
-                        <li>Raw observations and sketches about your user study.</li>
-                        <li>A brief report detailing the method, results, and reflections.</li>
-                        <li>Sketched redesigns.</li>
-                    </ul>
-                    <p>Bring full-page color printouts of your core observations and redesigns to studio.</p>
-                </div> 
-
-                <div id="evaluation" class="sidenav-anchor">
-                    <h2>Grading rubric</h2>
-                    <p>Each milestone is worth <b>five points</b>. You will receive five points for completing the assignment satisfactorily, submitting it, and your whole team bringing your sketches to class for feedback.</p>
+                    <p>There are two common errors that previous CS 247 students have made when creating mood boards. The first error is a mood board that has no clear concept behind it. A mood board must be more targeted than full web pages: it must be small clippings, headlines, images, and other very specific media that evoke your concept. The second error is that they don't communicate a single mood or concept. If you're going for a punk aesthetic, find pieces of media that feel punk!</p>
                 </div>
 
-            </div>            
+                <div id="pixel" class="sidenav-anchor">
+                    <h2>Pixel-perfect mocks in Sketch</h2>
+                    <p>Having explored the options, you are ready to refine and create pixel-perfect mocks that represent different instantiations of the visual style. Your mocks should capture exactly what the application will look like when you implement the application using web technology. We recommend making these mocks in Sketch, because it is a far more fluid platform for messing with visual design.</p>
+
+                    <p>Once you have three, and have gotten feedback on them, choose one to refine further into a final pixel-perfect mock.</p>
+
+                    <p>Here are some good mocks from last year:</p>
+                    <ul>
+                        <li><a href="examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
+                        <li><a href="examples/p2-2/CS247_P2-2_example2.pdf">AM+CN+CP</a></li>
+                        <li><a href="examples/p2-2/CS247_P2-2_example3.pdf">JC+EK+DM+VW</a></li>
+                    </ul>
+                </div> 
+
+                <div id="impl" class="sidenav-anchor">
+                    <h2>Functional prototype</h2>
+                    <p>Implement a functional prototype of your design. Start with the basics and then work to duplicate your pixel-perfect mocks.</p>
+
+                    <p>To do this within the class timeline, you need to carefully scope the prototype: make sure it conveys the core aspects of the design, and nothing else. Fake any data or user accounts — don't build any back end code if you can avoid it.</p>
+                </div>
+
+                <div id="impl" class="sidenav-anchor">
+                    <h2>Feedback and iterate</h2>
+                    <p>Take your prototype out to the field with real users and observe. Synthesize your results, make revised designs (in Sketch), and implement them. Finally, please prepare a short (~45-second) video of someone using your design so that we have content for our records.</p>
+                </div>                
+
+                <div id="poster" class="sidenav-anchor">
+                    <h2>Final Presentation Poster</h2>
+                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main design. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
+                </div>
+
+                <div id="submit" class="sidenav-anchor">
+                    <h2>Submit and Present</h2>
+
+                    <h3>On Canvas</h3>
+                    <p>Pull everything together into your submission for P4.II on Canvas. This includes:</p>
+                    <ul>
+                        <li>Your 45-second video</li>
+                        <li>Your poster file, in PDF form.</li>
+                        <li>Each member must also fill out the P4 final team reflection (link TBA)</li>
+                    </ul>
+
+                    <h3>Final presentation</h3>
+                    <p>You will be presenting your projects at the final presentations on the last day of class.</p>
+                </div>
+
+                <div id="evaluation">
+                    <h2>Grading rubric</h2>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                  <th id="category" valign="top">Category</th>
+                                  <th id="unsatisfactory" valign="top">Unsatisfactory</th>
+                                  <th id="adequate" valign="top">Adequate</th>
+                                  <th id="good" valign="top">Good</th>
+                                  <th id="excellent" valign="top">Excellent</th>
+                                </tr>                 
+                                </thead>
+                                <tbody>
+
+                                <tr>
+                                    <td headers="category"><div>Design insight</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Idea is only marginally appropriate to the domain, barely articulate design goals, or barely address the given needs.</td>
+                                    <td headers="adequate">3: The design addresses user needs in ways that are surface-level interpretations of the problem space. Design goals are trivial or not well-connected to the idea.</td>
+                                    <td headers="good">5: Idea addresses user needs in generally appropriate ways, but may be incremental, have questionable design goals, or a surface-level interpretation of the problem space.</td>
+                                    <td headers="excellent">7: Idea presents a nontrivial and insightful interpretation of the design space, grounded in well-articulated design goals.</td>
+                                </tr>
+                        
+                                <tr>
+                                    <td headers="category"><div>Visual and information design</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype has little or no visual and information design.</td>
+                                    <td headers="adequate">3: Prototype does not respect visual and information design principals.</td>
+                                    <td headers="good">5: Prototype has generally well-executed visual and information design. May have visual design issues that are not fatal.</td>
+                                    <td headers="excellent">7: Prototype has consistently strong visual and information design.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Interaction design</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: Prototype is barely functional or has little attention to interaction design.</td>
+                                    <td headers="adequate">3: Prototype is missing key functionality or has significant interaction flaws.</td>
+                                    <td headers="good">5: Prototype is generally well-executed, but is missing some relatively important elements or has minor to moderate interaction errors.</td>
+                                    <td headers="excellent">7: Prototype succesfully executes on its goals and has strong interaction design.</td>
+                                </tr>                                
+
+                                <tr>
+                                    <td headers="category"><div>User feedback</div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="unsatisfactory">1: User feedback is minimal or testing wrong aspects of prototype.</td>
+                                    <td headers="adequate">3: Feedback has been executed competently but only marginally tests the important aspects of the idea.</td>
+                                    <td headers="good">5: Studies draw out basic strengths and weaknesses of the prototype and approach, but may focus mainly on surface-level issues.</td>
+                                    <td headers="excellent">7: Studies are executed well and deliver deep insight into the idea and the prototype.</td>
+                                </tr>
+
+                                <tr>
+                                    <td headers="category"><div>Presentation</div></div><div><small class="text-muted">7pt</small></div></td>
+                                    <td headers="adequate">1: Presentation and poster tend to obscure the main idea.</td>
+                                    <td headers="adequate">3: Presentation and poster adequately explain the main idea, but are overwhelmed by details, do not present enough information, or are unclear.</td>
+                                    <td headers="good">5: Presentation and poster are generally clear, with moderate but not game-over issues.</td>
+                                    <td headers="excellent">7: Poster communicates the design idea clearly and effectively.</td>
+                                </tr>                                
+                                
+                            </tbody>
+                        </table>
+                        <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>
+                    </div>
+
+            </div>
         </div>
 
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../js/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/hci.js"></script>
+    </div>
   </body>
+
+  <!--#include virtual="../includes/footer.shtml" -->
+
 </html>
