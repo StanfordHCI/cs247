@@ -29,9 +29,9 @@
 
                 <div id="moodboard" class="sidenav-anchor">
                     <h2>Design language: mood board</h2>
-                    <p>A mood board captures the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space.To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
+                    <p>A mood board captures the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space. To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
 
-                    <p>There are two common errors that previous CS 247 students have made when creating mood boards. The first error is a mood board that has no clear concept behind it. A mood board must be more targeted than full web pages: it must be small clippings, headlines, images, and other very specific media that evoke your concept. The second error is that they don't communicate a single mood or concept. If you're going for a punk aesthetic, find pieces of media that feel punk!</p>
+                    <p>There are two common errors that previous CS 247 students have made when creating mood boards. The first error is a mood board that has no clear concept behind it. A mood board must be more targeted than copy/pasting entire web pages: it must be small clippings, headlines, images, and other very specific media that evoke your concept. The second error is that they don't communicate a single mood or concept. If you're going for a punk aesthetic, find pieces of media that feel punk!</p>
                 </div>
 
                 <div id="pixel" class="sidenav-anchor">
@@ -60,6 +60,15 @@
                     <p>Take your prototype out to the field with real users and observe. Synthesize your results, make revised designs (in Sketch), and implement them. Finally, please prepare a short (~45-second) video of someone using your design so that we have content for our records.</p>
                 </div>
 
+                <div id="pitch" class="sidenav-anchor">
+                    <h2>Final Presentation Pitch</h2>
+                    <p>You need to come up with a forty five-second pitch to the audience. Make sure the listener leaves with an understanding of the user, their need, and how you are addressing it with your design. You are welcome to design your pitch however any way that you feel will be compelling. We will present your slide(s) behind you as you present, and will automatically go on to the next group after forty five seconds. Keep in mind that your audience are likely design experts.</p>
+
+                    <p>We are inviting coaches and external judges to the final project presentations to give feedback and help decide the awards. The judges will be given a rubric much like the ones attached to this assignment. They will be evaluating your presentation, poster, demo and design concept via a rubric.</p>
+
+                    <p>Look below for details on how to submit your presentation materials. They will be due before the final presentations, so that we have time to compile them.</p>
+                </div>
+
                 <div id="poster" class="sidenav-anchor">
                     <h2>Final Presentation Poster</h2>
                     <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main design. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a>, <a href="http://www.fedex.com/us/office/poster-printing.html?lid=posterpic_copyingservices_posters">FedEx</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
@@ -68,16 +77,25 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit and Present</h2>
 
-                    <h3>On Canvas</h3>
-                    <p>Pull everything together into your submission for P4.II on Canvas. This includes:</p>
+                    <h3>For the Final Presentations</h3>
+                    <p>You will be presenting your projects at the final presentations on the last day of class. We will need your presentation materials in advance of the deadline, by <b>TBA</b>:</p>
                     <ul>
+                        <li>A 45-sec video about your project, or</li>
+                        <li>A 45-sec Powerpoint (<b>16:9 aspect ratio, pptx</b>) presentation for your project. If your presentation is on multiple slides or uses animation, time the slides to advance automatically.</li>
+                    </ul>
+                    <p>In addition, bring your poster and demo to the final project presentations!</p>
+
+                    <h3>On Canvas</h3>
+                    <p>Pull everything together into your submission for P4.II on Canvas by the start of the project faire. This includes:</p>
+                    <ul>
+                        <li>Your mood board</li>
+                        <li>A report of your user study method, results, and resulting redesign</li>
                         <li>Your 45-second video</li>
+                        <li>Your video or slides for your presentation</li>
                         <li>Your poster file, in PDF form.</li>
                         <li>Each member must also fill out the P4 final team reflection (link TBA)</li>
                     </ul>
 
-                    <h3>Final presentation</h3>
-                    <p>You will be presenting your projects at the final presentations on the last day of class.</p>
                 </div>
 
                 <div id="evaluation">

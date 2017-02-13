@@ -77,9 +77,9 @@
                     <h2>Three Sketch Wireframes</h2>
                     <p>Pick your top three ideas and create rough mocks for each. These mocks are intended to evolve and instantiate your sketches given realistic constraints in screen size and layout.</p>
 
-                    <p>If you can get your hands on a Mac, we strongly recommend the trial version of <a href="http://www.bohemiancoding.com/sketch/">Sketch for OS X</a>. (You can also install it on the cluster computers.) Its <a href="http://www.sketchappsources.com/">large library of templates</a> can give you tons of premade elements (especially helpful for this assignment: the <a href="http://bootstrapuikit.com/">Twitter Bootstrap UI elements</a>) so you don't need to reinvent everything from scratch. An alternative is <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a> or Photoshop, available on Stanford cluster machines. Many of the UI template libraries work with these tools as well. However, they have high learning curves. If you are truly stuck, tools such as Keynote or Powerpoint can work, but be aware that it can be difficult to use them to produce designs that look like they would be realistic web sites rather than slideware. It's fine to use Sketch UI kits for default styles and buttons, since the focus isn't on visual design right now. Likewise, you can use Lorem Ipsum text if you need.</p>
+                    <p>If you can get your hands on a Mac, we strongly recommend the trial version of <a href="http://www.bohemiancoding.com/sketch/">Sketch for OS X</a>. (You can also install it on the cluster computers.) Its <a href="http://www.sketchappsources.com/">large library of templates</a> can give you tons of premade elements (especially helpful for this assignment: the <a href="http://bootstrapuikit.com/">Twitter Bootstrap UI elements</a>) so you don't need to reinvent everything from scratch. An alternative is <a href="http://www.adobe.com/products/illustrator.html">Adobe Illustrator</a> or Photoshop, available on Stanford cluster machines. Many of the UI template libraries work with these tools as well. However, they have high learning curves. If you are truly stuck, tools such as Figma or Keynote or Powerpoint can work, but be aware that it can be difficult to use them to produce designs that look like they would be realistic web sites rather than slideware. It's fine to use Sketch UI kits for default styles and buttons, since the focus isn't on visual design right now. Likewise, you can use Lorem Ipsum text if you need.</p>
 
-                    <p>If you need to convey multiple states of the application &mdash; for example, a second page or an interactive widget &mdash; do so through separate screens in the mock.</p>
+                    <p>We expect that your wireframes convey a complex enough interaction to need several states of the application &mdash; for example, pages or interactive widgets. Most effective projects have at least three major states, and not more than five or six. Convey these states for now through separate screens in the mock.</p>
 
                     <p>Here are example Sketch mocks. Note that the visual design language leans in the general direction that will be used, but it uses a lot of pre-canned resources and is not final.</p>
 
@@ -90,7 +90,7 @@
                     </div>
                     <small>Courtesy of Julie Stanford and Sliced Bread Design</small>
 
-                    <p>We recommend making sure to get feedback in studio at this point, before narrowing down to a single design to pursue!</p>
+                    <p>We recommend making sure to get feedback in studio or office hours at this point, before narrowing down to a single design to pursue! <b>We would normally make this a separate milestone with a suggested due date of 2/20, but the President's Day holiday precludes that this year.</b> So, if you want to stay on top of the project, seek out a TA or studio instructor in office hours or the previous class day.</p>
                 </div>
 
                 <div id="ixn-layout" class="sidenav-anchor">
@@ -112,7 +112,7 @@
 
                 <div id="impl" class="sidenav-anchor">
                     <h2>User feedback</h2>
-                    <p>After your Marvel wireframe is ready, use the techniques you learned in CS 147 to get feedback from users on them. Summarize what you learned, and how you will be iterating based on the feedback.</p>
+                    <p>After your Marvel wireframe is ready, use the techniques you learned in CS 147 to get feedback from users on them. Summarize what you learned, and how you will be iterating based on the feedback. Aim for at least five users (and ten if you want to impress us).</p>
                 </div>
 
                 <div id="example" class="sidenav-anchor">
