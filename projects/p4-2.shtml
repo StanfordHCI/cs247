@@ -29,7 +29,7 @@
 
                 <div id="moodboard" class="sidenav-anchor">
                     <h2>Design language: mood board</h2>
-                    <p>A mood board capture the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space.To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
+                    <p>A mood board captures the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space.To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
 
                     <p>There are two common errors that previous CS 247 students have made when creating mood boards. The first error is a mood board that has no clear concept behind it. A mood board must be more targeted than full web pages: it must be small clippings, headlines, images, and other very specific media that evoke your concept. The second error is that they don't communicate a single mood or concept. If you're going for a punk aesthetic, find pieces of media that feel punk!</p>
                 </div>
@@ -42,11 +42,11 @@
 
                     <p>Here are some good mocks from last year:</p>
                     <ul>
-                        <li><a href="examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
-                        <li><a href="examples/p2-2/CS247_P2-2_example2.pdf">AM+CN+CP</a></li>
-                        <li><a href="examples/p2-2/CS247_P2-2_example3.pdf">JC+EK+DM+VW</a></li>
+                        <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
+                        <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example2.pdf">AM+CN+CP</a></li>
+                        <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example3.pdf">JC+EK+DM+VW</a></li>
                     </ul>
-                </div> 
+                </div>
 
                 <div id="impl" class="sidenav-anchor">
                     <h2>Functional prototype</h2>
@@ -58,11 +58,11 @@
                 <div id="impl" class="sidenav-anchor">
                     <h2>Feedback and iterate</h2>
                     <p>Take your prototype out to the field with real users and observe. Synthesize your results, make revised designs (in Sketch), and implement them. Finally, please prepare a short (~45-second) video of someone using your design so that we have content for our records.</p>
-                </div>                
+                </div>
 
                 <div id="poster" class="sidenav-anchor">
                     <h2>Final Presentation Poster</h2>
-                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main design. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
+                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the main design. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a>, <a href="http://www.fedex.com/us/office/poster-printing.html?lid=posterpic_copyingservices_posters">FedEx</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
@@ -91,7 +91,7 @@
                                   <th id="adequate" valign="top">Adequate</th>
                                   <th id="good" valign="top">Good</th>
                                   <th id="excellent" valign="top">Excellent</th>
-                                </tr>                 
+                                </tr>
                                 </thead>
                                 <tbody>
 
@@ -102,7 +102,7 @@
                                     <td headers="good">5: Idea addresses user needs in generally appropriate ways, but may be incremental, have questionable design goals, or a surface-level interpretation of the problem space.</td>
                                     <td headers="excellent">7: Idea presents a nontrivial and insightful interpretation of the design space, grounded in well-articulated design goals.</td>
                                 </tr>
-                        
+
                                 <tr>
                                     <td headers="category"><div>Visual and information design</div><div><small class="text-muted">7pt</small></div></td>
                                     <td headers="unsatisfactory">1: Prototype has little or no visual and information design.</td>
@@ -117,7 +117,7 @@
                                     <td headers="adequate">3: Prototype is missing key functionality or has significant interaction flaws.</td>
                                     <td headers="good">5: Prototype is generally well-executed, but is missing some relatively important elements or has minor to moderate interaction errors.</td>
                                     <td headers="excellent">7: Prototype succesfully executes on its goals and has strong interaction design.</td>
-                                </tr>                                
+                                </tr>
 
                                 <tr>
                                     <td headers="category"><div>User feedback</div><div><small class="text-muted">7pt</small></div></td>
@@ -133,8 +133,8 @@
                                     <td headers="adequate">3: Presentation and poster adequately explain the main idea, but are overwhelmed by details, do not present enough information, or are unclear.</td>
                                     <td headers="good">5: Presentation and poster are generally clear, with moderate but not game-over issues.</td>
                                     <td headers="excellent">7: Poster communicates the design idea clearly and effectively.</td>
-                                </tr>                                
-                                
+                                </tr>
+
                             </tbody>
                         </table>
                         <p>If any of the deliverables are missing, we will reduce your score by 25% per deliverable.</p>

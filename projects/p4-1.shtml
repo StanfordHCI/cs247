@@ -44,7 +44,7 @@
 
                         <h5>Banishing Bland Buildings <small>Jenn Marlow </small></h5>
                         <p class="">TBA</p>
-                           
+
 
                         <h5>Leveling the playing field <small>Helena Roeber </small></h5>
                         <p>TBA</p>
@@ -70,8 +70,8 @@
                     <div class="row">
                         <img class="img-responsive img-thumbnail col-md-6"src="../images/p2-sketch.png" />
                     </div>
-                    <small>Courtesy of Julie Stanford and Sliced Bread Design</small>                     
-                </div>                
+                    <small>Courtesy of Julie Stanford and Sliced Bread Design</small>
+                </div>
 
                 <div id="ixn-layout" class="sidenav-anchor">
                     <h2>Three Sketch Wireframes</h2>
@@ -98,17 +98,17 @@
                     <p>Sketch isn't very interactive, so we'll connect it with <a href="https://marvelapp.com/">Marvel</a>. Choose one of your three designs to pursue further. Expand your wireframe so that its main interaction flows are all present and possible to click through in Marvel.</p>
 
                     <p>Our critiques in studio will be focused on whether your design is focusing on the right elements of the interaction and information.</p>
-                </div>                
+                </div>
 
                 <!--
                 <div id="examples" class="sidenav-anchor">
                     <h4>Find examples</h4>
                     <p>Given your goals from above, go find other web sites and applications that communicate the same idea. You're welcome to find as many as you'd like, but screenshot and share at least four. Now it's time for a little critique. For each item, annotate it with one "I Like..." and one "I Wish..." statement. For example, "I like this guide's use of San Francisco iconography. It really makes the guide feel local.", and "I wish that the art deco theme weren't so overwrought." Do not focus on low-level usability problems &mdash; critique the design's high-level decisions.</p>
                 </div>
-                
 
 
-                -->            
+
+                -->
 
                 <div id="impl" class="sidenav-anchor">
                     <h2>User feedback</h2>
@@ -119,10 +119,10 @@
                     <h2>Examples</h2>
                     <p>Here are some good submissions from last year. Note some differences in the assignment: HTML wireframes instead of using Marvel, and the the implementation and user feedback requirements were in other milestones:</p>
                     <ul>
-                        <li><a href="examples/p2-1/CS247_P2-1_example1.pdf">SA+OH+VC</a></li>
-                        <li><a href="examples/p2-1/CS247_P2-1_example2.pdf">CM+BS+AT</a></li>
+                        <li><a href="/2016/projects/examples/p2-1/CS247_P2-1_example1.pdf">SA+OH+VC</a></li>
+                        <li><a href="/2016/projects/examples/p2-1/CS247_P2-1_example2.pdf">CM+BS+AT</a></li>
                     </ul>
-                </div>                
+                </div>
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit and Present</h2>

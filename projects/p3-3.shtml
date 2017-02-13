@@ -38,14 +38,16 @@
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit and Present</h2>
 
-                    <h3>On Canvas</h3>
+                    <h4>On Canvas</h4>
                     <p>Pull everything from P3 together into your submission for P3.III on Canvas. This includes:</p>
                     <ul>
                         <li>A PDF with your final summary of all three project parts and your prototype. Video optional.</li>
                     </ul>
 
-                    <h3>In Studio</h3>
+                    <h4>In Studio</h4>
                     <p>Present your final prototype in up to eight minutes in studio. Cover the need being addressed, your high level insight, user feedback, and the prototype itself. Bring your prototype for show-and-tell.</p>
+                    <h4>Team Dynamics Checkin</h4>
+                    <p>Please <a href="https://goo.gl/forms/zLJ0W4ja0hWZzxgh2">submit a team assessment form</a> (one for every member of the team). You will only get credit for P3-3 when every member of your team submits a form.</p>
                 </div>
 
                 <div id="evaluation" class="sidenav-anchor">
