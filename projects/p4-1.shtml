@@ -43,8 +43,13 @@
                         </p>
 
                         <h5>Banishing Bland Buildings <small>Jenn Marlow </small></h5>
-                        <p class="">TBA</p>
-
+                        <ol>
+                            <li>Pick a wide use building (like a library, department store, Hoover tower, etc.) on campus or beyond, then</li>
+                            <li>Design an interactive experience for a group of 2 or more people visiting that building that</li>
+                            <li>Allows people to indicate their preferences for one place (or, depending on the building, multiple places) to visit within that building (input can vary from selection of options on a list to more creatively "sensed" ways of providing input on preferences), and</li>
+                            <li>Personalizes their experience in the building you chose in some way (e.g. leading them through the building, recommending items to see or things to do, etc.)</li>
+                        </ol>
+                        <p>The platform can be on phone, smartwatch, a large public display, etc.</p>
 
                         <h5>Leveling the playing field <small>Helena Roeber </small></h5>
                         <p>TBA</p>
