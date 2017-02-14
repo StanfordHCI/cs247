@@ -29,7 +29,7 @@
 
                 <div id="team" class="sidenav-anchor">
                     <h2>Final team</h4>
-                    <p>Form a team of four people from your studio. There are no restrictions beyond this --- you can work with people from previous teams.</p>
+                    <p>Form a team of up to four people from your studio. There are no restrictions beyond this—you can work with people from previous teams if you choose.</p>
                 </div>
 
                 <div id="prompts" class="sidenav-anchor">
@@ -50,10 +50,18 @@
                         <p>TBA</p>
 
                         <h5>Cutting Edge <small>Julie Stanford & Jofish Kaye</small></h5>
-                        <p>TBA</p>
+                        <p>Design an experience that allows surgical patients to both receive and provide peer support through one-to-few mentorship and/or some collection of stories & shared knowledge.</p>
+                        <p>Here are some dimensions for you to think about when contemplating your design:</p>
+                        <ul>
+                            <li>Pick one surgery to stay focussed. This will help you come up with more unique design insights.</li>
+                            <li>How will users choose whom to pair up with? Do they even need to?</li>
+                            <li>Are you facilitating short or long term connections?</li>
+                            <li>How are you evaluating the success of a mentorship?</li>
+                            <li>Which parts of your experience are public, which private—and why?</li>
+                        </ul>
 
                         <h5>Disrupting Echo Chambers <small>John Tang</small></h5>
-                        <p>TBA</p>
+                        <p>Pick from among any of the ideas presented in our studio for P3.3 as the starting point for P4. We are continuing to explore how to get users to engage with points of view that they would not usually see. By Tuesday, February 14, 6pm we will post on Piazza any modifications of the ideas needed to make them suitable for a P4 design prompt.</p>
 
                         <h5>Subvert <small>Prof. Michael Bernstein </small> </h5>
                         <p>As with P3, pick a topic of dialogue in the campus or national environment, and identify a point of view that you feel is under-represented. You may re-use any team's topic, point of view, or design from P3, or generate a new one. Your goal is to design an interactive experience that convinces people of the point of view. Don't just create an informational web site: think about how to engage the user.</p>
@@ -62,13 +70,15 @@
 
                 <div id="sketch" class="sidenav-anchor">
                     <h2>Sketch ten thumbnails</h2>
-                    <p>It's time to start brainstorming designs. Start sketching. We're looking for you to generate ten different concept thumbnails focusing on the interaction, information hierarchy, and overall layout. Each sketch should be about a quarter-page if you're using an 8.5"x11" sketchbook. They're intentionally postcard-sized so that you focus on the overall layout rather than detail. If you need multiple different sketches to capture a single idea, that's fine.</p>
+                    <p>It's time to start brainstorming designs. Start sketching. We're looking for you to generate ten different concept thumbnails focusing on the interaction, information hierarchy, and overall layout. Each sketch should be about a quarter-page if you're using an 8.5" by 11" sketchbook. They're intentionally postcard-sized so that you focus on the overall layout rather than detail. If you need multiple different sketches to capture a single idea, that's fine.</p>
 
                     <p>Try different user flows through the application, different grid structures, and calling attention to information through negative space. Aim for variety &mdash; diversity in your sketches will make it easier to find the design that you like best. Feel free to include color in your sketches if it would help convey your idea, but using grayscale is great too. One piece of advice: don't make it too complex, since you'll be implementing it soon.</p>
 
                     <p>Here is an example sketch for a project building a physician newsleter portal:</p>
                     <div class="row">
-                        <img class="img-responsive img-thumbnail col-md-6"src="../images/p2-sketch.png" />
+                        <div class="col-md-6">
+                            <img class="img-responsive img-thumbnail"src="../images/p2-sketch.png" />
+                        </div>
                     </div>
                     <small>Courtesy of Julie Stanford and Sliced Bread Design</small>
                 </div>
