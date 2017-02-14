@@ -57,7 +57,7 @@
                         <h5>Cutting Edge <small>Julie Stanford & Jofish Kaye</small></h5>
                         <p>Design an experience that allows surgical patients to both receive and provide peer support through one-to-few mentorship and/or some collection of stories & shared knowledge.</p>
                         <p>Here are some dimensions for you to think about when contemplating your design:</p>
-                        <ul>
+                        <ul class="su-list">
                             <li>Pick one surgery to stay focussed. This will help you come up with more unique design insights.</li>
                             <li>How will users choose whom to pair up with? Do they even need to?</li>
                             <li>Are you facilitating short or long term connections?</li>

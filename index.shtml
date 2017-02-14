@@ -183,7 +183,7 @@
 								Picking prototypes: <a href="slides/06-picking-prototypes.pdf">slides</a>
 							</td>
 							<td>
-								<h6>February 3 <span class="label label-warning">suggested due date</span></h6>
+								<h6>February 3 </h6>
 								<p>Parallel prototyping: <a href="slides/07-parallel-prototyping.pdf">slides</a>, <a href="slides/07-parallel-prototyping-activity.pdf">activity</a></p>
 								<a href="projects/p3-1.shtml">P3 Part I</a> soft due
 							</td>
@@ -196,7 +196,7 @@
 								Rapid prototyping: <a href="slides/08-rapid-prototyping.pdf">slides</a>
 							</td>
 							<td>
-								<h6>February 10 <span class="label label-warning">suggested due date</span></h6>
+								<h6>February 10 </h6>
 								<p>P3 studio work day</p>
 								<a href="projects/p3-2.shtml">P3 Part II</a> soft due<br>
 							</td>
@@ -205,7 +205,7 @@
 						<tr>
 							<td class="hidden-xs"><h6>6</h6></td>
 							<td>
-								<h6>February 13 <span class="label label-danger">due date</span></h6>
+								<h6>February 13 </h6>
 
 								<a href="projects/p3-3.shtml">P3 Part III</a> and all earlier parts
 								<a href="projects/p3.shtml">P3 (Design Sprint)</a> due
@@ -219,7 +219,7 @@
 						<tr>
 							<td class="hidden-xs"><h6>7</h6></td>
 							<td>
-								<h6>February 20</h6>
+								<h6>February 20 <span class="label label-warning">suggested due date</span></h6>
 								<em class="text-muted">No class; Presidents' Day</em>
 							</td>
 							<td>
@@ -235,7 +235,7 @@
 								Visual design
 							</td>
 							<td>
-								<h6>March 3</h6>
+								<h6>March 3 <span class="label label-warning">suggested due date</span></h6>
 								Ubiquitous computing
 							</td>
 						</tr>
@@ -259,7 +259,7 @@
 								P4 work day
 							</td>
 							<td>
-								<h6>March 17</h6>
+								<h6>March 17 <span class="label label-danger">due date</span></h6>
 								<p>Final Presentations</p>
 								P4 (Final Project) due
 							</td>
