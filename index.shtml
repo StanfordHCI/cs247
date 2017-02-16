@@ -214,20 +214,19 @@
 							</td>
 							<td>
 								<h6>February 17</h6>
-								Layout: information hierarchy, grids, wireframing, responsive design
+								Mocks
 							</td>
 						</tr>
 
 						<tr>
 							<td class="hidden-xs"><h6>7</h6></td>
 							<td>
-								<h6>February 20 <span class="label label-warning">suggested due date</span></h6>
-								<p><em class="text-muted">No class; Presidents' Day</em></p>
-								<a href="projects/p4-1.shtml">P4 Part I</a> soft due
+								<h6>February 20</h6>
+								<em class="text-muted">No class; Presidents' Day</em>
 							</td>
 							<td>
 								<h6>February 24</h6>
-								Mocks
+								Layout: information hierarchy, grids, wireframing, responsive design
 							</td>
 						</tr>
 
@@ -240,7 +239,7 @@
 							<td>
 								<h6>March 3 <span class="label label-warning">suggested due date</span></h6>
 								<p>Ubiquitous computing</p>
-								<a href="projects/p4-2.shtml">P4 Part II</a> soft due
+								<a href="projects/p4-1.shtml">P4 Part I</a> soft due
 							</td>
 						</tr>
 
