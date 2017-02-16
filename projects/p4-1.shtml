@@ -39,7 +39,13 @@
                         </div> -->
                         <h5>Social Decision Making <small>Bob Baxley </small></h5>
                         <p class="">
-                            TBA
+                            Create an interactive flow that allows a member of a family to:
+                            <ol>
+                                <li>from a fixed set of the 20 most popular charitable causes, identify one or more causes to which they want to donate</li>
+                                <li>find, filter, evaluate, compare and select one or more charity organizations working on a particular cause</li>
+                                <li>set allocation preferences for distributing funds among the selected charities and identified causes</li>
+                                <li>view how their choices and preferences blend with the overall family allocation accounting for their individual influence/power within the family.</li>
+                            </ol>
                         </p>
 
                         <h5>Banishing Bland Buildings <small>Jenn Marlow </small></h5>

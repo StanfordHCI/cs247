@@ -206,9 +206,11 @@
 							<td class="hidden-xs"><h6>6</h6></td>
 							<td>
 								<h6>February 13 </h6>
-
-								<a href="projects/p3-3.shtml">P3 Part III</a> and all earlier parts
-								<a href="projects/p3.shtml">P3 (Design Sprint)</a> due
+								<p>
+									<a href="projects/p3-3.shtml">P3 Part III</a> and all earlier parts
+									<a href="projects/p3.shtml">P3 (Design Sprint)</a> due
+								</p>
+								<a href="projects/p4.shtml">P4 (Final Project)</a> out
 							</td>
 							<td>
 								<h6>February 17</h6>
@@ -220,7 +222,8 @@
 							<td class="hidden-xs"><h6>7</h6></td>
 							<td>
 								<h6>February 20 <span class="label label-warning">suggested due date</span></h6>
-								<em class="text-muted">No class; Presidents' Day</em>
+								<p><em class="text-muted">No class; Presidents' Day</em></p>
+								<a href="projects/p4-1.shtml">P4 Part I</a> soft due
 							</td>
 							<td>
 								<h6>February 24</h6>
@@ -236,7 +239,8 @@
 							</td>
 							<td>
 								<h6>March 3 <span class="label label-warning">suggested due date</span></h6>
-								Ubiquitous computing
+								<p>Ubiquitous computing</p>
+								<a href="projects/p4-2.shtml">P4 Part II</a> soft due
 							</td>
 						</tr>
 
@@ -261,7 +265,8 @@
 							<td>
 								<h6>March 17 <span class="label label-danger">due date</span></h6>
 								<p>Final Presentations</p>
-								P4 (Final Project) due
+								<a href="projects/p4.shtml">P4 (Final Project)</a> due
+
 							</td>
 						</tr>
 
