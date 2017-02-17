@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--#set var="title" value="CS 247 - Exercises" -->
+  <!--#include virtual="../includes/header.shtml" -->
+
+  <link href="https://fonts.googleapis.com/css?family=Lato|Vollkorn" rel="stylesheet">
+
+</head>
+
+<body data-spy="scroll" data-target=".sidenav">
+  <!--#include virtual="../includes/brandbar.html" -->
+  <div class="jumbotron" id="exercises">
+    <div class="container">
+      <h1><span class="department-name">Exercise:</span> <span class="course-name">negative space</span></h1>
+      <p>Let's put some spunk back into Cal State Fullerton's English department's old webpage.</p>
+    </div>
+  </div>
+  <!--#include virtual="../includes/navigation.html" -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+          <div class="sidenav" data-spy="affix" data-offset-top="320">
+              <ul class="nav nav-stacked" id="sidenav-content">
+              </ul>
+          </div> <!-- /sidenav -->
+      </div> <!-- /col-md-2 -->
+      <div class="col-sm-8">
+      <div id="negative-space" class="sidenav-anchor">
+        <h1>Let's practice</h1>
+        <p class="lead">We'll hone our skills with handling negative space by stripping away parts of a homepage to create a cleaner, less cluttered feel.</p>
+      <div id="materials" class="sidenav-anchor">
+        <h3 id="one" >Materials</h3>
+        <p>To start this section, <a href="/2017-winter/exercises/exercise.zip">download the materials</a>. In the folder <code>materials</code>, you'll find the <code>index.html</code> page that we'll be working with.</p>
+      </div>
+      <div id="cleaning" class="sidenav-anchor">
+        <h3 id="one" >Cleaning up</h3>
+        <p>We'll practice our skills with handling negative space by stripping away parts of the homepage to create a cleaner, less cluttered feel. Remember, negative space might be empty, but it's not meaningless: it helps define structure and call out important parts of a page. </p>
+        <p>There are two ways you can do this: open <code>index.html</code> in your Chrome browser, and then hit <code>View > Developer > Developer Tools </code>. From here, you can directly delete parts of the website and edit the CSS. This is easy and quick, but won't let you save your edits—so don't hit reload! Alternatively, you can edit the CSS directly in the css files under the <code>english_files</code> directory. <p>
+        <p> If you edit the CSS, you can try <code>display:none</code> (the page acts as if the element doesn't exist), or <code>visibility:hidden</code> (the page acts as if the element is still there, but invisible). </p>
+        <div style="display:block;max-width:700px; margin-top:20px;margin-bottom:20px">
+          <img class="img-responsive center-block" src="lessisless.png" style="margin-bottom:10px"></img>
+          <small> <a href="https://www.behance.net/gallery/29101651/NAIV">NAIV: Complexity within Simplicity</a></small>
+        </div>
+      </div>
+      </div>
+      <div id="extra" class="sidenav-anchor">
+        <h1>Additional tasks</h1>
+        <p class="lead">If you completed the first exercise quickly and have time so spare we have some additional ideas for redesigning.</p>
+        <div class="sidenav-anchor">
+          <h3 id="two">Moodboards</h3>
+          <p>Create a moodboard to reflect your creative vision. Find inspiration from <a href="https://www.behance.net">Behance</a>, <a href="http://dribbble.com">Dribbble</a>, <a href="http://www.awwwards.com">Awwwards</a>, <a href="https://niice.co">Niice</a>, <a href="https://www.pinterest.com">Pinterest</a>, <a href="https://www.google.com">Google</a>, etc. and collect it in a Keynote, Powerpoint, Sketch, or other doc.</p>
+          <p>(The example below uses visuals from academic websites, books, posters, author pages, etc. and was created using Keynote.)</p>
+          <div style="display:block;max-width:700px; margin-top:20px;margin-bottom:20px">
+            <img class="img-responsive center-block" src="example_board.png" style="margin-bottom:10px"></img>
+            <small> Clockwise from top-left: <a href="http://www.lawebdelatelier.com/en">Atelier Arts</a>, <a href="http://www.harukimurakami.com">Haruki Murakami</a>, <a href="https://www.behance.net/gallery/25272555/Janzkera-11">University of Basque catalog</a>, <a href="">Helvetica Letterpress</a>, <a href="https://www.behance.net/gallery/16861787/Spare-Change-News">Spare Change News</a>, <a href="http://www.institut-franco-chinois-lyon.com">Institute of Lyon</a>, <a href="https://www.behance.net/gallery/16861787/Spare-Change-News">Spare Change News</a>, <a href="https://www.behance.net/gallery/24628007/Mallarmes-books">Mallarme's Books Poster</a></small>
+          </div>
+        </div>
+      </div>
+
+        <div class="sidenav-anchor" id="color">
+          <h3 id="three">Color </h3>
+          <p>Now we will redesign the CSF English Department page in terms of the color choices. You might have noticed some wonky colors in the <code>materials/english.html</code> file. </p>
+          <p>You'll be changing these colors to convey the concept you defined in your moodboard and create a strong aesthetic. As before, you can edit colors through the Developer Tools in your Chrome browser, or edit the CSS of <code>materials/english_files/247.css</code> directly.</p>
+          <p>A helpful resource is <a href="https://color.adobe.com" target="_blank">Adobe Color</a>, which helps you find colors that go well together. </p>
+        </div>
+
+        <div class="sidenav-anchor" id="typefaces">
+           <h3 id="four">Typefaces</h3>
+         <p> Now we'll practice editing typefaces. Make a copy of <a href="https://docs.google.com/presentation/d/1U-OaHCZJ6DXAHrOrc4mTV7B_2K-t37G6Ny8UQL5Dcoc/edit?usp=sharing">this mockup of the content</a> of the CSF website (File > Make a Copy).</p>
+         <p> Then, in your copy, edit the typefaces and styling to achieve something a little more aesthetically pleasing and readable. </p>
+         <p> You have full access to the <a href="https://www.google.com/fonts">Google Fonts</a> catalog in Google Drive. At the bottom of the dropdown for selecting a font, you'll see a "More Fonts" button, which takes you to this catalog. You can also play around with the fonts directly on the Google Fonts website. </p>
+         <p> For some inspiring ways to combine fonts, take a look at websites like <a href="https://medium.com">Medium</a> that make cool choices, design sites like <a href="https://www.behance.net">Behance</a>, or typeface websites like <a href="http://fontpair.co">Fontpair</a>. </p>
+          <div style="display:block;max-width:700px; margin-top:20px;margin-bottom:20px">
+            <img class="img-responsive center-block" src="typefaces.png" style="margin-bottom:10px"></img>
+            <small> <a href="http://www.typography.com">typography.com</a></small>
+          </div>
+        </div>
+
+        <div class="">
+            <p>All exercises adapted from Ishita Prasad's materials for CS247 Fall 2015-16.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+  <!--#include virtual="../includes/footer.shtml" -->
+
+</html>

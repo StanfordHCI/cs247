@@ -260,7 +260,6 @@ nav .btn-su:hover:active {
 
 .jumbotron:after {
      content:"";
-     background: url("../images/header_light_colored.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
      background-color: #F6F5F1;
      background-size: cover;
      background-repeat: no-repeat;
@@ -271,6 +270,17 @@ nav .btn-su:hover:active {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+#frontpage.jumbotron:after {
+  background: url("../images/header_light_colored.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+}
+
+#exercises.jumbotron:after {
+  background: url("../images/webdesign.jpg");
+  background-position: top;
+  background-size: 100%;
+  opacity: 0.5;
 }
 
 #current-project-indicator {
