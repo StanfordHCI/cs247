@@ -33,7 +33,7 @@
         <p class="lead">We'll hone our skills with handling negative space by stripping away parts of a homepage to create a cleaner, less cluttered feel.</p>
       <div id="materials" class="sidenav-anchor">
         <h3 id="one" >Materials</h3>
-        <p>To start this section, <a href="/2017-winter/exercises/exercise.zip">download the materials</a>. In the folder <code>materials</code>, you'll find the <code>index.html</code> page that we'll be working with.</p>
+        <p>To start this section, <a href="/2017-winter/exercises/exercise.zip">download the materials</a>. In the folder <code>exercise</code>, you'll find the <code>index.html</code> page that we will be working with.</p>
       </div>
       <div id="cleaning" class="sidenav-anchor">
         <h3 id="one" >Cleaning up</h3>
