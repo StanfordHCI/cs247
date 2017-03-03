@@ -37,9 +37,6 @@
                 <div id="pixel" class="sidenav-anchor">
                     <h2>Pixel-perfect mocks in Sketch</h2>
                     <p>Having explored the options, you are ready to refine and create pixel-perfect mocks that represent different instantiations of the visual style. Your mocks should capture exactly what the application will look like when you implement the application using web technology. We recommend making these mocks in Sketch, because it is a far more fluid platform for messing with visual design.</p>
-
-                    <p>Once you have three, and have gotten feedback on them, choose one to refine further into a final pixel-perfect mock.</p>
-
                     <p>Here are some good mocks from last year:</p>
                     <ul>
                         <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
