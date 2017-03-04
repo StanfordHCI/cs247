@@ -54,7 +54,7 @@
 						<li>Helena Roeber | Leveling the playing field <br>
 							<span class="text-muted"><small>Wed 1–1:45pm, <a href="https://hangouts.google.com/call/23izml3przh5lauu6snlfgyy2ye">Hangouts URL</a></small></span></li>
 						<li><a href="//www.slicedbreaddesign.com">Julie Stanford</a> & <a href="//jofish.com">Jofish Kaye</a> | Cutting Edge <br>
-							<span class="text-muted"><small>Tue 9–10pm & Thu 9–10am, <a href="https://hangouts.google.com/call/rmuqf352wrdzfg3lemxssorwnie">Hangouts URL</a></small></span></li>
+							<span class="text-muted"><small>By appointment, <a href="https://hangouts.google.com/call/rmuqf352wrdzfg3lemxssorwnie">Hangouts URL</a></small></span></li>
 						<li><a href="//www.microsoft.com/en-us/research/people/johntang/">John Tang</a> | Disrupting Echo Chambers <br>
 							<span class="text-muted"><small>Wed 11am–noon, <a href="http://bit.ly/2jEzqP5">Hangouts URL</a></small></span></li>
 						<li><a href="http://hci.stanford.edu/msb">Prof. Michael Bernstein</a> | Subvert <br>
@@ -248,7 +248,6 @@
 							<td>
 								<h6>March 6</h6>
 								Social computing
-								<p>Guest lecturer: <a href="http://www.lukew.com">Luke Wroblewski</a></p>
 							</td>
 							<td>
 								<h6>March 10</h6>
@@ -260,7 +259,7 @@
 							<td class="hidden-xs"><h6>10</h6></td>
 							<td>
 								<h6>March 13</h6>
-								P4 work day
+								<p>Guest lecturer: <a href="http://www.lukew.com">Luke Wroblewski</a></p>
 							</td>
 							<td>
 								<h6>March 17 <span class="label label-danger">due date</span></h6>

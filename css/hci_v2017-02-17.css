@@ -6,6 +6,35 @@ ul.agenda li .agenda-item {
   color: black;
 }
 
+.btn-primary {
+  border-color: #800000;
+  background-color: #8c1515;
+}
+
+.btn-primary:hover {
+  border-color: #800000;
+  background-color: #820000;
+}
+
+.btn-primary:focus {
+  border-color: #800000;
+  background-color: #820000;
+}
+
+.btn-primary:active {
+  border-color: #800000;
+  background-color: #820000;
+}
+
+.btn-primary:active:hover {
+  border-color: #800000;
+  background-color: #820000;
+}
+
+.btn-rsvp {
+  min-width: 50%;
+}
+
 /*
  * notes for msb
  */
@@ -287,6 +316,16 @@ nav .btn-su:hover:active {
 
 #frontpage.jumbotron:after {
   background: url("../images/header_light_colored.jpg"); /* Image Creative Commons, thanks JoshDamon! http://www.flickr.com/photos/joshdamon/2870730178/ */
+  background-position: top;
+  background-size: 100%;
+  opacity: 0.5;
+}
+
+#finalpresentations.jumbotron:after {
+  background: url("../images/header_light_dschool.jpg");
+  background-position: bottom;
+  background-size: 100%;
+  opacity: 0.65;
 }
 
 #exercises.jumbotron:after {
