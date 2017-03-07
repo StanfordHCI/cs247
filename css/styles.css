@@ -1,3 +1,5 @@
+/* Project Faire Styles */
+
 ul.agenda li {
   color: #820000;
 }
@@ -29,10 +31,6 @@ ul.agenda li .agenda-item {
 .btn-primary:active:hover {
   border-color: #800000;
   background-color: #820000;
-}
-
-.btn-rsvp {
-  /* min-width: 50%; */
 }
 
 /*
