@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:CS 247 Project Faire
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//Mac OS X 10.12.3//EN
+BEGIN:VTIMEZONE
+TZID:America/Vancouver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+DTSTART:20070311T020000
+TZNAME:PDT
+TZOFFSETTO:-0700
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+DTSTART:20071104T020000
+TZNAME:PST
+TZOFFSETTO:-0800
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=America/Vancouver:20170317T200000
+UID:C99F887B-F692-4044-89FB-ADCB55FECFC6
+DTSTAMP:20170307T183900Z
+LOCATION:550 Panama Mall\nStanford\, CA\, United States
+DESCRIPTION:# You are invited #\nJoin us to find out how Stanford studen
+ ts solve real-world problems with programming and design.\n\nCS 247 is t
+ he second core class in Stanford's HCI curriculum. Students work in a de
+ sign studio environment together with expert designers\, learning advanc
+ ed techniques for needfinding\, rapid prototyping\, visual design\, andi
+ nteraction design.\n\n# Agenda #\n\n5:30–6:00pm Social Mixer\nStudents s
+ et up and guests arrive.\n\n6:00–6:15pm Introduction\n6:15–6:50pm Elevat
+ or Pitches\nEach team presents a 45-second pitch of their work.\n\n6:50–
+ 7:50pm Poster and Demo Session\nStudents present demos of their prototyp
+ es. Food will be served.\n\n7:50–8:00pm Closing Remarks\n\n# Parking #\n
+ If you are visiting from off-campus\, you should park at Tressider Visit
+ or Parking and then walk to Building 550. Parking is free\, starting at 
+ 4PM.\n\nFor more information on parking\, please visit http://dschool.st
+ anford.edu/about/#getting-to-our-building.\n\nFor more and up-to-date in
+ formation on the project faire\, please visit http://cs247.stanford.edu/
+ 2017-winter/.
+URL;VALUE=URI:http://cs247.stanford.edu/2017-winter/
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:AUTOMATIC
+SUMMARY:CS 247 Project Faire
+DTSTART;TZID=America/Vancouver:20170317T173000
+CREATED:20170109T222811Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-MAPKIT-HANDLE=CAES7gII2TIQ
+ sN/Uj6Sb9PXxARoSCZLHeDmRtkJAEQbrSaoAi17AIv8BCg1Vbml0ZWQgU3RhdGVzEgJVUxoK
+ Q2FsaWZvcm5pYSICQ0EqC1NhbnRhIENsYXJhMghTdGFuZm9yZDoFOTQzMDVCE1N0YW5mb3Jk
+ IFVuaXZlcnNpdHlSC1BhbmFtYSBNYWxsWgM1NTBiDzU1MCBQYW5hbWEgTWFsbHIvU3RhbmZv
+ cmQgVW5pdmVyc2l0eSAtIERlcGFydG1lbnQgb2YgTWF0aGVtYXRpY3NyE1N0YW5mb3JkIFVu
+ aXZlcnNpdHlyE1N0YW5mb3JkIFVuaXZlcnNpdHlyE1N0YW5mb3JkIFVuaXZlcnNpdHmKARNT
+ dGFuZm9yZCBVbml2ZXJzaXR5Kg81NTAgUGFuYW1hIE1hbGwyDzU1MCBQYW5hbWEgTWFsbDIT
+ U3RhbmZvcmQsIENBICA5NDMwNTINVW5pdGVkIFN0YXRlczg5QAA=;X-APPLE-RADIUS=49.9
+ 1303642382109;X-TITLE="550 Panama Mall\nStanford, CA, United States":geo
+ :37.426307,-122.171916
+BEGIN:VALARM
+X-WR-ALARMUID:B85C37D8-6A34-48AD-BB32-AC1A4F0A5F4A
+UID:B85C37D8-6A34-48AD-BB32-AC1A4F0A5F4A
+TRIGGER:-PT30M
+X-APPLE-DEFAULT-ALARM:TRUE
+ATTACH;VALUE=URI:Basso
+ACTION:AUDIO
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -24,8 +24,8 @@
       <div class="col-sm-6">
         <h5>You are invited</h5>
         <p class="lead">Join us to find out how Stanford students solve real-world problems with programming and design. </p>
-        <!-- <p><button class="btn btn-primary btn-rsvp">RSVP here</button></p> -->
         <p>CS 247 is the second core class in Stanford's HCI curriculum. Students work in a design studio environment together with expert designers, learning advanced techniques for needfinding, rapid prototyping, visual design, and interaction design.</p>
+        <p><a class="btn btn-primary btn-rsvp" href="finalpresentation/CS-247-Project-Faire.ics">Add to calendar <small style="opacity: 0.75;"> &middot; iCal</small></a></p>
       </div>
       <div class="col-sm-6">
         <ul class="list-unstyled agenda">

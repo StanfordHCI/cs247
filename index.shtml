@@ -234,7 +234,7 @@
 							<td class="hidden-xs"><h6>8</h6></td>
 							<td>
 								<h6>February 27</h6>
-								Visual design
+								Visual design: <a href="slides/baxley-grids-typography.pdf">slides</a> <span class="label label-detail">40MB !</span>
 							</td>
 							<td>
 								<h6>March 3 <span class="label label-warning">suggested due date</span></h6>
@@ -247,7 +247,7 @@
 							<td class="hidden-xs"><h6>9</h6></td>
 							<td>
 								<h6>March 6</h6>
-								Social computing
+								Social computing: <a href="slides/11-social.pdf">slides</a>
 							</td>
 							<td>
 								<h6>March 10</h6>
