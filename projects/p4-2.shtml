@@ -38,7 +38,7 @@
                     <h2>Pixel-perfect mocks in Sketch</h2>
                     <p>Having explored the options, you are ready to refine and create pixel-perfect mocks that represent different instantiations of the visual style. Your mocks should capture exactly what the application will look like when you implement the application using web technology. We recommend making these mocks in Sketch, because it is a far more fluid platform for messing with visual design.</p>
                     <p>Here are some good mocks from last year:</p>
-                    <ul>
+                    <ul class="su-list">
                         <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
                         <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example2.pdf">AM+CN+CP</a></li>
                         <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example3.pdf">JC+EK+DM+VW</a></li>
@@ -50,6 +50,11 @@
                     <p>Implement a functional prototype of your design. Start with the basics and then work to duplicate your pixel-perfect mocks.</p>
 
                     <p>To do this within the class timeline, you need to carefully scope the prototype: make sure it conveys the core aspects of the design, and nothing else. Fake any data or user accounts — don't build any back end code if you can avoid it.</p>
+                </div>
+
+                <div id="impl" class="sidenav-anchor">
+                    <h2>Prototype video</h2>
+                    <p>Prototypes tend to stop working soon after the final presentation because of external dependencies or technology updates. Thus we require you to submit a video of your prototype in action for archival. The video can be a screencast with voiceover, e.g. for a web application, or a real video for more experiental applications. Keep your video short—around one minute—and informative. </p>
                 </div>
 
                 <div id="impl" class="sidenav-anchor">
@@ -76,20 +81,19 @@
 
                     <h3>For the Final Presentations</h3>
                     <p>You will be presenting your projects at the final presentations on the last day of class. We will need your presentation materials in advance of the deadline, by <b>Thursday night</b>:</p>
-                    <ul>
-                        <li>A 45-sec video about your project, or</li>
-                        <li>A 45-sec pitch deck for your project. This can contain your video or one or more slides. Add your video or slides to the <a href="https://docs.google.com/a/stanford.edu/presentation/d/1En7ti89hCt2S0YGAVc1Khec69H8UTIH1LWXp-eqDgPI/edit?usp=sharing">global Google Slides document here</a>.</li>
+                    <ul class="su-list">
+                        <li>A 45-sec pitch deck for your project. This can contain a video or one or more static slides. Add your video or slides to the <a href="https://docs.google.com/a/stanford.edu/presentation/d/1En7ti89hCt2S0YGAVc1Khec69H8UTIH1LWXp-eqDgPI/edit?usp=sharing">global Google Slides document here</a>.</li>
                     </ul>
-                    <p>In addition, bring your poster and demo to the final project presentations!</p>
+                    <p>In addition, bring your printed poster and demo to the final project presentations!</p>
 
                     <h3>On Canvas</h3>
                     <p>Pull everything together into your submission for P4.II on Canvas by the start of the project faire. This includes:</p>
-                    <ul>
-                        <li>Your mood board</li>
-                        <li>A report of your user study method, results, and resulting redesign</li>
-                        <li>Your 45-second video</li>
-                        <li>Your video or slides for your presentation</li>
-                        <li>Your poster file, in PDF form.</li>
+                    <ul class="su-list">
+                        <li>Your mood board, in PDF form</li>
+                        <li>A report of your user study method, results, and resulting redesign, in PDF form</li>
+                        <li>Your prototype video</li>
+                        <li>Your video or slides for your presentation, in PDF form if applicable</li>
+                        <li>Your poster file, in PDF form</li>
                         <li>Each member must also <a href="https://goo.gl/forms/PXOdJpi48micUnOc2">fill out the P4 final team reflection</a> </li>
                     </ul>
 
