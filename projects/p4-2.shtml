@@ -28,15 +28,15 @@
                 </div>
 
                 <div id="moodboard" class="sidenav-anchor">
-                    <h2>Design language: mood board</h2>
+                    <h2>Mood board</h2>
                     <p>A mood board captures the mood you seek with your visual design. Example themes might be 1) soft watercolor art, 2) UNIX terminal, or 3) dominant use of negative space. To create the mood board, collect concepts, photos, color swatches, illustrations, shapes, and anything else that conveys the identity you want to get across. Collect the ones you like into a page that is at least 8.5"x11". Powerpoint and Keynote should be plenty powerful for this purpose, but pick any digital layout tool you like.</p>
 
                     <p>There are two common errors that previous CS 247 students have made when creating mood boards. The first error is a mood board that has no clear concept behind it. A mood board must be more targeted than copy/pasting entire web pages: it must be small clippings, headlines, images, and other very specific media that evoke your concept. The second error is that they don't communicate a single mood or concept. If you're going for a punk aesthetic, find pieces of media that feel punk!</p>
                 </div>
 
                 <div id="pixel" class="sidenav-anchor">
-                    <h2>Pixel-perfect mocks in Sketch</h2>
-                    <p>Having explored the options, you are ready to refine and create pixel-perfect mocks that represent different instantiations of the visual style. Your mocks should capture exactly what the application will look like when you implement the application using web technology. We recommend making these mocks in Sketch, because it is a far more fluid platform for messing with visual design.</p>
+                    <h2>Pixel-perfect mocks</h2>
+                    <p>Having explored the options, you are ready to refine and create pixel-perfect mocks that represent different instantiations of the visual style. Your mocks should capture exactly what the application will look like when you implement the application using web technology. We recommend making these mocks in <a href="https://sketchapp.com">Sketch</a>, because it is a far more fluid platform for messing with visual design.</p>
                     <p>Here are some good mocks from last year:</p>
                     <ul class="su-list">
                         <li><a href="/2016/projects/examples/p2-2/CS247_P2-2_example1.pdf">AY+JC+TB</a></li>
@@ -45,21 +45,20 @@
                     </ul>
                 </div>
 
-                <div id="impl" class="sidenav-anchor">
+                <div id="functional" class="sidenav-anchor">
                     <h2>Functional prototype</h2>
                     <p>Implement a functional prototype of your design. Start with the basics and then work to duplicate your pixel-perfect mocks.</p>
-
                     <p>To do this within the class timeline, you need to carefully scope the prototype: make sure it conveys the core aspects of the design, and nothing else. Fake any data or user accounts — don't build any back end code if you can avoid it.</p>
                 </div>
 
-                <div id="impl" class="sidenav-anchor">
-                    <h2>Prototype video</h2>
-                    <p>Prototypes tend to stop working soon after the final presentation because of external dependencies or technology updates. Thus we require you to submit a video of your prototype in action for archival. The video can be a screencast with voiceover, e.g. for a web application, or a real video for more experiental applications. Keep your video short—around one minute—and informative. </p>
+                <div id="feedback" class="sidenav-anchor">
+                    <h2>Feedback and iterate</h2>
+                    <p>Take your prototype out to the field with real users and observe. Synthesize your results, make revised designs (in Sketch), and implement them.</p>
                 </div>
 
-                <div id="impl" class="sidenav-anchor">
-                    <h2>Feedback and iterate</h2>
-                    <p>Take your prototype out to the field with real users and observe. Synthesize your results, make revised designs (in Sketch), and implement them. Finally, please prepare a short (~45-second) video of someone using your design so that we have content for our records.</p>
+                <div id="prototype-video" class="sidenav-anchor">
+                    <h2>Prototype video</h2>
+                    <p>Prototypes tend to stop working soon after the final presentation because of external dependencies or technology updates. Thus we require you to submit a video of your prototype being used by someone (you or a user) for archival. The video could be a screencast with voiceover, e.g. for a web application, or a real video for more experiental applications. Keep your video short—around one minute—and informative.</p>
                 </div>
 
                 <div id="pitch" class="sidenav-anchor">
@@ -73,20 +72,21 @@
 
                 <div id="poster" class="sidenav-anchor">
                     <h2>Final Presentation Poster</h2>
-                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey: 1) the problem being solved, 2) the design, 3) the user feedback method and major results. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a>, <a href="http://www.fedex.com/us/office/poster-printing.html?lid=posterpic_copyingservices_posters">FedEx</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
+                    <p>You will need a <b>20"x30"</b> poster to tell judges about your project. This is a chance to show off your visual design skills. A common error is to put too much content on the poster. Keep it simple and convey the problem being solved by your design. We will provide easels; you will need to print out and mount your poster on a stiff backing so that it can stand alone on the easel. Posters can be printed at <a href="https://acomp.stanford.edu/techlounge/posters">Lathrop</a>, <a href="http://www.costcophotocenter.com/Shop/Posters#/PosterBoards/posterboard/20x30">Costco ($25)</a>, <a href="http://www.fedex.com/us/office/poster-printing.html?lid=posterpic_copyingservices_posters">FedEx</a> or <a href="http://photo.walgreens.com/walgreens/info1/isfrom=_walgreens_posterscreateflow">Walgreens ($24)</a>. They usually have a 1-2 day turnaround. You can order online and pick it up from the store.</p>
+                    <p>Look on piazza for examples of good posters from last year.</p>
                 </div>
 
                 <div id="submit" class="sidenav-anchor">
                     <h2>Submit and Present</h2>
 
-                    <h3>For the Final Presentations</h3>
+                    <h4>For the Final Presentations</h4>
                     <p>You will be presenting your projects at the final presentations on the last day of class. We will need your presentation materials in advance of the deadline, by <b>Thursday night</b>:</p>
                     <ul class="su-list">
                         <li>A 45-sec pitch deck for your project. This can contain a video or one or more static slides. Add your video or slides to the <a href="https://docs.google.com/a/stanford.edu/presentation/d/1En7ti89hCt2S0YGAVc1Khec69H8UTIH1LWXp-eqDgPI/edit?usp=sharing">global Google Slides document here</a>.</li>
                     </ul>
                     <p>In addition, bring your printed poster and demo to the final project presentations!</p>
 
-                    <h3>On Canvas</h3>
+                    <h4>On Canvas</h4>
                     <p>Pull everything together into your submission for P4.II on Canvas by the start of the project faire. This includes:</p>
                     <ul class="su-list">
                         <li>Your mood board, in PDF form</li>
@@ -99,7 +99,7 @@
 
                 </div>
 
-                <div id="evaluation">
+                <div id="evaluation" class="sidenav-anchor">
                     <h2>Grading rubric</h2>
                     <div class="table-responsive">
                         <table class="table">
