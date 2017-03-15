@@ -34,54 +34,34 @@
 			<div class="row" id="info">
 				<div class="col-sm-4">
 					<h5>Head instructor</h5>
-					<a href="http://hci.stanford.edu/msb">Prof. Michael Bernstein</a> <br>
-					<span class="text-muted"><small>Thu 4:30–6pm, Gates 384</small></span>
+					<a href="http://hci.stanford.edu/msb">Prof. Maneesh Agrawala</a> <br>
+					<span class="text-muted"><small>To be determined, Gates 364</small></span>
 
 					<br><br>
 
 					<h5>Weekly schedule</h5>
 					Lecture+Studio  <br>
-					<span class="text-muted"><small>Mon, Fri 3:30–5:20pm, Lathrop 282</small></span>
+					<span class="text-muted"><small>Mon, Wed 1:30–3:20pm, Lathrop 282</small></span>
 				</div>
 
 				<div class="col-sm-4">
 					<ul class="list-unstyled">
 						<h5>Studio instructors and themes</h5>
-						<li><a href="//baxleydesign.com">Bob Baxley</a> | Social Decision Making <br>
-							<span class="text-muted"><small>Tue 10–11:30am, Thu 3–5:30pm, <a href="https://calendly.com/baxley/officehours/01-12-2017">sign up here</a></small></span></li>
-						<li><a href="//www.aboutjmarlow.com">Jenn Marlow</a> | Banishing Bland Buildings <br>
-							<span class="text-muted"><small>Mon 5:20–6:20pm, Lathrop 282</small></span></li>
-						<li>Helena Roeber | Leveling the playing field <br>
-							<span class="text-muted"><small>Wed 1–1:45pm, <a href="https://hangouts.google.com/call/23izml3przh5lauu6snlfgyy2ye">Hangouts URL</a></small></span></li>
-						<li><a href="//www.slicedbreaddesign.com">Julie Stanford</a> & <a href="//jofish.com">Jofish Kaye</a> | Cutting Edge <br>
-							<span class="text-muted"><small>By appointment, <a href="https://hangouts.google.com/call/rmuqf352wrdzfg3lemxssorwnie">Hangouts URL</a></small></span></li>
-						<li><a href="//www.microsoft.com/en-us/research/people/johntang/">John Tang</a> | Disrupting Echo Chambers <br>
-							<span class="text-muted"><small>Wed 11am–noon, <a href="http://bit.ly/2jEzqP5">Hangouts URL</a></small></span></li>
-						<li><a href="http://hci.stanford.edu/msb">Prof. Michael Bernstein</a> | Subvert <br>
-							<span class="text-muted"><small>Thu 4:30–6pm, Gates 384</small></span></li>
+						<li><a href="//hmslydia.com">Lydia Chilton</a> | Studio 1, topic TBD <br>
+							<span class="text-muted"><small>To be determined, Gates 364</small></span></li>
+						<li><a href="//graphics.stanford.edu/~maneesh/">Prof. Maneesh Agrawala</a> | Studio 2, topic TBD <br>
+							<span class="text-muted"><small>To be determined, Gates 364</small></span>
 					</ul>
 				</div>
 
 				<div class="col-sm-4">
 					<h5>TAs</h5>
 					<ul class="list-unstyled">
-						<li>Kat Gregory <br>
-							<span class="text-muted"><small>Tue 11am–noon, Arbuckle Pavilion</small></span>
-						</li>
-						<li>Shubha Raghvendra <br>
-							<span class="text-muted"><small>Wed 3–4pm, Coupa Y2E2</small></span>
-						</li>
-						<li>Ashley Ngu <br>
-							<span class="text-muted"><small>Thu noon–1pm, Huang Basement</small></span>
-						</li>
 						<li>Ludwig Schubert <br>
-							<span class="text-muted"><small>Wed 2–3pm, Huang Basement</small></span>
+							<span class="text-muted"><small>TBD, TBD</small></span>
 						</li>
-						<li>Peter Washington <br>
-							<span class="text-muted"><small>Tue 6–7pm, Lathrop Tech Lounge</small></span>
-						</li>
-						<li>Andrew McCabe <br>
-							<span class="text-muted"><small>Mon 8–9pm, Lathrop Tech Lounge</small></span>
+						<li>To be determnied <br>
+							<span class="text-muted"><small>TBD, TBD</small></span>
 						</li>
 					</ul>
 				</div>
