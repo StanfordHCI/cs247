@@ -9,7 +9,7 @@ Web site for CS 247.
 
 Start the local server by running the following command:
 ```
-./ssi-server --index index.shtml --rootpath 2017-winter
+./ssi-server --index index.shtml --rootpath 2017-spring
 ```
 You might need to make `./ssi-server` executable first by e.g. running `chmod +x ./ssi-server`.
 
