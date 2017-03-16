@@ -472,6 +472,13 @@ h6 {
   border-color: #e3dfd5;
 }
 
+.alert-danger {
+  color: #820000;
+  background-color:#f7eceb;
+  border-color: #cbb5ad;
+  font-weight: 600;
+}
+
 td h6 {
   margin-top: 0;
 }
