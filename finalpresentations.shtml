@@ -13,7 +13,7 @@
   <div class="jumbotron" id="finalpresentations">
     <div class="container">
       <h1><span class="department-name">HCI</span> <span class="course-name">design studio</span></h1>
-      <p>Final Presentations &middot; March 17, 5:30–8pm &middot; d.school, Stanford University</p>
+      <p>Project Faire &middot; March 17, 5:30–8pm &middot; d.school, Stanford University</p>
     </div>
   </div>
 
@@ -24,6 +24,11 @@
       <div class="col-sm-6">
         <h5>You are invited</h5>
         <p class="lead">Join us to find out how Stanford students solve real-world problems with programming and design. </p>
+        <p class="lead" style="color: #262320; font-weight: 500; border-left: 5px #821515 solid; padding-left: 10px; margin-left: 5px">
+          CS 247 Project Faire<br>
+          March 17, 5:30–8pm<br>
+          d.school, Stanford University
+        </p>
         <p>CS 247 is the second core class in Stanford's HCI curriculum. Students work in a design studio environment together with expert designers, learning advanced techniques for needfinding, rapid prototyping, visual design, and interaction design.</p>
         <p>
           <a class="btn btn-primary" href="finalpresentation/CS-247-Project-Faire.ics">Add to calendar <small style="opacity: 0.75;"> &middot; iCal</small></a>
